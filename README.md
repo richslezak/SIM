@@ -2,10 +2,10 @@
 
 ## Original SIM website was built around 2000
 
-The [original website](http://www.sound-in-motion.com/) is still functioning howver not mobile friendly.
-This is why the site is being rebuild in 2023 :)
+The [original website](http://www.sound-in-motion.com/) is still functioning however it's not mobile friendly.
+This is why the website is being [rebuild](https://soundinmotion.netlify.app/) in 2023 :)
 
-# This site is built using [Astro](https://astro.build)
+## This site is built using [Astro](https://astro.build)
 
 ## 🧞 Commands
 
