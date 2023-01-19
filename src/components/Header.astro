@@ -1,11 +1,16 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
-import logo from "../images/sim-white.svg";
+import logo from "../images/logos/sim-white.svg";
+import { SIM_RED, SIM_RED_SECONDARY, SIM_WHITE } from "../config";
+
+const navBackgroundColor = SIM_RED;
+const navColor = SIM_WHITE;
+const linkActiveColor = SIM_RED_SECONDARY;
 ---
 
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark2 fixed-top bg-dark2">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark2 fixed-top bg-dark2">
+    <div class="container">
       <a class="navbar-brand" href="/">
         <img src={logo} alt="Sound in Motion logo" />
       </a>
@@ -57,22 +62,61 @@ import logo from "../images/sim-white.svg";
     </div>
   </nav>
 </header>
-<style>
+<style define:vars={{ navBackgroundColor, navColor, linkActiveColor }}>
   .navbar {
-    padding: 1.5rem 0;
-    background-color: #336699;
+    padding: 0;
+    background-color: var(--navBackgroundColor);
+  }
+  .navbar-collapse {
+    border-top: 0.3rem solid var(--navColor);
   }
   .navbar-brand img {
     max-width: 150px;
+  }
+  .navbar-toggler {
+    border: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
   .nav-link {
     font-size: 1.5em;
   }
   .navbar-nav .nav-link {
-    color: #fff;
+    color: var(--navColor);
+    padding: 1.2rem 2rem 1.5rem;
+    border-top: 0.3rem solid transparent;
+  }
+  .navbar-nav .nav-link:hover {
+    background-color: var(--linkActiveColor);
   }
   .navbar-nav .nav-link.active,
   .navbar-nav .show > .nav-link {
-    color: rgb(194, 193, 193);
+    color: var(--navColor);
+    background-color: var(--linkActiveColor);
+  }
+
+  @media (min-width: 992px) {
+    .navbar-collapse {
+      border-top: none;
+    }
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show > .nav-link {
+      border-top: 0.3rem solid var(--navColor);
+      background-color: transparent;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
   }
 </style>
