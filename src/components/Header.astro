@@ -81,6 +81,9 @@ const linkActiveColor = SIM_RED_SECONDARY;
   .nav-link {
     font-size: 1.5em;
   }
+  .navbar-nav {
+    height: 100vh;
+  }
   .navbar-nav .nav-link {
     color: var(--navColor);
     padding: 1.2rem 2rem 1.5rem;
@@ -98,6 +101,9 @@ const linkActiveColor = SIM_RED_SECONDARY;
   @media (min-width: 992px) {
     .navbar-collapse {
       border-top: none;
+    }
+    .navbar-nav {
+      height: auto;
     }
     .navbar-nav .nav-link.active,
     .navbar-nav .show > .nav-link {
