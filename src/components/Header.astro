@@ -9,7 +9,7 @@ const linkActiveColor = SIM_RED_SECONDARY;
 ---
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark2 fixed-top bg-dark2">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/">
         <img src={logo} alt="Sound in Motion logo" />
@@ -75,8 +75,13 @@ const linkActiveColor = SIM_RED_SECONDARY;
   }
   .navbar-toggler {
     border: none;
+    color: var(--navColor);
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+  }
+  .navbar-toggler-icon {
+    background-image: url(../images/list.svg);
+    background-size: 140%;
   }
   .nav-link {
     font-size: 1.5em;
