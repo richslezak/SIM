@@ -1,0 +1,77 @@
+---
+import ImgCard from "./ImgCard.astro";
+import img001 from "../images/installs/porscheCup/001.jpg";
+import img002 from "../images/installs/porscheCup/002.jpg";
+import img003 from "../images/installs/porscheCup/003.jpg";
+---
+
+<h3>A Cup Holder for Your Early Porsche Boxster or 996</h3>
+<p>
+  I know, I know we shouldn't be distracted by our beverage while driving. But sometimes on that
+  long cruise or distant trek to the track, don't you wish you had a place to put your drink? This
+  was inspired by our customers request for the early models that didn't offer a factory cup holder.
+  We made a few and the response was phenomenal. Constructed out of 6mm (½") ABS plastic and
+  contoured to the perfect angle with a 73mm (2 ⅞") opening, it slides in securely between the lower
+  and upper console.
+</p>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <div class="col d-flex align-items-stretch">
+    <ImgCard
+      imgsrc={img001}
+      alt="Before the cup holder is installed"
+      body="Before the cup holder is installed"
+    />
+  </div>
+  <div class="col d-flex align-items-stretch">
+    <ImgCard
+      imgsrc={img002}
+      alt="Just slide the cup holder in, or out if you don't want it."
+      body="Just slide the cup holder in, or out if you don't want it."
+    />
+  </div>
+  <div class="col d-flex align-items-stretch">
+    <ImgCard
+      imgsrc={img003}
+      alt="Done! It even fills in the unpleasant gap between the two consoles."
+      body="Done! It even fills in the unpleasant gap between the two consoles."
+    />
+  </div>
+</div>
+
+<div class="my-5">
+  <h4>Purchase the cup holder for only $59.99</h4>
+  <form
+    class="row gy-2 gx-3 align-items-center"
+    target="paypal"
+    action="https://www.paypal.com/cgi-bin/webscr"
+    method="post"
+  >
+    <input type="hidden" name="cmd" value="_s-xclick" />
+    <input type="hidden" name="hosted_button_id" value="4BQ86Y7HDHKQL" />
+    <input type="hidden" name="on0" value="Please Select Vehicle" />
+    <div class="col-auto">
+      <select name="os0" class="form-select">
+        <option selected value="Porsche 996">Porsche 996</option>
+        <option value="Porsche Boxster">Porsche Boxster</option>
+      </select>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-paypal"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.351.351 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91.379-.27.712-.603.993-1.005a4.942 4.942 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.687 2.687 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.695.695 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016c.217.124.4.27.548.438.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.873.873 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.352.352 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32.845-5.214Z"
+          ></path>
+        </svg> Add to Cart</button
+      >
+      <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+    </div>
+  </form>
+</div>
