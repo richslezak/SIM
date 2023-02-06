@@ -1,0 +1,54 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+import { SIM_RED, SIM_BLACK } from "../config";
+const tabColor = SIM_BLACK;
+const tabColorActive = SIM_RED;
+---
+
+<div class="container">
+  <ul class="nav mt-3 mb-5">
+    <li class="nav-item">
+      <HeaderLink href="/products/product-lines"
+        ><span class="d-none d-lg-inline">Our</span> Product Lines</HeaderLink
+      >
+    </li>
+    <li class="nav-item">
+      <HeaderLink href="/products/porsche-cupholder"
+        ><span class="d-none d-lg-inline">Porsche</span> Cup Holder</HeaderLink
+      >
+    </li>
+    <li class="nav-item">
+      <HeaderLink href="/products/porsche-subwoofer"
+        ><span class="d-none d-lg-inline">Porsche</span> Subwoofer</HeaderLink
+      >
+    </li>
+    <li class="nav-item">
+      <HeaderLink href="/products/porsche-speaker-fix"
+        ><span class="d-none d-lg-inline">Porsche</span> Speaker Fix</HeaderLink
+      >
+    </li>
+    <li class="nav-item">
+      <HeaderLink href="/products/porsche-door-pocket-fix"
+        ><span class="d-none d-lg-inline">Porsche</span> Door Fix</HeaderLink
+      >
+    </li>
+  </ul>
+</div>
+
+<style define:vars={{ tabColor, tabColorActive }}>
+  .nav-link {
+    color: var(--tabColor);
+  }
+
+  .nav-link:focus,
+  .nav-link:hover {
+    color: var(--tabColorActive);
+  }
+
+  .nav-link.active {
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 0.3rem solid var(--tabColorActive);
+    color: var(--tabColorActive);
+  }
+</style>
