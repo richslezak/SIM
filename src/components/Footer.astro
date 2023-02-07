@@ -1,12 +1,15 @@
 ---
 const today = new Date();
+import { SIM_RED, SIM_GRAY_LT } from "../config";
+const link = SIM_GRAY_LT;
+const linkHover = SIM_RED;
 ---
 
 <footer class="container mt-auto py-3 border-top">
   <div class="d-flex flex-wrap justify-content-between align-items-center">
     <ul class="nav col-md-4 justify-content-start list-unstyled d-flex">
       <li class="ms-3">
-        <a class="text-muted" href="https://www.instagram.com/soundinmotionboston/" target="blank">
+        <a href="https://www.instagram.com/soundinmotionboston/" target="blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -22,11 +25,7 @@ const today = new Date();
         </a>
       </li>
       <li class="ms-3">
-        <a
-          class="text-muted"
-          href="https://www.facebook.com/Sound-in-Motion-88032636715"
-          target="blank"
-        >
+        <a href="https://www.facebook.com/Sound-in-Motion-88032636715" target="blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -42,11 +41,7 @@ const today = new Date();
         </a>
       </li>
       <li class="ms-3">
-        <a
-          class="text-muted"
-          href="https://www.youtube.com/user/soundinmotionboston"
-          target="blank"
-        >
+        <a href="https://www.youtube.com/user/soundinmotionboston" target="blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -63,7 +58,20 @@ const today = new Date();
       </li>
     </ul>
     <p class="col-md-4 justify-content-end text-end">
-      <a href="#">Back to top</a>
+      <a href="#">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="currentColor"
+          class="bi bi-arrow-up-circle-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+          ></path>
+        </svg> Top
+      </a>
     </p>
   </div>
   <div class="d-flex flex-wrap justify-content-between align-items-center">
@@ -75,3 +83,13 @@ const today = new Date();
     </div>
   </div>
 </footer>
+<style define:vars={{ link, linkHover }}>
+  a {
+    color: var(--link);
+    text-decoration: none;
+  }
+  a:hover,
+  a:active {
+    color: var(--linkHover);
+  }
+</style>
