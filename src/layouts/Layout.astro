@@ -2,12 +2,21 @@
 import "../styles/bootstrap.min.css";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
-import { SITE_TITLE, SITE_DESCRIPTION, SITE_KEYWORDS } from "../config";
+import {
+  SITE_TITLE,
+  SITE_DESCRIPTION,
+  SITE_KEYWORDS,
+  SIM_WHITE_SECONDARY,
+  SIM_GRAY,
+} from "../config";
+
 export interface Props {
   title: string;
 }
 
 const { title } = Astro.props;
+const bodyColor = SIM_WHITE_SECONDARY;
+const fontColor = SIM_GRAY;
 ---
 
 <!DOCTYPE html>
@@ -29,23 +38,19 @@ const { title } = Astro.props;
     </script>
   </body>
 </html>
-<style is:global>
-  /* :root {
-    --accent: 124, 58, 237;
-    --accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
-  } */
-
+<style is:global define:vars={{ bodyColor, fontColor }}>
   html {
-    background-color: #f6f6f6;
+    background-color: var(--bodyColor);
   }
 
   body {
     padding-top: 5.2rem;
-    color: #5a5a5a;
+    color: var(--fontColor);
     background-color: transparent;
   }
 
   main {
+    padding-top: 3rem;
     padding-bottom: 3rem;
   }
 </style>
