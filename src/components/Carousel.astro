@@ -1,105 +1,32 @@
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button
-      type="button"
-      data-bs-target="#myCarousel"
-      data-bs-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"></button>
-    <button
-      type="button"
-      data-bs-target="#myCarousel"
-      data-bs-slide-to="1"
-      aria-label="Slide 2"></button>
-    <button
-      type="button"
-      data-bs-target="#myCarousel"
-      data-bs-slide-to="2"
-      aria-label="Slide 3"></button>
-  </div>
+---
+import { SIM_WHITE, SIM_WHITE_SECONDARY } from "../config";
+import soundInMotionImg from "../images/logos/sound-in-motion.png";
+
+const borderColor = SIM_WHITE;
+const backgroundColor = SIM_WHITE_SECONDARY;
+---
+
+<div id="homeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <!-- <div id="sim">
+    <img src={soundInMotionImg} alt="Sound in Motion - High Performance Car Audio - Boston MA" />
+    <h3>High Performance Car Audio - Boston MA</h3>
+  </div> -->
+  <div class="overlay"></div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <svg
-        class="bd-placeholder-img"
-        width="100%"
-        height="100%"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-        preserveAspectRatio="xMidYMid slice"
-        focusable="false"
-      >
-        <rect width="100%" height="100%" fill="#777"></rect>
-      </svg>
-
-      <div class="container">
-        <div class="carousel-caption text-start">
-          <h1>Example headline.</h1>
-          <p>
-            Some representative placeholder content for the first slide of the
-            carousel.
-          </p>
-          <p>
-            <a class="btn btn-lg btn-primary" href="#">Sign up today</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <svg
-        class="bd-placeholder-img"
-        width="100%"
-        height="100%"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-        preserveAspectRatio="xMidYMid slice"
-        focusable="false"
-      >
-        <rect width="100%" height="100%" fill="#777"></rect>
-      </svg>
-
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Another example headline.</h1>
-          <p>
-            Some representative placeholder content for the second slide of the
-            carousel.
-          </p>
-          <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <svg
-        class="bd-placeholder-img"
-        width="100%"
-        height="100%"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-        preserveAspectRatio="xMidYMid slice"
-        focusable="false"
-      >
-        <rect width="100%" height="100%" fill="#777"></rect>
-      </svg>
-
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>One more for good measure.</h1>
-          <p>
-            Some representative placeholder content for the third slide of this
-            carousel.
-          </p>
-          <p>
-            <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
-          </p>
-        </div>
-      </div>
-    </div>
+    <div class="carousel-item slide-1 active"></div>
+    <div class="carousel-item slide-2"></div>
+    <div class="carousel-item slide-3"></div>
+    <div class="carousel-item slide-4"></div>
+    <div class="carousel-item slide-5"></div>
+    <div class="carousel-item slide-6"></div>
+    <div class="carousel-item slide-7"></div>
+    <div class="carousel-item slide-8"></div>
   </div>
-  <button
+
+  <!-- <button
     class="carousel-control-prev"
     type="button"
-    data-bs-target="#myCarousel"
+    data-bs-target="#homeCarousel"
     data-bs-slide="prev"
   >
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -108,33 +35,108 @@
   <button
     class="carousel-control-next"
     type="button"
-    data-bs-target="#myCarousel"
+    data-bs-target="#homeCarousel"
     data-bs-slide="next"
   >
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
-  </button>
+  </button> -->
 </div>
 
-<style>
+<style define:vars={{ borderColor, backgroundColor }}>
+  /* #sim {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    margin: auto;
+    padding-top: 0.7rem;
+    background-color: var(--backgroundColor);
+    width: 620px;
+    height: 105px;
+    text-align: center;
+    aspect-ratio: 1;
+    clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
+  }
+  #sim h3 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-style: italic;
+    margin-top: 0.25rem;
+  } */
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #000;
+    opacity: 0.3;
+  }
+
   .carousel {
+    border-top: 0.3rem solid var(--borderColor);
     margin-bottom: 4rem;
   }
 
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
+  .carousel-control-prev,
+  .carousel-control-next {
+    z-index: 15;
   }
 
   .carousel-item {
-    height: 32rem;
+    height: 15rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 
-  @media (min-width: 40em) {
-    .carousel-caption p {
-      margin-bottom: 1.25rem;
-      font-size: 1.25rem;
-      line-height: 1.4;
+  .slide-1 {
+    background-image: url("../images/homePage/001.jpg");
+  }
+
+  .slide-2 {
+    background-image: url("../images/homePage/002.jpg");
+  }
+
+  .slide-3 {
+    background-image: url("../images/homePage/003.jpg");
+  }
+
+  .slide-4 {
+    background-image: url("../images/homePage/004.jpg");
+  }
+
+  .slide-5 {
+    background-image: url("../images/homePage/005.jpg");
+  }
+
+  .slide-6 {
+    background-image: url("../images/homePage/006.jpg");
+  }
+
+  .slide-7 {
+    background-image: url("../images/homePage/007.jpg");
+  }
+
+  .slide-8 {
+    background-image: url("../images/homePage/008.jpg");
+  }
+
+  @media (min-width: 575px) {
+    .carousel-item {
+      height: 20rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .carousel-item {
+      height: 28rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .carousel-item {
+      height: 35rem;
     }
   }
 </style>
