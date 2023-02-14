@@ -1,0 +1,28 @@
+---
+export interface Props {
+  cardtitle: string;
+  imgsrc: string;
+  alt: string;
+  href: string;
+}
+
+const { imgsrc, alt, cardtitle, link, href } = Astro.props;
+---
+
+<div class="card shadow-sm">
+  <img src={imgsrc} alt={alt} />
+  <div class="card-body">
+    <h5 class="card-title">{cardtitle}</h5>
+    <a href={href} class="stretched-link"></a>
+  </div>
+</div>
+<style>
+  .card {
+    border: none;
+  }
+
+  img {
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+  }
+</style>

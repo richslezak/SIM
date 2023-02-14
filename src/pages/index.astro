@@ -2,6 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import Carousel from "../components/Carousel.astro";
 import soundInMotionImg from "../images/logos/sound-in-motion.png";
+import LinkCard from "../components/LinkCard.astro";
+import cupholder from "../images/installs/porscheCup/002.jpg";
+import subwoofer from "../images/installs/porscheSub/002.jpg";
+import speaker from "../images/installs/porscheSpeakerFix/007.jpg";
+import door from "../images/installs/porscheDoorFix/002.jpg";
 ---
 
 <Layout title="Boston's Best Mobile Entertainment Design, Installation & Custom Fabrication Shops">
@@ -17,7 +22,7 @@ import soundInMotionImg from "../images/logos/sound-in-motion.png";
       </section>
       <section>
         <h3 class="display-6">What We Offer</h3>
-        <p>Consultation, Design, Sales and Installation of the following</p>
+        <p class="lead">Consultation, Design, Sales and Installation of the following</p>
         <ul>
           <li>
             <a href="fullSystemInstalls.html">Upgraded and High Performance Car Audio Systems</a>
@@ -56,23 +61,59 @@ import soundInMotionImg from "../images/logos/sound-in-motion.png";
         </ul>
       </section>
       <section>
-        <h3 class="display-6">Prosche Upgrades</h3>
-        <p>
-          As Seen in Excellence Magazine, we have several solutions for Porsche 911, 964, 996, 997,
-          Boxster and Cayman.
+        <h3 class="display-6">Porsche Upgrades</h3>
+        <p class="lead">
+          We have a number of solutions for the Porsche 911, 964, 996, 997, Boxster, and Cayman, as
+          seen in Excellence Magazine.
         </p>
-        <div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-44444 g-4">
+          <div class="col d-flex align-items-stretch">
+            <LinkCard
+              imgsrc={cupholder}
+              alt=""
+              cardtitle="A Cup Holder for Your Early Porsche Boxster or 996"
+              href="/products/porsche-cupholder"
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <LinkCard
+              imgsrc={subwoofer}
+              alt=""
+              cardtitle="A Subwoofer for Porsche 964, 996, 997, Boxster and Cayman"
+              href="/products/porsche-subwoofer"
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <LinkCard
+              imgsrc={speaker}
+              alt=""
+              cardtitle="Porsche 911 Speaker Fix"
+              href="/products/porsche-speaker-fix"
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <LinkCard
+              imgsrc={door}
+              alt=""
+              cardtitle="Porsche 911 Broken Door Pocket Fix"
+              href="/products/porsche-door-pocket-fix"
+            />
+          </div>
+        </div>
+
+        <!-- <div>
           <h5>A Cup Holder for Your Early Porsche Boxster or 996</h5>
         </div>
         <div>
           <h5>A Subwoofer for Porsche 964, 996, 997, Boxster and Cayman</h5>
         </div>
         <div>
-          <h5>Porsche 911 Speaker Fix</h5>
+          <h5></h5>
         </div>
         <div>
           <h5>Porsche 911 Broken Door Pocket Fix</h5>
-        </div>
+        </div> -->
       </section>
     </div>
   </main>
@@ -83,8 +124,20 @@ import soundInMotionImg from "../images/logos/sound-in-motion.png";
     padding-top: 0;
   }
 
-  #sim {
+  section {
     margin-bottom: 5rem;
+  }
+
+  h3 {
+    border-bottom: 2px solid #bd0000;
+    padding-bottom: 0.5rem;
+  }
+
+  h3 + p {
+    margin-bottom: 2rem;
+  }
+
+  #sim {
     text-align: center;
   }
 
