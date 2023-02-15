@@ -1,12 +1,24 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Testimonial from "../components/Testimonial.astro";
+import data from "../data/testimonals.json";
 const title = "Testimonials";
+const { testimonials } = data;
 ---
 
 <Layout title={title}>
   <main>
     <div class="container">
       <h3>{title}</h3>
+      <p class="lead">
+        Some of our high profile customers include members of the Boston Red Sox, New England
+        Patriots, Boston Celtics, Bose Corporation, Cross Country Automotive Services, Herb Chambers
+        Porsche / BMW / Toyota, Novint Technologies, Mercedes of Westwood, Chambers Motorcars,
+        Rockingham Scion and many more. See what they have to say about us.
+      </p>
+      <div>
+        {testimonials.map((item) => <Testimonial item={item} />)}
+      </div>
     </div>
   </main>
 </Layout>

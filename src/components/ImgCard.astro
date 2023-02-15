@@ -1,17 +1,16 @@
 ---
 export interface Props {
-  body: string;
+  description: string;
   imgsrc: string;
-  alt: string;
 }
 
-const { imgsrc, alt, body } = Astro.props;
+const { imgsrc, description } = Astro.props;
 ---
 
 <div class="card shadow-sm">
-  <img src={imgsrc} alt={alt} />
+  <img src={imgsrc} alt={description} />
   <div class="card-body">
-    <p class="card-text">{body}</p>
+    <p class="card-text">{description}</p>
   </div>
 </div>
 <style>
