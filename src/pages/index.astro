@@ -1,7 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Carousel from "../components/Carousel.astro";
-import soundInMotionImg from "../images/logos/sound-in-motion.png";
 import LinkCard from "../components/LinkCard.astro";
 import cupholder from "../images/installs/porscheCup/002.jpg";
 import subwoofer from "../images/installs/porscheSub/002.jpg";
@@ -13,13 +12,6 @@ import door from "../images/installs/porscheDoorFix/002.jpg";
   <main class="flex-shrink-0">
     <Carousel />
     <div class="container">
-      <!-- <section id="sim">
-        <img
-          src={soundInMotionImg}
-          alt="Sound in Motion - High Performance Car Audio - Boston MA"
-        />
-        <h4>High Performance Car Audio - Boston MA</h4>
-      </section> -->
       <section>
         <h3 class="display-6">What We Offer</h3>
         <p class="lead">Consultation, Design, Sales and Installation of the following</p>
@@ -74,6 +66,7 @@ import door from "../images/installs/porscheDoorFix/002.jpg";
               alt=""
               cardtitle="A Cup Holder for Your Early Porsche Boxster or 996"
               href="/products/porsche-cupholder"
+              ribbon
             />
           </div>
           <div class="col d-flex align-items-stretch">
@@ -82,6 +75,7 @@ import door from "../images/installs/porscheDoorFix/002.jpg";
               alt=""
               cardtitle="A Subwoofer for Porsche 964, 996, 997, Boxster and Cayman"
               href="/products/porsche-subwoofer"
+              ribbon={false}
             />
           </div>
           <div class="col d-flex align-items-stretch">
@@ -90,6 +84,7 @@ import door from "../images/installs/porscheDoorFix/002.jpg";
               alt=""
               cardtitle="Porsche 911 Speaker Fix"
               href="/products/porsche-speaker-fix"
+              ribbon={false}
             />
           </div>
           <div class="col d-flex align-items-stretch">
@@ -98,22 +93,10 @@ import door from "../images/installs/porscheDoorFix/002.jpg";
               alt=""
               cardtitle="Porsche 911 Broken Door Pocket Fix"
               href="/products/porsche-door-pocket-fix"
+              ribbon={false}
             />
           </div>
         </div>
-
-        <!-- <div>
-          <h5>A Cup Holder for Your Early Porsche Boxster or 996</h5>
-        </div>
-        <div>
-          <h5>A Subwoofer for Porsche 964, 996, 997, Boxster and Cayman</h5>
-        </div>
-        <div>
-          <h5></h5>
-        </div>
-        <div>
-          <h5>Porsche 911 Broken Door Pocket Fix</h5>
-        </div> -->
       </section>
     </div>
   </main>
