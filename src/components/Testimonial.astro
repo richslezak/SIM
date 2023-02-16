@@ -1,8 +1,9 @@
 ---
-import { SIM_RED, SIM_BLACK, SIM_WHITE } from "../config";
+import { SIM_RED, SIM_GRAY, SIM_WHITE } from "../config";
 const { item } = Astro.props;
 const backgroundColor = SIM_WHITE;
 const citeColor = SIM_RED;
+const linkColor = SIM_GRAY;
 ---
 
 <blockquote class="quote-card mt-5 shadow-sm">
@@ -23,7 +24,7 @@ const citeColor = SIM_RED;
   </ul>
 </blockquote>
 
-<style define:vars={{ citeColor, backgroundColor }}>
+<style define:vars={{ citeColor, backgroundColor, linkColor }}>
   .quote-card {
     background: var(--backgroundColor);
     padding: 1.2em 2em 1.2em 3.2em;
@@ -35,7 +36,7 @@ const citeColor = SIM_RED;
   }
 
   .quote-card p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     margin: 0;
     text-align: justify;
@@ -48,6 +49,17 @@ const citeColor = SIM_RED;
     font-weight: 500;
     color: var(--citeColor);
     opacity: 0.8;
+  }
+
+  .quote-card a {
+    text-decoration: none;
+    color: var(--linkColor);
+    font-weight: 500;
+  }
+
+  .quote-card a:hover {
+    text-decoration: underline;
+    color: var(--linkColor);
   }
 
   .quote-card:before {
@@ -75,6 +87,7 @@ const citeColor = SIM_RED;
 
   @media (min-width: 576px) {
     .quote-card p {
+      font-size: 1.4rem;
       max-width: 90%;
     }
 
