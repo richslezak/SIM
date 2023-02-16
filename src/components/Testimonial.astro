@@ -26,8 +26,7 @@ const citeColor = SIM_RED;
 <style define:vars={{ citeColor, backgroundColor }}>
   .quote-card {
     background: var(--backgroundColor);
-    padding: 1.2em;
-    padding-left: 3.2em;
+    padding: 1.2em 2em 1.2em 3.2em;
     box-sizing: border-box;
     border-radius: 0.375rem;
     position: relative;
@@ -36,10 +35,10 @@ const citeColor = SIM_RED;
   }
 
   .quote-card p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     margin: 0;
-    max-width: 80%;
+    text-align: justify;
   }
 
   .quote-card cite {
@@ -55,7 +54,7 @@ const citeColor = SIM_RED;
     font-family: Georgia, serif;
     content: "\201c";
     position: absolute;
-    top: 10px;
+    top: -15px;
     left: 10px;
     font-size: 5rem;
     color: rgba(238, 238, 238, 0.8);
@@ -66,19 +65,24 @@ const citeColor = SIM_RED;
     font-family: Georgia, serif;
     content: "\201d";
     position: absolute;
-    bottom: -110px;
+    bottom: -80px;
     line-height: 100px;
-    right: -32px;
-    font-size: 25rem;
+    right: -10px;
+    font-size: 10rem;
     color: rgba(238, 238, 238, 0.8);
     font-weight: normal;
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 576px) {
+    .quote-card p {
+      font-size: 1.4rem;
+      max-width: 90%;
+    }
+
     .quote-card:after {
-      font-size: 10em;
-      right: -10px;
-      bottom: -80px;
+      font-size: 25rem;
+      right: -32px;
+      bottom: -110px;
     }
   }
 </style>
