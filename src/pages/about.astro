@@ -1,75 +1,242 @@
 ---
 import Layout from "../layouts/Layout.astro";
-const title = "About Us";
+import { SIM_RED, SIM_GRAY, SIM_WHITE } from "../config";
+const title = "About SIM";
+const headingTitle = SIM_RED;
 ---
 
 <Layout title={title}>
   <main>
     <div class="container">
-      <h3>{title}</h3>
-      <p>
-        <strong>Sound in Motion</strong> (a.k.a. SiM) is a renowned shop specializing in sales and installations
-        of High Performance Car Audio systems, as well as Video, Multimedia, Navigation, Alarms and Remote
-        Car Starters. With over 50 years of combined experience, Sound in Motion is one of the most recognized
-        Mobile Electronics Specialty Retailers in the nation.
-      </p>
-      <p>
-        <strong>Established in 1988</strong> Sound in Motion is well known for its multi-award winning
-        installations (see <a href="/installs">Installs</a> section), several of which have been featured
-        in national and international magazines (see <a href="/publications">Publications</a> section).
-        Many years have been spent designing and building competition vehicles. The result is a showroom
-        full of trophies including two IASCA World Championships along with a lot of experience we now
-        can offer to you. Read what of all our customers have to say (see the <a
-          href="/testimonials">Testimonials</a
-        >section).
-      </p>
-      <p>
-        <strong>Sound in Motion</strong> is an authorized dealer for most of the high quality top name
-        brands at competitive prices (visit our of <a href="/products">Products</a> section). All of
-        our installations are performed with the utmost care and highest quality of craftsmanship by
-        trained and experienced technicians. We offer a lifetime warranty on all of our work for as long
-        as you own the vehicle. Please call or come visit our store (see our<a href="/contact">
-          Contact</a
-        > section), so we can consult your Mobile Electronics needs.
-      </p>
-      <p>
-        <strong>Derek Kenney</strong> - Owner, cleanup crew, system designer & fabricator. Born in Munich
-        Germany Derek grew up being exposed to high end home audio systems from his parents HiFi import
-        and distribution business. The seed was planted early, but not being able to afford a house,
-        he directed his teenage years toward Car Audio. And Yes, he had a complete amplified car audio
-        system functioning in his bedroom before purchasing his first car. Over the years the caliper
-        and complexity of the systems grew substantially. After he was introduced to IASCA, the competition
-        bug set in. Even more elaborate systems were built and car audio competitions were attended and
-        won all over the country. Derek is also an aviation enthusiast, private pilot and loves to be
-        outside, travel and spend time with his family.
-      </p>
-      <p>
-        <strong>Jim Cavanaugh</strong> - Store manager, customer relations & system designer. Jim is
-        the face of Sound in Motion and does it all. Having been bitten by the Car Audio bug early on
-        in life, Jim never looked back. You'd be hard pressed to find anyone with better product knowledge
-        or with more resourcefulness to solving customers requests. His discerning ear and constant quest
-        for giving every customer the absolute best possible experience keeps all of us on our toes.
-        In his free time, Jim is also an avid BMX flatland rider and great car enthusiast.
-      </p>
-      <p>
-        <strong>Fernando Ventura</strong> - Lead technician, wiring master & incredible fabricator. With
-        a lifelong dedication to the Car Audio industry and in the past, working at such legendary places
-        as Rich's Car Tunes, Fernando's skills are second to none. You probably won't find anyone more
-        careful and detail oriented and his creations show that over and over. When not engulfed in Car
-        Audio, Fernando spends time with his family and riding / modifying his Harley Davidson.
-      </p>
-      <p>
-        <strong>Pat Fennell</strong> - Remote start and audio expert. Pat has an incredible knowledge
-        of all remote start & security brands. His many years in the industry make him an expert in this
-        field and a valuable part of our team. Pat also has an incredible taste for high end audio gear
-        and is constantly evolving his own systems. Besides Car Audio, Pat is also a big snowmobiler
-        and loves spending time with his Lexus Car Club.
-      </p>
-      <p>
-        <strong>Lance Perkins</strong> - Wood working, fabricator, DSP tuner. Lance is our newest team
-        member and not only does he have great fabrication skills and is a quick learner, but his passion
-        for that sonic excellence is unmistakable.
-      </p>
+      <section>
+        <div>
+          <h1 class="display-6">{title}</h1>
+          <p class="lead">
+            Sound in Motion (a.k.a. SiM) is a renowned shop specializing in sales and installations
+            of High Performance Car Audio systems, as well as Video, Multimedia, Navigation, Alarms
+            and Remote Car Starters. With over 50 years of combined experience, Sound in Motion is
+            one of the most recognized Mobile Electronics Specialty Retailers in the nation.
+          </p>
+          <p class="lead">
+            Established in 1988 Sound in Motion is well known for its multi-award winning
+            installations (see <a href="/installs">Installs</a> section), several of which have been
+            featured in national and international magazines (see <a href="/publications"
+              >Publications</a
+            > section). Many years have been spent designing and building competition vehicles. The result
+            is a showroom full of trophies including two IASCA World Championships along with a lot of
+            experience we now can offer to you. Read what of all our customers have to say (see the <a
+              href="/testimonials">Testimonials</a
+            >section).
+          </p>
+          <p class="lead">
+            Sound in Motion is an authorized dealer for most of the high quality top name brands at
+            competitive prices (visit our of <a href="/products">Products</a> section). All of our installations
+            are performed with the utmost care and highest quality of craftsmanship by trained and experienced
+            technicians. We offer a lifetime warranty on all of our work for as long as you own the vehicle.
+            Please call or come visit our store (see our<a href="/contact"> Contact</a> section), so
+            we can consult your Mobile Electronics needs.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h3 class="display-6">Meet The Team</h3>
+        <div class="row featurette">
+          <div class="col-md-7 d-flex align-items-center">
+            <div>
+              <h2 class="featurette-heading fw-normal lh-1">
+                Derek <span class="text-muted">Kenney</span>
+              </h2>
+              <p class="lead">
+                Owner, cleanup crew, system designer & fabricator. Born in Munich Germany Derek grew
+                up being exposed to high end home audio systems from his parents HiFi import and
+                distribution business. The seed was planted early, but not being able to afford a
+                house, he directed his teenage years toward Car Audio. And Yes, he had a complete
+                amplified car audio system functioning in his bedroom before purchasing his first
+                car. Over the years the caliper and complexity of the systems grew substantially.
+                After he was introduced to IASCA, the competition bug set in. Even more elaborate
+                systems were built and car audio competitions were attended and won all over the
+                country. Derek is also an aviation enthusiast, private pilot and loves to be
+                outside, travel and spend time with his family.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2 d-flex align-items-center">
+            <div>
+              <h2 class="featurette-heading fw-normal lh-1">
+                Jim <span class="text-muted">Cavanaugh</span>
+              </h2>
+              <p class="lead">
+                Store manager, customer relations & system designer. Jim is the face of Sound in
+                Motion and does it all. Having been bitten by the Car Audio bug early on in life,
+                Jim never looked back. You'd be hard pressed to find anyone with better product
+                knowledge or with more resourcefulness to solving customers requests. His discerning
+                ear and constant quest for giving every customer the absolute best possible
+                experience keeps all of us on our toes. In his free time, Jim is also an avid BMX
+                flatland rider and great car enthusiast.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 d-flex align-items-center">
+            <div>
+              <h2 class="featurette-heading fw-normal lh-1">
+                Fernando <span class="text-muted">Ventura</span>
+              </h2>
+              <p class="lead">
+                Lead technician, wiring master & incredible fabricator. With a lifelong dedication
+                to the Car Audio industry and in the past, working at such legendary places as
+                Rich's Car Tunes, Fernando's skills are second to none. You probably won't find
+                anyone more careful and detail oriented and his creations show that over and over.
+                When not engulfed in Car Audio, Fernando spends time with his family and riding /
+                modifying his Harley Davidson.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2 d-flex align-items-center">
+            <div>
+              <h2 class="featurette-heading fw-normal lh-1">
+                Pat <span class="text-muted">Fennell</span>
+              </h2>
+              <p class="lead">
+                Remote start and audio expert. Pat has an incredible knowledge of all remote start &
+                security brands. His many years in the industry make him an expert in this field and
+                a valuable part of our team. Pat also has an incredible taste for high end audio
+                gear and is constantly evolving his own systems. Besides Car Audio, Pat is also a
+                big snowmobiler and loves spending time with his Lexus Car Club.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+        </div>
+      </section>
     </div>
   </main>
 </Layout>
+
+<style define:vars={{ headingTitle }}>
+  section {
+    margin-bottom: 5rem;
+  }
+
+  h1 {
+    margin-bottom: 3rem;
+  }
+
+  h3 {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--headingTitle);
+    margin-bottom: 5rem;
+  }
+
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    color: var(--headingTitle);
+    letter-spacing: -0.05rem;
+  }
+
+  .featurette-divider {
+    margin: 5rem 0;
+  }
+
+  @media (min-width: 640px) {
+    section {
+      margin-bottom: 10rem;
+    }
+
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+</style>

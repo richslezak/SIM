@@ -2,10 +2,12 @@
 import Layout from "../layouts/Layout.astro";
 import Carousel from "../components/Carousel.astro";
 import LinkCard from "../components/LinkCard.astro";
+import { SIM_RED, SIM_GRAY, SIM_WHITE } from "../config";
 import cupholder from "../images/installs/porscheCup/002.jpg";
 import subwoofer from "../images/installs/porscheSub/002.jpg";
 import speaker from "../images/installs/porscheSpeakerFix/007.jpg";
 import door from "../images/installs/porscheDoorFix/002.jpg";
+const headingTitle = SIM_RED;
 ---
 
 <Layout title="Boston's Best Mobile Entertainment Design, Installation & Custom Fabrication Shops">
@@ -95,7 +97,7 @@ import door from "../images/installs/porscheDoorFix/002.jpg";
   </main>
 </Layout>
 
-<style>
+<style define:vars={{ headingTitle }}>
   main {
     padding-top: 0;
   }
@@ -105,7 +107,7 @@ import door from "../images/installs/porscheDoorFix/002.jpg";
   }
 
   h3 {
-    border-bottom: 2px solid #bd0000;
+    border-bottom: 2px solid var(--headingTitle);
     padding-bottom: 0.5rem;
   }
 
