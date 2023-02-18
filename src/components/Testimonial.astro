@@ -1,9 +1,8 @@
 ---
-import { SIM_RED, SIM_GRAY, SIM_WHITE } from "../config";
+import { SIM_RED, SIM_WHITE } from "../config";
 const { item } = Astro.props;
 const backgroundColor = SIM_WHITE;
 const citeColor = SIM_RED;
-const linkColor = SIM_GRAY;
 ---
 
 <blockquote class="quote-card mt-5 shadow-sm">
@@ -17,14 +16,16 @@ const linkColor = SIM_GRAY;
     {
       item.linkText && (
         <li class="list-unstyled-item">
-          <a href={item.linkUrl}>{item.linkText}</a>
+          <a class="link-effect" href={item.linkUrl}>
+            {item.linkText}
+          </a>
         </li>
       )
     }
   </ul>
 </blockquote>
 
-<style define:vars={{ citeColor, backgroundColor, linkColor }}>
+<style define:vars={{ citeColor, backgroundColor }}>
   .quote-card {
     background: var(--backgroundColor);
     padding: 1.2em 2em 1.2em 3.2em;
@@ -52,14 +53,7 @@ const linkColor = SIM_GRAY;
   }
 
   .quote-card a {
-    text-decoration: none;
-    color: var(--linkColor);
-    font-weight: 500;
-  }
-
-  .quote-card a:hover {
-    text-decoration: underline;
-    color: var(--linkColor);
+    font-weight: 600;
   }
 
   .quote-card:before {

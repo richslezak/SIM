@@ -15,4 +15,5 @@ export const SIM_WHITE = "#fff";
 export const SIM_WHITE_SECONDARY = "#f6f6f6";
 export const SIM_GRAY = "#5a5a5a";
 export const SIM_GRAY_LT = "#6c757d";
+export const SIM_GRAY_XLT = "#dee2e6";
 export const SIM_BLACK = "#333";
