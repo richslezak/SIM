@@ -10,7 +10,17 @@ const mapBackground = SIM_GRAY_XLT;
 <Layout title={title}>
   <main>
     <div class="container">
-      <h1 class="display-6">{title}</h1>
+      <section>
+        <div>
+          <h1 class="display-6">{title}</h1>
+          <p class="lead">
+            Sound in Motion (a.k.a. SiM) is a renowned shop specializing in sales and installations
+            of High Performance Car Audio systems, as well as Video, Multimedia, Navigation, Alarms
+            and Remote Car Starters. With over 50 years of combined experience, Sound in Motion is
+            one of the most recognized Mobile Electronics Specialty Retailers in the nation.
+          </p>
+        </div>
+      </section>
       <section>
         <div class="row">
           <div class="col-md-4 text-center">
@@ -94,7 +104,6 @@ const mapBackground = SIM_GRAY_XLT;
     padding-bottom: 0;
   }
 
-  h1,
   section {
     margin-bottom: 5rem;
   }
@@ -132,7 +141,6 @@ const mapBackground = SIM_GRAY_XLT;
   }
 
   @media (min-width: 768px) {
-    h1,
     section,
     .featurette-divider {
       margin-bottom: 10rem;
