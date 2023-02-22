@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Carousel from "../components/Carousel.astro";
 import LinkCard from "../components/LinkCard.astro";
+import SimLogo from "../components/SimLogo.astro";
 import { SIM_RED, SIM_GRAY, SIM_WHITE } from "../config";
 import cupholder from "../images/installs/porscheCup/002.jpg";
 import subwoofer from "../images/installs/porscheSub/002.jpg";
@@ -14,44 +15,83 @@ const headingTitle = SIM_RED;
   <main class="flex-shrink-0">
     <Carousel />
     <div class="container">
+      <section class="logo-container d-flex">
+        <SimLogo />
+      </section>
       <section>
         <h3 class="display-6">What We Offer</h3>
         <p class="lead">Consultation, Design, Sales and Installation of the following:</p>
+
         <ul class="list-unstyled">
           <li>
             <a href="fullSystemInstalls.html">Upgraded and High Performance Car Audio Systems</a>
           </li>
-          <li><a href="installsDetail.html?id=0">iPod Integration</a></li>
+
+          <li><a href="installsDetail.html?id=0">Apple CarPlay & Android Auto Integration</a></li>
+
           <li>
-            <a href="installsDetail.html?id=1">Bluetooth and Hands-Free Phone Kits</a>
+            <a href="installsDetail.html?id=4">Radar & Laser Detection and Defense Systems</a>
           </li>
-          <li>
-            <a href="installsDetail.html?id=2">Satellite Radio, XM / Sirius</a>
-          </li>
-          <li><a href="installsDetail.html?id=3">GPS Navigation</a></li>
-          <li>
-            <a href="installsDetail.html?id=4">Radar / Laser Detectors and Jammers</a>
-          </li>
-          <li>
-            <a href="installsDetail.html?id=5">Back-Up Cameras and Sensors</a>
-          </li>
-          <li><a href="installsDetail.html?id=6">Video Entertainment</a></li>
+
+          <li><a href="/products/porsche-cupholder">Porsche Specific Upgrades & Fixes</a></li>
+
+          <li><a href="installsDetail.html?id=5">Back-Up, Front & 360 Birdseye View Cameras</a></li>
+
+          <li>Advanced DSP Tuning</li>
+
           <li><a href="installsDetail.html?id=7">Sound Deadening</a></li>
-          <li><a href="installsDetail.html?id=8">HD Radio</a></li>
-          <li><a href="installsDetail.html?id=9">Window Tinting</a></li>
-          <li>
-            <a href="installsDetail.html?id=10">Vehicle Security Systems</a>
-          </li>
-          <li><a href="installsDetail.html?id=11">Remote Car Starters</a></li>
-          <li><a href="installsDetail.html?id=12">GPS Tracking Systems</a></li>
-          <li>
-            <a href="installsDetail.html?id=13">HID / Xenon Headlight Upgrades</a>
-          </li>
+
+          <li>ADAS (Advanced Driver Assistance Systems)</li>
+
+          <li><a href="installsDetail.html?id=11">Remote Car Starters & Security Systems</a></li>
+          <!-- <a href="installsDetail.html?id=10">Vehicle Security Systems</a> car starters and security will be merged -->
+
+          <li><a href="installsDetail.html?id=2">Satellite & HD Radio Integration</a></li>
+          <!-- <li><a href="installsDetail.html?id=8">HD Radio</a></li> HD radio and Satellite will be merged -->
+
+          <li><a href="installsDetail.html?id=13">LED Lighting Upgrades</a></li>
+
+          <li><a href="installsDetail.html?id=3">GPS Tracking and Fleet Management Systems</a></li>
+          <!-- <li><a href="installsDetail.html?id=12">GPS Tracking Systems</a></li> -->
+
           <li>
             <a href="installsDetail.html?id=14">Custom Fabrication with Plastic, Wood, Metal etc.</a
             >
           </li>
-          <li><a href="installsDetail.html?id=15">Wheel and Tire Packages</a></li>
+        </ul>
+
+        <h5>
+          Other Services offered via our sister company <span class="cardone">CarDone</span> Boston
+        </h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://www.cardoneboston.com/services/#paint-correction">Pain Correction</a>
+          </li>
+
+          <li>
+            <a href="https://www.cardoneboston.com/services/#ceramic-coatings">Ceramic Coatings</a>
+          </li>
+
+          <li>
+            <a href="https://www.cardoneboston.com/services/#paint-protection-film"
+              >Paint Protection Film</a
+            >
+          </li>
+
+          <li>
+            <a href="https://www.cardoneboston.com/services/#window-tinting">Window Tinting</a>
+          </li>
+
+          <li>
+            <a href="https://www.cardoneboston.com/services/#seasonal-car-storage">Car Storage</a>
+          </li>
+
+          <li>
+            <a href="https://www.cardoneboston.com/services/#turo-vehicle-rental"
+              >Turo Vehicle Rental</a
+            >
+          </li>
         </ul>
       </section>
       <section>
@@ -115,41 +155,18 @@ const headingTitle = SIM_RED;
     margin-bottom: 2rem;
   }
 
-  #sim {
-    text-align: center;
+  .logo-container {
+    justify-content: center;
   }
 
-  #sim img {
-    width: 280px;
-  }
-
-  #sim h4 {
+  .cardone {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-style: italic;
-    margin-top: 0.5rem;
   }
 
-  @media (max-width: 420px) {
-    #sim h4 {
-      font-size: 1rem;
-    }
-  }
-
-  @media (min-width: 420px) {
-    #sim img {
-      width: 350px;
-    }
-  }
-
-  @media (min-width: 575px) {
-    #sim {
-      text-align: left;
-    }
-  }
-
-  @media (min-width: 768px) {
-    #sim img {
-      width: 500px;
+  @media (min-width: 992px) {
+    .logo-container {
+      justify-content: flex-end;
     }
   }
 </style>

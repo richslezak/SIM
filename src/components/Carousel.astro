@@ -1,5 +1,6 @@
 ---
 import { SIM_WHITE, SIM_BLACK } from "../config";
+import SimLogo from "./SimLogo.astro";
 import soundInMotionImg from "../images/logos/sound-in-motion.png";
 
 const borderColor = SIM_WHITE;
@@ -7,22 +8,6 @@ const textColor = SIM_BLACK;
 ---
 
 <div id="homeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-  <!-- <div id="sim-fixed">
-    <img src={soundInMotionImg} alt="Sound in Motion - High Performance Car Audio - Boston MA" />
-    <h3>High Performance Car Audio - Boston MA</h3>
-  </div> -->
-  <div id="sim-container">
-    <div id="sim" class="d-flex justify-content-center align-items-center">
-      <div>
-        <img
-          src={soundInMotionImg}
-          alt="Sound in Motion - High Performance Car Audio - Boston MA"
-          class="img-fluid"
-        />
-        <h4>High Performance Car Audio <span class="d-none d-md-inline">- Boston MA</span></h4>
-      </div>
-    </div>
-  </div>
   <div class="overlay"></div>
   <div class="carousel-inner">
     <div class="carousel-item slide-1 active"></div>
@@ -56,54 +41,6 @@ const textColor = SIM_BLACK;
 </div>
 
 <style define:vars={{ borderColor, textColor }}>
-  /* #sim-fixed {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 3;
-    margin: auto;
-    padding-top: 0.7rem;
-    background-color: rgba(246, 246, 246, 0.8);
-    width: 620px;
-    height: 105px;
-    text-align: center;
-    aspect-ratio: 1;
-    clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
-  }
-  #sim-fixed h3 {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-style: italic;
-    margin-top: 0.25rem;
-    color: var(--textColor);
-  } */
-
-  #sim-container {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 3;
-  }
-
-  #sim {
-    height: 15rem;
-    padding: 0 2rem;
-  }
-
-  #sim > div {
-    padding: 1rem;
-    background-color: rgba(246, 246, 246, 0.8);
-    border-radius: 0.375rem;
-    text-align: center;
-  }
-
-  #sim h4 {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-style: italic;
-    margin-top: 0.25rem;
-    color: var(--textColor);
-  }
-
   .overlay {
     position: absolute;
     width: 100%;
@@ -131,35 +68,35 @@ const textColor = SIM_BLACK;
   }
 
   .slide-1 {
-    background-image: url("../images/homePage/001.jpg");
+    background-image: url("../images/homepage/001.jpg");
   }
 
   .slide-2 {
-    background-image: url("../images/homePage/002.jpg");
+    background-image: url("../images/homepage/002.jpg");
   }
 
   .slide-3 {
-    background-image: url("../images/homePage/003.jpg");
+    background-image: url("../images/homepage/003.jpg");
   }
 
   .slide-4 {
-    background-image: url("../images/homePage/004.jpg");
+    background-image: url("../images/homepage/004.jpg");
   }
 
   .slide-5 {
-    background-image: url("../images/homePage/005.jpg");
+    background-image: url("../images/homepage/005.jpg");
   }
 
   .slide-6 {
-    background-image: url("../images/homePage/006.jpg");
+    background-image: url("../images/homepage/006.jpg");
   }
 
   .slide-7 {
-    background-image: url("../images/homePage/007.jpg");
+    background-image: url("../images/homepage/007.jpg");
   }
 
   .slide-8 {
-    background-image: url("../images/homePage/008.jpg");
+    background-image: url("../images/homepage/008.jpg");
   }
 
   @media (max-width: 767px) {
@@ -172,29 +109,25 @@ const textColor = SIM_BLACK;
     }
   }
 
-  @media (min-width: 575px) {
-    #sim,
+  @media (min-width: 576px) {
     .carousel-item {
       height: 25rem;
     }
   }
 
   @media (min-width: 768px) {
-    #sim,
     .carousel-item {
       height: 35rem;
     }
   }
 
   @media (min-width: 992px) {
-    #sim,
     .carousel-item {
       height: 45rem;
     }
   }
 
   @media (min-width: 1400px) {
-    #sim,
     .carousel-item {
       height: 55rem;
     }

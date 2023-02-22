@@ -1,0 +1,43 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+import { SIM_RED, SIM_BLACK } from "../config";
+const tabColor = SIM_BLACK;
+const tabColorActive = SIM_RED;
+---
+
+<div class="container">
+  <ul class="nav mt-3 mb-5">
+    <li class="nav-item">
+      <HeaderLink href="/media/testimonials">Testimonials</HeaderLink>
+    </li>
+    <li class="nav-item">
+      <HeaderLink href="/media/accolades">Accolades</HeaderLink>
+    </li>
+    <li class="nav-item">
+      <HeaderLink href="/media/social">Social</HeaderLink>
+    </li>
+  </ul>
+</div>
+
+<style define:vars={{ tabColor, tabColorActive }}>
+  .nav-link {
+    color: var(--tabColor);
+  }
+
+  .nav-link:focus,
+  .nav-link:hover {
+    color: var(--tabColorActive);
+  }
+
+  .nav-link.active {
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 0.3rem solid var(--tabColorActive);
+    color: var(--tabColorActive);
+  }
+</style>
+
+<script define:vars={{}}>
+  const navItemProducts = document?.getElementById("nav-media");
+  navItemProducts?.classList.add("active");
+</script>

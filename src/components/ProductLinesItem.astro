@@ -1,0 +1,30 @@
+---
+import { SIM_RED, SIM_WHITE } from "../config";
+const { item } = Astro.props;
+const backgroundColor = SIM_WHITE;
+const citeColor = SIM_RED;
+---
+
+<li>
+  <a class="link-effect" href={item.linkUrl} target="_blank">
+    {item.linkText}
+    <!-- {item.imgSrc && <img src={item.imgSrc} alt={item.linkText} />} -->
+  </a>
+</li>
+
+<style>
+  li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: 2rem;
+  }
+
+  a.link-effect {
+    padding-top: 0.225rem;
+    padding-bottom: 0.225rem;
+  }
+</style>

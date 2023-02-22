@@ -1,10 +1,12 @@
 ---
-import Layout from "../layouts/Layout.astro";
-const title = "Publications";
+import Layout from "../../layouts/Layout.astro";
+import MediaNav from "../../components/MediaNav.astro";
+const title = "Accolades";
 ---
 
 <Layout title={title}>
   <main>
+    <MediaNav />
     <div class="container">
       <h1 class="display-6">{title}</h1>
       <p class="lead">
@@ -17,3 +19,8 @@ const title = "Publications";
     </div>
   </main>
 </Layout>
+<style>
+  main {
+    padding-top: 0;
+  }
+</style>

@@ -8,6 +8,7 @@ import {
   SITE_KEYWORDS,
   SIM_WHITE_SECONDARY,
   SIM_GRAY,
+  SIM_RED,
 } from "../config";
 
 export interface Props {
@@ -17,6 +18,7 @@ export interface Props {
 const { title } = Astro.props;
 const bodyColor = SIM_WHITE_SECONDARY;
 const fontColor = SIM_GRAY;
+const hoverColor = SIM_RED;
 ---
 
 <!DOCTYPE html>
@@ -38,7 +40,7 @@ const fontColor = SIM_GRAY;
     </script>
   </body>
 </html>
-<style is:global define:vars={{ bodyColor, fontColor }}>
+<style is:global define:vars={{ bodyColor, fontColor, hoverColor }}>
   html {
     background-color: var(--bodyColor);
   }
@@ -72,7 +74,7 @@ const fontColor = SIM_GRAY;
     }
 
     .link-effect {
-      box-shadow: inset 0 0 0 0 var(--fontColor);
+      box-shadow: inset 0 0 0 0 var(--hoverColor);
       color: var(--fontColor);
       margin: 0 -0.225rem;
       padding: 0 0.225rem;
@@ -81,7 +83,7 @@ const fontColor = SIM_GRAY;
     }
 
     .link-effect:hover {
-      box-shadow: inset 12rem 0 0 0 var(--fontColor);
+      box-shadow: inset 12rem 0 0 0 var(--hoverColor);
       color: white;
     }
   }
