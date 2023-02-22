@@ -21,32 +21,28 @@ const headingBorder = SIM_GRAY_XLT;
         quality of craftsmanship by trained and experienced technicians. We offer a lifetime
         warranty on all of our work for as long as you own the vehicle.
       </p>
-
-      <div class="row row-cols-1 row-cols-md-2">
+      <div class="row row-cols-1 row-cols-xl-2">
         <div class="align-items-stretch mb-5">
           <h4>Audio & Multimedia</h4>
-          <ul class="list-unstyled">
+          <ul>
             {audio.map((item) => <ProductLinesItem item={item} />)}
           </ul>
         </div>
-
         <div class="align-items-stretch mb-5">
           <h4>Dash Cams, Sound Deadening, Interfaces & Other</h4>
-          <ul class="list-unstyled">
+          <ul>
             {other.map((item) => <ProductLinesItem item={item} />)}
           </ul>
         </div>
-
         <div class="align-items-stretch mb-5">
           <h4>Radar & Laser Defense Systems</h4>
-          <ul class="list-unstyled">
+          <ul>
             {radar.map((item) => <ProductLinesItem item={item} />)}
           </ul>
         </div>
-
         <div class="align-items-stretch mb-5">
           <h4>Remote Starters & Security</h4>
-          <ul class="list-unstyled">
+          <ul>
             {security.map((item) => <ProductLinesItem item={item} />)}
           </ul>
         </div>
@@ -64,6 +60,13 @@ const headingBorder = SIM_GRAY_XLT;
     border-bottom: 1px solid var(--headingBorder);
     padding-bottom: 0.5rem;
     margin-bottom: 2rem;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
   }
 
   @keyframes fadeIn {
