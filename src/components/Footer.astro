@@ -86,17 +86,15 @@ const backgroundColor = SIM_WHITE;
     </div>
   </div>
 </footer>
-<style define:vars={{ link, linkHover, backgroundColor }}>
+<style lang="scss" define:vars={{ link, linkHover, backgroundColor }}>
   footer {
     border-top: 1px solid var(--linkHover);
     background-color: var(--backgroundColor);
-  }
-
-  a {
-    color: var(--link);
-  }
-
-  a:hover {
-    color: var(--linkHover);
+    a {
+      color: var(--link);
+      &:hover {
+        color: var(--linkHover);
+      }
+    }
   }
 </style>

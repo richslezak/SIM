@@ -18,7 +18,7 @@ const textColor = SIM_BLACK;
     <div class="carousel-item slide-8"></div>
   </div>
 
-  <!-- <button
+  <button
     class="carousel-control-prev"
     type="button"
     data-bs-target="#homeCarousel"
@@ -35,10 +35,10 @@ const textColor = SIM_BLACK;
   >
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
-  </button> -->
+  </button>
 </div>
 
-<style define:vars={{ borderColor, textColor }}>
+<style lang="scss" define:vars={{ borderColor, textColor }}>
   .overlay {
     position: absolute;
     width: 100%;
@@ -50,7 +50,6 @@ const textColor = SIM_BLACK;
 
   .carousel {
     border-top: 0.3rem solid var(--borderColor);
-    margin-bottom: 4rem;
   }
 
   .carousel-control-prev,
@@ -95,16 +94,6 @@ const textColor = SIM_BLACK;
 
   .slide-8 {
     background-image: url("/homepage/008.jpg");
-  }
-
-  @media (max-width: 767px) {
-    #sim img {
-      max-width: 250px;
-    }
-
-    #sim h4 {
-      font-size: 1rem;
-    }
   }
 
   @media (min-width: 576px) {

@@ -40,7 +40,7 @@ const hoverColor = SIM_RED;
     </script>
   </body>
 </html>
-<style is:global define:vars={{ bodyColor, fontColor, hoverColor }}>
+<style lang="scss" is:global define:vars={{ bodyColor, fontColor, hoverColor }}>
   html {
     background-color: var(--bodyColor);
   }
@@ -80,11 +80,10 @@ const hoverColor = SIM_RED;
       padding: 0 0.225rem;
       border-radius: 0.25rem;
       transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    }
-
-    .link-effect:hover {
-      box-shadow: inset 12rem 0 0 0 var(--hoverColor);
-      color: white;
+      &:hover {
+        box-shadow: inset 12rem 0 0 0 var(--hoverColor);
+        color: white;
+      }
     }
   }
 </style>

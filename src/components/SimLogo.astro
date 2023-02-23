@@ -1,8 +1,7 @@
 ---
-import { SIM_WHITE, SIM_BLACK } from "../config";
+import { SIM_BLACK } from "../config";
 import soundInMotionImg from "../images/logos/sound-in-motion.png";
 
-const borderColor = SIM_WHITE;
 const textColor = SIM_BLACK;
 ---
 
@@ -15,43 +14,23 @@ const textColor = SIM_BLACK;
   <h4>High Performance Car Audio</h4>
   <h4>Boston MA</h4>
 </div>
-<style define:vars={{ borderColor, textColor }}>
+
+<style lang="scss" define:vars={{ textColor }}>
   #sim-logo {
-    background-color: rgba(246, 246, 246, 0.8);
-    width: 250px;
-  }
-
-  #sim-logo h4 {
-    font-family: sans-serif;
-    font-style: italic;
-    font-size: 1.15rem;
-    font-weight: bolder;
-    letter-spacing: -0.07rem;
-    margin-top: 1.5rem;
-    color: var(--textColor);
-  }
-
-  #sim-logo h4 + h4 {
-    text-align: right;
-  }
-
-  @media (min-width: 576px) {
-    #sim-logo {
-      width: 390px;
-    }
-
-    #sim-logo h4 {
-      font-size: 1.67rem;
-    }
-  }
-
-  @media (min-width: 768px) {
-    #sim-logo {
-      width: 492px;
-    }
-
-    #sim-logo h4 {
-      font-size: 2.075rem;
+    width: 300px;
+    h4 {
+      font-family: sans-serif;
+      font-style: italic;
+      font-size: 1.3rem;
+      font-weight: bolder;
+      letter-spacing: -0.07rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+      color: var(--textColor);
+      + h4 {
+        text-align: right;
+        margin-right: 0.3rem;
+      }
     }
   }
 </style>

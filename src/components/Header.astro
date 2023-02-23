@@ -56,7 +56,7 @@ const linkActiveColor = SIM_RED_SECONDARY;
     </div>
   </nav>
 </header>
-<style define:vars={{ navBackgroundColor, navColor, linkActiveColor }}>
+<style lang="scss" define:vars={{ navBackgroundColor, navColor, linkActiveColor }}>
   .navbar {
     padding: 0;
     background-color: var(--navBackgroundColor);
@@ -85,16 +85,14 @@ const linkActiveColor = SIM_RED_SECONDARY;
 
   .navbar-nav {
     height: 100vh;
-  }
-
-  .navbar-nav .nav-link {
-    color: var(--navColor);
-    padding: 1.2rem 2rem 1.5rem;
-    border-top: 0.3rem solid transparent;
-  }
-
-  .navbar-nav .nav-link:hover {
-    background-color: var(--linkActiveColor);
+    .nav-link {
+      color: var(--navColor);
+      padding: 1.2rem 2rem 1.5rem;
+      border-top: 0.3rem solid transparent;
+      &:hover {
+        background-color: var(--linkActiveColor);
+      }
+    }
   }
 
   .navbar-nav .nav-link.active,

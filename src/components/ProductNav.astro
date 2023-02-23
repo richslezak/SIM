@@ -33,20 +33,18 @@ const tabColorActive = SIM_RED;
   </ul>
 </div>
 
-<style define:vars={{ tabColor, tabColorActive }}>
+<style lang="scss" define:vars={{ tabColor, tabColorActive }}>
   .nav-link {
     color: var(--tabColor);
+    &.active {
+      background-color: transparent;
+      border-radius: 0;
+      border-bottom: 0.3rem solid var(--tabColorActive);
+      color: var(--tabColorActive);
+    }
   }
-
   .nav-link:focus,
   .nav-link:hover {
-    color: var(--tabColorActive);
-  }
-
-  .nav-link.active {
-    background-color: transparent;
-    border-radius: 0;
-    border-bottom: 0.3rem solid var(--tabColorActive);
     color: var(--tabColorActive);
   }
 </style>

@@ -137,7 +137,7 @@ const headingTitle = SIM_RED;
   </main>
 </Layout>
 
-<style define:vars={{ headingTitle }}>
+<style lang="scss" define:vars={{ headingTitle }}>
   main {
     padding-top: 0;
   }
@@ -149,14 +149,14 @@ const headingTitle = SIM_RED;
   h3 {
     border-bottom: 2px solid var(--headingTitle);
     padding-bottom: 0.5rem;
-  }
-
-  h3 + p {
-    margin-bottom: 2rem;
+    + p {
+      margin-bottom: 2rem;
+    }
   }
 
   .logo-container {
     justify-content: center;
+    padding-top: 1rem;
   }
 
   .cardone {
