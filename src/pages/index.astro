@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Carousel from "../components/Carousel.astro";
+import LinkCardExternal from "../components/LinkCardExternal.astro";
 import LinkCard from "../components/LinkCard.astro";
 import SimLogo from "../components/SimLogo.astro";
 import { SIM_RED, SIM_GRAY, SIM_WHITE } from "../config";
@@ -8,6 +9,13 @@ import cupholder from "../images/installs/porscheCup/002.jpg";
 import subwoofer from "../images/installs/porscheSub/002.jpg";
 import speaker from "../images/installs/porscheSpeakerFix/007.jpg";
 import door from "../images/installs/porscheDoorFix/002.jpg";
+import paintCorrection from "../images/cardone/paint-correction.jpg";
+import ceramicCoating from "../images/cardone/ceramic-coating.jpg";
+import paintProtectionFilm from "../images/cardone/paint-protection-film.jpg";
+import windowTint from "../images/cardone/window-tint.jpg";
+import carStorage from "../images/cardone/car-storage.jpg";
+import carRental from "../images/cardone/turo-rental.jpg";
+
 const headingTitle = SIM_RED;
 ---
 
@@ -59,40 +67,56 @@ const headingTitle = SIM_RED;
             >
           </li>
         </ul>
-
-        <h5>
+      </section>
+      <section>
+        <h4>
           Other Services offered via our sister company <span class="cardone">CarDone</span> Boston
-        </h5>
+        </h4>
 
-        <ul class="list-unstyled">
-          <li>
-            <a href="https://www.cardoneboston.com/services/#paint-correction">Pain Correction</a>
-          </li>
-
-          <li>
-            <a href="https://www.cardoneboston.com/services/#ceramic-coatings">Ceramic Coatings</a>
-          </li>
-
-          <li>
-            <a href="https://www.cardoneboston.com/services/#paint-protection-film"
-              >Paint Protection Film</a
-            >
-          </li>
-
-          <li>
-            <a href="https://www.cardoneboston.com/services/#window-tinting">Window Tinting</a>
-          </li>
-
-          <li>
-            <a href="https://www.cardoneboston.com/services/#seasonal-car-storage">Car Storage</a>
-          </li>
-
-          <li>
-            <a href="https://www.cardoneboston.com/services/#turo-vehicle-rental"
-              >Turo Vehicle Rental</a
-            >
-          </li>
-        </ul>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          <div class="col d-flex align-items-stretch">
+            <LinkCardExternal
+              imgsrc={paintCorrection}
+              cardTitle="Paint Correction"
+              href="https://www.cardoneboston.com/services/#paint-correction"
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <LinkCardExternal
+              imgsrc={ceramicCoating}
+              cardTitle="Ceramic Coatings"
+              href="https://www.cardoneboston.com/services/#ceramic-coatings"
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <LinkCardExternal
+              imgsrc={paintProtectionFilm}
+              cardTitle="Paint Protection Film"
+              href="https://www.cardoneboston.com/services/#paint-protection-film"
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <LinkCardExternal
+              imgsrc={windowTint}
+              cardTitle="Window Tinting"
+              href="https://www.cardoneboston.com/services/#window-tinting"
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <LinkCardExternal
+              imgsrc={carStorage}
+              cardTitle="Car Storage"
+              href="https://www.cardoneboston.com/services/#seasonal-car-storage"
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <LinkCardExternal
+              imgsrc={carRental}
+              cardTitle="Turo Vehicle Rental"
+              href="https://www.cardoneboston.com/services/#turo-vehicle-rental"
+            />
+          </div>
+        </div>
       </section>
       <section>
         <h3 class="display-6">Porsche Upgrades</h3>
@@ -152,6 +176,10 @@ const headingTitle = SIM_RED;
     + p {
       margin-bottom: 2rem;
     }
+  }
+
+  h4 {
+    margin-bottom: 1rem;
   }
 
   .logo-container {

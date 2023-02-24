@@ -5,17 +5,38 @@ const borderColor = SIM_WHITE;
 const textColor = SIM_BLACK;
 ---
 
-<div id="homeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div
+  id="homeCarousel"
+  class="carousel slide carousel-fade"
+  data-bs-ride="carousel"
+  data-bs-interval="3000"
+>
   <div class="overlay"></div>
   <div class="carousel-inner">
-    <div class="carousel-item slide-1 active"></div>
-    <div class="carousel-item slide-2"></div>
-    <div class="carousel-item slide-3"></div>
-    <div class="carousel-item slide-4"></div>
-    <div class="carousel-item slide-5"></div>
-    <div class="carousel-item slide-6"></div>
-    <div class="carousel-item slide-7"></div>
-    <div class="carousel-item slide-8"></div>
+    <div class="carousel-item slide-1 active"><h1>1</h1></div>
+    <div class="carousel-item slide-2"><h1>2</h1></div>
+    <div class="carousel-item slide-3"><h1>3</h1></div>
+    <div class="carousel-item slide-4"><h1>4</h1></div>
+    <div class="carousel-item slide-5"><h1>5</h1></div>
+    <div class="carousel-item slide-6"><h1>6</h1></div>
+    <div class="carousel-item slide-7"><h1>7</h1></div>
+    <div class="carousel-item slide-8"><h1>8</h1></div>
+    <div class="carousel-item slide-9"><h1>9</h1></div>
+    <div class="carousel-item slide-10"><h1>10</h1></div>
+    <div class="carousel-item slide-11"><h1>11</h1></div>
+    <div class="carousel-item slide-12"><h1>12</h1></div>
+    <div class="carousel-item slide-13"><h1>13</h1></div>
+    <div class="carousel-item slide-14"><h1>14</h1></div>
+    <div class="carousel-item slide-15"><h1>15</h1></div>
+    <div class="carousel-item slide-16"><h1>16</h1></div>
+    <div class="carousel-item slide-17"><h1>17</h1></div>
+    <div class="carousel-item slide-18"><h1>18</h1></div>
+    <div class="carousel-item slide-19"><h1>19</h1></div>
+    <div class="carousel-item slide-20"><h1>20</h1></div>
+    <div class="carousel-item slide-21"><h1>21</h1></div>
+    <div class="carousel-item slide-22"><h1>22</h1></div>
+    <div class="carousel-item slide-23"><h1>23</h1></div>
+    <div class="carousel-item slide-24"><h1>24</h1></div>
   </div>
 
   <button
@@ -39,6 +60,7 @@ const textColor = SIM_BLACK;
 </div>
 
 <style lang="scss" define:vars={{ borderColor, textColor }}>
+  $carousel-transition-duration: 0.1s;
   .overlay {
     position: absolute;
     width: 100%;
@@ -50,6 +72,12 @@ const textColor = SIM_BLACK;
 
   .carousel {
     border-top: 0.3rem solid var(--borderColor);
+    h1 {
+      font-size: 10rem;
+      color: white;
+      text-align: center;
+      margin-top: 2rem;
+    }
   }
 
   .carousel-control-prev,
@@ -62,38 +90,108 @@ const textColor = SIM_BLACK;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    transition: transform 0.1s ease-in-out;
+    transition: transform 2s ease, opacity 0.5s ease-out;
   }
 
   .slide-1 {
-    background-image: url("/homepage/001.jpg");
+    background-image: url("/homepage/01.jpg");
   }
 
   .slide-2 {
-    background-image: url("/homepage/002.jpg");
+    background-image: url("/homepage/02.jpg");
   }
 
   .slide-3 {
-    background-image: url("/homepage/003.jpg");
+    background-image: url("/homepage/03.jpg");
   }
 
   .slide-4 {
-    background-image: url("/homepage/004.jpg");
+    background-image: url("/homepage/04.jpg");
   }
 
   .slide-5 {
-    background-image: url("/homepage/005.jpg");
+    background-image: url("/homepage/05.jpg");
   }
 
   .slide-6 {
-    background-image: url("/homepage/006.jpg");
+    background-image: url("/homepage/06.jpg");
   }
 
   .slide-7 {
-    background-image: url("/homepage/007.jpg");
+    background-image: url("/homepage/07.jpg");
   }
 
   .slide-8 {
-    background-image: url("/homepage/008.jpg");
+    background-image: url("/homepage/08.jpg");
+  }
+
+  .slide-9 {
+    background-image: url("/homepage/09.jpg");
+  }
+
+  .slide-10 {
+    background-image: url("/homepage/010.jpg");
+  }
+
+  .slide-11 {
+    background-image: url("/homepage/011.jpg");
+  }
+
+  .slide-12 {
+    background-image: url("/homepage/012.jpg");
+  }
+
+  .slide-13 {
+    background-image: url("/homepage/013.jpg");
+  }
+
+  .slide-14 {
+    background-image: url("/homepage/014.jpg");
+  }
+
+  .slide-15 {
+    background-image: url("/homepage/015.jpg");
+  }
+
+  .slide-16 {
+    background-image: url("/homepage/016.jpg");
+  }
+
+  .slide-17 {
+    background-image: url("/homepage/017.jpg");
+  }
+
+  .slide-18 {
+    background-image: url("/homepage/018.jpg");
+  }
+
+  .slide-19 {
+    background-image: url("/homepage/019.jpg");
+  }
+
+  .slide-20 {
+    background-image: url("/homepage/020.jpg");
+  }
+
+  .slide-21 {
+    background-image: url("/homepage/021.jpg");
+  }
+
+  .slide-22 {
+    background-image: url("/homepage/022.jpg");
+  }
+
+  .slide-23 {
+    background-image: url("/homepage/023.jpg");
+  }
+
+  .slide-24 {
+    background-image: url("/homepage/024.jpg");
+  }
+
+  .slide-25 {
+    background-image: url("/homepage/025.jpg");
   }
 
   @media (min-width: 576px) {
