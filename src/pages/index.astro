@@ -4,6 +4,7 @@ import Carousel from "../components/Carousel.astro";
 import LinkCardExternal from "../components/LinkCardExternal.astro";
 import LinkCard from "../components/LinkCard.astro";
 import SimLogo from "../components/SimLogo.astro";
+import IconCaret from "../components/IconCaret.astro";
 import { SIM_RED, SIM_GRAY, SIM_WHITE } from "../config";
 import cupholder from "../images/installs/porscheCup/002.jpg";
 import subwoofer from "../images/installs/porscheSub/002.jpg";
@@ -68,53 +69,95 @@ const headingTitle = SIM_RED;
           </li>
         </ul>
       </section>
-      <section>
+      <section id="cardone-services">
         <h4>
-          Other Services offered via our sister company <span class="cardone">CarDone</span> Boston
+          Other services offered via our sister company <span>CarDone</span> Boston
         </h4>
+        <div class="d-md-none">
+          <ul class="list-unstyled">
+            <li>
+              <IconCaret class="caret" />
+              <a href="https://www.cardoneboston.com/services/#paint-correction"
+                >Paint Correction
+              </a>
+            </li>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-          <div class="col d-flex align-items-stretch">
-            <LinkCardExternal
-              imgsrc={paintCorrection}
-              cardTitle="Paint Correction"
-              href="https://www.cardoneboston.com/services/#paint-correction"
-            />
-          </div>
-          <div class="col d-flex align-items-stretch">
-            <LinkCardExternal
-              imgsrc={ceramicCoating}
-              cardTitle="Ceramic Coatings"
-              href="https://www.cardoneboston.com/services/#ceramic-coatings"
-            />
-          </div>
-          <div class="col d-flex align-items-stretch">
-            <LinkCardExternal
-              imgsrc={paintProtectionFilm}
-              cardTitle="Paint Protection Film"
-              href="https://www.cardoneboston.com/services/#paint-protection-film"
-            />
-          </div>
-          <div class="col d-flex align-items-stretch">
-            <LinkCardExternal
-              imgsrc={windowTint}
-              cardTitle="Window Tinting"
-              href="https://www.cardoneboston.com/services/#window-tinting"
-            />
-          </div>
-          <div class="col d-flex align-items-stretch">
-            <LinkCardExternal
-              imgsrc={carStorage}
-              cardTitle="Car Storage"
-              href="https://www.cardoneboston.com/services/#seasonal-car-storage"
-            />
-          </div>
-          <div class="col d-flex align-items-stretch">
-            <LinkCardExternal
-              imgsrc={carRental}
-              cardTitle="Turo Vehicle Rental"
-              href="https://www.cardoneboston.com/services/#turo-vehicle-rental"
-            />
+            <li>
+              <IconCaret class="caret" />
+              <a href="https://www.cardoneboston.com/services/#ceramic-coatings"
+                >Ceramic Coatings
+              </a>
+            </li>
+
+            <li>
+              <IconCaret class="caret" />
+              <a href="https://www.cardoneboston.com/services/#paint-protection-film"
+                ><span class="d-none d-sm-inline">Paint</span> Protection Film
+              </a>
+            </li>
+
+            <li>
+              <IconCaret class="caret" />
+              <a href="https://www.cardoneboston.com/services/#window-tinting">Window Tinting</a>
+            </li>
+
+            <li>
+              <IconCaret class="caret" />
+              <a href="https://www.cardoneboston.com/services/#seasonal-car-storage">Car Storage</a>
+            </li>
+
+            <li>
+              <IconCaret class="caret" />
+              <a href="https://www.cardoneboston.com/services/#turo-vehicle-rental"
+                ><span class="d-none d-sm-inline">Turo</span> Vehicle Rental
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-md-block">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+            <div class="col d-flex align-items-stretch">
+              <LinkCardExternal
+                imgsrc={paintCorrection}
+                cardTitle="Paint Correction"
+                href="https://www.cardoneboston.com/services/#paint-correction"
+              />
+            </div>
+            <div class="col d-flex align-items-stretch">
+              <LinkCardExternal
+                imgsrc={ceramicCoating}
+                cardTitle="Ceramic Coatings"
+                href="https://www.cardoneboston.com/services/#ceramic-coatings"
+              />
+            </div>
+            <div class="col d-flex align-items-stretch">
+              <LinkCardExternal
+                imgsrc={paintProtectionFilm}
+                cardTitle="Paint Protection Film"
+                href="https://www.cardoneboston.com/services/#paint-protection-film"
+              />
+            </div>
+            <div class="col d-flex align-items-stretch">
+              <LinkCardExternal
+                imgsrc={windowTint}
+                cardTitle="Window Tinting"
+                href="https://www.cardoneboston.com/services/#window-tinting"
+              />
+            </div>
+            <div class="col d-flex align-items-stretch">
+              <LinkCardExternal
+                imgsrc={carStorage}
+                cardTitle="Car Storage"
+                href="https://www.cardoneboston.com/services/#seasonal-car-storage"
+              />
+            </div>
+            <div class="col d-flex align-items-stretch">
+              <LinkCardExternal
+                imgsrc={carRental}
+                cardTitle="Turo Vehicle Rental"
+                href="https://www.cardoneboston.com/services/#turo-vehicle-rental"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -187,9 +230,36 @@ const headingTitle = SIM_RED;
     padding-top: 1rem;
   }
 
-  .cardone {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-style: italic;
+  #cardone-services {
+    h4 span {
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-style: italic;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    li {
+      margin-bottom: 1rem;
+      flex-basis: 50%;
+      .caret {
+        color: var(--headingTitle);
+        vertical-align: baseline;
+        display: none;
+      }
+    }
+  }
+
+  @media (min-width: 375px) {
+    #cardone-services li {
+      font-size: 1.2rem;
+      .caret {
+        display: inline;
+      }
+    }
   }
 
   @media (min-width: 992px) {

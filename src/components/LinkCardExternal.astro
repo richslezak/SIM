@@ -8,24 +8,78 @@ export interface Props {
 const { imgsrc, cardTitle, href } = Astro.props;
 ---
 
-<div class="card shadow-sm">
-  <div class="card-body">
-    <h6 class="card-title">{cardTitle}</h6>
-    <a href={href} class="stretched-link" target="_blank"></a>
-  </div>
+<a href={href} class="card shadow-sm" target="_blank">
+  <h6 class="card-title">{cardTitle}</h6>
   <img src={imgsrc} alt={cardTitle} />
-</div>
-<style>
+</a>
+
+<style lang="scss">
   .card {
     border: none;
+    h6 {
+      padding: 0.5rem 0.5rem 0;
+    }
+    img {
+      border-bottom-left-radius: 0.375rem;
+      border-bottom-right-radius: 0.375rem;
+    }
   }
 
-  .card-body {
-    padding: 0.5rem 0.5rem 0;
-  }
+  @media screen and (min-width: 768px) {
+    .card {
+      &:hover {
+        & > img {
+          filter: grayscale(100%);
+          transition: all 0.25s ease-in-out;
+        }
+      }
+      img {
+        border-bottom-left-radius: 0.375rem;
+        border-bottom-right-radius: 0.375rem;
+        filter: grayscale(0);
+        transition: filter 0.25s ease;
+      }
+      &:focus-visible {
+        outline: none;
+      }
+    }
 
-  img {
-    border-bottom-left-radius: 0.375rem;
-    border-bottom-right-radius: 0.375rem;
+    .card::after,
+    .card::before {
+      content: "";
+      position: absolute;
+      border: 3px solid transparent;
+      border-radius: 0.375rem;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: 0;
+      visibility: hidden;
+      z-index: 1;
+    }
+
+    .card:hover::before,
+    .card:focus::before {
+      border-top-color: #bd0000;
+      border-right-color: #bd0000;
+      transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+    }
+
+    .card:hover::after,
+    .card:focus::after {
+      border-bottom-color: #bd0000;
+      border-left-color: #bd0000;
+      transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
+    }
+
+    .card:hover::before,
+    .card:focus::before,
+    .card:hover::after,
+    .card:focus::after {
+      width: 100%;
+      height: 100%;
+      background: 0 0;
+      visibility: visible;
+    }
   }
 </style>
