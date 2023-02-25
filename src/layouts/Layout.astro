@@ -1,7 +1,7 @@
 ---
-import "../styles/bootstrap.min.css";
-import Footer from "../components/Footer.astro";
-import Header from "../components/Header.astro";
+import '../styles/bootstrap.min.css';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 import {
   SITE_TITLE,
   SITE_DESCRIPTION,
@@ -9,7 +9,7 @@ import {
   SIM_WHITE_SECONDARY,
   SIM_GRAY,
   SIM_RED,
-} from "../config";
+} from '../config';
 
 export interface Props {
   title: string;
@@ -36,7 +36,7 @@ const hoverColor = SIM_RED;
     <slot />
     <Footer />
     <script>
-      import "../scripts/bootstrap.bundle.min.js";
+      import '../scripts/bootstrap.bundle.min.js';
     </script>
   </body>
 </html>

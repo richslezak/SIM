@@ -33,13 +33,13 @@
   </div>
 </form>
 <script>
-  const addToCartBtn = document?.getElementById("add-to-cart");
-  const vehicleSelect = document?.getElementById("vehicle-select");
+  const addToCartBtn = document?.getElementById('add-to-cart');
+  const vehicleSelect = document?.getElementById('vehicle-select');
   const addToCartEnabled = () => {
     if (addToCartBtn != null) {
       (addToCartBtn as HTMLButtonElement).disabled =
-        (vehicleSelect as HTMLSelectElement)?.value === "";
+        (vehicleSelect as HTMLSelectElement)?.value === '';
     }
   };
-  vehicleSelect?.addEventListener("change", addToCartEnabled);
+  vehicleSelect?.addEventListener('change', addToCartEnabled);
 </script>
