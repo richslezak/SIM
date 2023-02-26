@@ -1,0 +1,149 @@
+---
+import LinkCardExternal from '../components/LinkCardExternal.astro';
+import IconCaret from '../components/IconCaret.astro';
+import { SIM_RED } from '../config';
+
+import paintCorrection from '../images/cardone/paint-correction.jpg';
+import ceramicCoating from '../images/cardone/ceramic-coating.jpg';
+import paintProtectionFilm from '../images/cardone/paint-protection-film.jpg';
+import windowTint from '../images/cardone/window-tint.jpg';
+import carStorage from '../images/cardone/car-storage.jpg';
+import carRental from '../images/cardone/turo-rental.jpg';
+
+const headingTitle = SIM_RED;
+---
+
+<section id="cardone-services">
+  <h4>
+    Other services offered via our sister company <a
+      href="https://www.cardoneboston.com"
+      target="_blank"
+      class="link-effect"><span class="cardone">CarDone</span> Boston</a
+    >
+  </h4>
+  <div class="d-md-none!!!">
+    <ul class="list-unstyled">
+      <li>
+        <IconCaret class="caret" />
+        <a href="https://www.cardoneboston.com/services/#paint-correction">Paint Correction</a>
+      </li>
+
+      <li>
+        <IconCaret class="caret" />
+        <a href="https://www.cardoneboston.com/services/#ceramic-coatings">Ceramic Coatings</a>
+      </li>
+
+      <li>
+        <IconCaret class="caret" />
+        <a href="https://www.cardoneboston.com/services/#paint-protection-film"
+          ><span class="d-none d-sm-inline">Paint</span> Protection Film
+        </a>
+      </li>
+
+      <li>
+        <IconCaret class="caret" />
+        <a href="https://www.cardoneboston.com/services/#window-tinting">Window Tinting</a>
+      </li>
+
+      <li>
+        <IconCaret class="caret" />
+        <a href="https://www.cardoneboston.com/services/#seasonal-car-storage">Car Storage</a>
+      </li>
+
+      <li>
+        <IconCaret class="caret" />
+        <a href="https://www.cardoneboston.com/services/#turo-vehicle-rental"
+          ><span class="d-none d-sm-inline">Turo</span> Vehicle Rental
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- <div class="d-none d-md-block">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+      <div class="col d-flex align-items-stretch">
+        <LinkCardExternal
+          imgsrc={paintCorrection}
+          cardTitle="Paint Correction"
+          href="https://www.cardoneboston.com/services/#paint-correction"
+        />
+      </div>
+      <div class="col d-flex align-items-stretch">
+        <LinkCardExternal
+          imgsrc={ceramicCoating}
+          cardTitle="Ceramic Coatings"
+          href="https://www.cardoneboston.com/services/#ceramic-coatings"
+        />
+      </div>
+      <div class="col d-flex align-items-stretch">
+        <LinkCardExternal
+          imgsrc={paintProtectionFilm}
+          cardTitle="Paint Protection Film"
+          href="https://www.cardoneboston.com/services/#paint-protection-film"
+        />
+      </div>
+      <div class="col d-flex align-items-stretch">
+        <LinkCardExternal
+          imgsrc={windowTint}
+          cardTitle="Window Tinting"
+          href="https://www.cardoneboston.com/services/#window-tinting"
+        />
+      </div>
+      <div class="col d-flex align-items-stretch">
+        <LinkCardExternal
+          imgsrc={carStorage}
+          cardTitle="Car Storage"
+          href="https://www.cardoneboston.com/services/#seasonal-car-storage"
+        />
+      </div>
+      <div class="col d-flex align-items-stretch">
+        <LinkCardExternal
+          imgsrc={carRental}
+          cardTitle="Turo Vehicle Rental"
+          href="https://www.cardoneboston.com/services/#turo-vehicle-rental"
+        />
+      </div>
+    </div>
+  </div> -->
+</section>
+
+<style lang="scss" define:vars={{ headingTitle }}>
+  h3 {
+    border-bottom: 2px solid var(--headingTitle);
+    padding-bottom: 0.5rem;
+    + p {
+      margin-bottom: 2rem;
+    }
+  }
+
+  #cardone-services {
+    h4 {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    li {
+      margin-bottom: 1rem;
+      flex-basis: 50%;
+      .caret {
+        color: var(--headingTitle);
+        vertical-align: baseline;
+        display: none;
+      }
+    }
+  }
+
+  @media (min-width: 375px) {
+    #cardone-services li {
+      font-size: 1.2rem;
+      .caret {
+        display: inline;
+      }
+    }
+  }
+</style>

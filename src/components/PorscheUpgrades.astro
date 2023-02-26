@@ -1,0 +1,58 @@
+---
+import LinkCard from '../components/LinkCard.astro';
+import cupholder from '../images/installs/porscheCup/002.jpg';
+import subwoofer from '../images/installs/porscheSub/002.jpg';
+import speaker from '../images/installs/porscheSpeakerFix/007.jpg';
+import door from '../images/installs/porscheDoorFix/002.jpg';
+import { SIM_RED } from '../config';
+const headingTitle = SIM_RED;
+---
+
+<section>
+  <h3 class="display-6">Porsche Upgrades</h3>
+  <p class="lead">
+    We have a number of solutions for the Porsche 911, 964, 996, 997, Boxster, and Cayman, as seen
+    in Excellence Magazine.
+  </p>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+    <div class="col d-flex align-items-stretch">
+      <LinkCard
+        imgsrc={cupholder}
+        cardTitle="Cup Holder for Your Early Porsche Boxster or 996"
+        href="/products/porsche-cupholder"
+        ribbon
+      />
+    </div>
+    <div class="col d-flex align-items-stretch">
+      <LinkCard
+        imgsrc={subwoofer}
+        cardTitle="Subwoofer for Porsche 964, 996, 997, Boxster and Cayman"
+        href="/products/porsche-subwoofer"
+      />
+    </div>
+    <div class="col d-flex align-items-stretch">
+      <LinkCard
+        imgsrc={speaker}
+        cardTitle="Porsche 911 Speaker Fix"
+        href="/products/porsche-speaker-fix"
+      />
+    </div>
+    <div class="col d-flex align-items-stretch">
+      <LinkCard
+        imgsrc={door}
+        cardTitle="Porsche 911 Broken Door Pocket Fix"
+        href="/products/porsche-door-pocket-fix"
+      />
+    </div>
+  </div>
+</section>
+<style lang="scss" define:vars={{ headingTitle }}>
+  h3 {
+    border-bottom: 2px solid var(--headingTitle);
+    padding-bottom: 0.5rem;
+    + p {
+      margin-bottom: 2rem;
+    }
+  }
+</style>

@@ -26,7 +26,7 @@ const hoverColor = SIM_RED;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/svg+xml" href="/favicon-s.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon-sim.svg" />
     <meta name="description" content={SITE_DESCRIPTION} />
     <meta name="keywords" content={SITE_KEYWORDS} />
     <title>{title} - {SITE_TITLE}</title>
@@ -56,10 +56,19 @@ const hoverColor = SIM_RED;
     padding-bottom: 3rem;
   }
 
+  section {
+    margin-bottom: 5rem;
+  }
+
   a,
   a:hover {
     text-decoration: none;
     color: var(--fontColor);
+  }
+
+  .cardone {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
   }
 
   @media (min-width: 768px) {
