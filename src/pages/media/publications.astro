@@ -1,7 +1,10 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import MediaNav from '../../components/MediaNav.astro';
+import PublicationCover from '../../components/PublicationCover.astro';
+import data from '../../data/publications.json';
 const title = 'Publications';
+const { publication } = data;
 ---
 
 <Layout title={title}>
@@ -9,18 +12,54 @@ const title = 'Publications';
     <MediaNav />
     <div class="container">
       <h1 class="display-6">{title}</h1>
-      <p class="lead">
+      <p class="lead mb-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid ea. Omnis obcaecati
         inventore labore architecto molestiae! Dicta porro ut totam consequuntur dolorum consequatur
         facere minima illum saepe repellat quibusdam maiores voluptas quo ratione, tempore, sapiente
         exercitationem omnis itaque qui corporis dolor laboriosam fuga explicabo optio. Dolore
         aperiam rem necessitatibus.
       </p>
+      <section>
+        <div id="publications">
+          {
+            publication.map((item) => (
+              <div>
+                <PublicationCover url={item.imgSrc} description={item.title} />
+              </div>
+            ))
+          }
+        </div>
+      </section>
     </div>
   </main>
 </Layout>
 <style lang="scss">
   main {
     padding-top: 0;
+  }
+
+  #publications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    div {
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  @media (min-width: 576px) {
+    #publications div {
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    #publications {
+      justify-content: flex-start;
+      div {
+        flex-basis: 25%;
+        padding-bottom: 2.5rem;
+      }
+    }
   }
 </style>

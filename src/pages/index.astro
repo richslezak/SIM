@@ -119,15 +119,12 @@ const headingTitle = SIM_RED;
 
   #sim-services {
     ul {
-      display: flex;
-      flex-wrap: wrap;
       padding-left: 0;
       list-style: none;
     }
 
     li {
       margin-bottom: 1rem;
-      flex-basis: 50%;
       .caret {
         color: var(--headingTitle);
         vertical-align: baseline;
@@ -149,6 +146,23 @@ const headingTitle = SIM_RED;
     .logo-container {
       justify-content: flex-end;
       margin-bottom: -2rem;
+    }
+
+    #sim-services {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+      }
+
+      li {
+        margin-bottom: 1rem;
+        flex-basis: 50%;
+        .caret {
+          color: var(--headingTitle);
+          vertical-align: baseline;
+        }
+      }
     }
   }
 </style>
