@@ -80,14 +80,14 @@ const linkActiveColor = SIM_RED_SECONDARY;
   }
 
   .nav-link {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   .navbar-nav {
     height: 100vh;
     .nav-link {
       color: var(--navColor);
-      padding: 1.2rem 2rem 1.5rem;
+      padding: 0.7rem 2rem 1rem;
       border-top: 0.3rem solid transparent;
       &:hover {
         background-color: var(--linkActiveColor);
@@ -102,20 +102,20 @@ const linkActiveColor = SIM_RED_SECONDARY;
     border-radius: 0.25rem;
   }
 
-  @media (min-width: 768px) {
-    .navbar-brand img {
-      max-width: 150px;
-    }
-
-    .navbar-toggler {
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-  }
+  // @media (min-width: 768px) {
+  //   .navbar-toggler {
+  //     margin-top: 1.5rem;
+  //     margin-bottom: 1.5rem;
+  //   }
+  // }
 
   @media (min-width: 992px) {
     .navbar-nav {
       height: auto;
+    }
+
+    .navbar-brand img {
+      max-width: 120px;
     }
 
     .navbar-nav .nav-link.active,
