@@ -2,101 +2,159 @@
   "publication": [
     {
       "imgSrc": "/publications/A-List.gif",
-      "description": "2007 WBZ Voted SIM Boston's Best Car Stereo Installation Shop"
+      "name": "WBZ",
+      "description": "Boston's Best Car Stereo Installation Shop",
+      "date": "2007"
     },
     {
       "imgSrc": "/publications/award50.gif",
-      "description": "November 2005 Mobile Electronics awards SIM Top 50 Retailer"
+      "name": "Mobile Electronics",
+      "description": "SIM awarded Top 50 Retailer",
+      "date": "Nov 2005"
     },
     {
       "imgSrc": "/publications/award100.gif",
-      "description": "November 2005 Mobile Electronics awards SIM Top 100 Installer"
+      "name": "Mobile Electronics",
+      "description": "SIM awarded Top 100 Installer",
+      "date": "Nov 2005"
     },
     {
       "imgSrc": "/publications/bostonian.gif",
-      "description": "Sept/Oct 2005 The Improper Bostonian Article about SIM"
+      "name": "The Improper Bostonian",
+      "description": "Article about SIM",
+      "date": "Sept / Oct 2005"
     },
     {
       "imgSrc": "/publications/05-10.gif",
-      "description": "Oct / Nov 2005 Roadgear Ramirez's Escalade EXT"
+      "name": "Roadgear",
+      "description": "Mannie Ramirez's Escalade EXT",
+      "date": "Oct / Nov 2005"
     },
     {
       "imgSrc": "/publications/04-12.gif",
-      "description": "December 2004 Truckin's SUV '02 GMC Yukon"
+      "name": "Truckin's SUV",
+      "description": "'02 GMC Yukon",
+      "date": "Dec 2004"
     },
     {
       "imgSrc": "/publications/04-10.gif",
-      "description": "October 2004 Road & Track's SPEED Power Trio"
+      "name": "Road & Track's SPEED ",
+      "description": "Power Trio",
+      "date": "Oct 2004"
     },
     {
       "imgSrc": "/publications/04-08.gif",
-      "description": "August 2004 The Boston Globe Article about SIM"
+      "name": "The Boston Globe",
+      "description": "Article about SIM",
+      "date": "Aug 2004"
     },
-    { "imgSrc": "/publications/04-06.gif", "description": "June 2004 Tailgate '02 GMC Yukon" },
-    { "imgSrc": "/publications/04-05.gif", "description": "May 2004 Streettrucks '02 GMC Yukon" },
+    {
+      "imgSrc": "/publications/04-06.gif",
+      "name": "Tailgate",
+      "description": "'02 GMC Yukon",
+      "date": "Jun 2004"
+    },
+    {
+      "imgSrc": "/publications/04-05.gif",
+      "name": "Streettrucks",
+      "description": "'02 GMC Yukon",
+      "date": "May 2004"
+    },
     {
       "imgSrc": "/publications/04-01.gif",
-      "description": "December / January 2004 Mobile Entertainment '02 GMC Yukon"
+      "name": "Mobile Entertainment",
+      "description": "'02 GMC Yukon",
+      "date": "Dec / Jan 2004"
     },
     {
       "imgSrc": "/publications/02-04.gif",
-      "description": "April / May 2002 Mobile Entertainment Chevy Tahoe Feature Install"
+      "name": "Mobile Entertainment",
+      "description": "Chevy Tahoe Feature Install",
+      "date": "Apr / May 2002"
     },
     {
       "imgSrc": "/publications/01-09.gif",
-      "description": "September / October 2001 Japanese Performance SIM Supra"
+      "name": "Japanese Performance",
+      "description": "SIM Supra",
+      "date": "Sep / Oct 2001"
     },
     {
       "imgSrc": "/publications/01-04.gif",
-      "description": "April / May 2001 Mobile Entertainment Overhead Console Install"
+      "name": "Mobile Entertainment",
+      "description": "Overhead Console Install",
+      "date": "Apr / May 2001"
     },
     {
       "imgSrc": "/publications/01-02.gif",
-      "description": "Feb / March 2001 Mobile Entertainment BMW X5 Feature Install"
+      "name": "Mobile Entertainment",
+      "description": "BMW X5 Feature Install",
+      "date": "Feb / Mar 2001"
     },
     {
       "imgSrc": "/publications/01-03.gif",
-      "description": "March 2001 Car Audio & Electronics Mercedes C230 Feature Install"
+      "name": "Car Audio & Electronics",
+      "description": "Mercedes C230 Feature Install",
+      "date": "Mar 2001"
     },
     {
       "imgSrc": "/publications/00-08.gif",
-      "description": "August 2000 Car Stereo Review How To Make An Amp Rack"
+      "name": "Car Stereo Review",
+      "description": "How To Make An Amp Rack",
+      "date": "Aug 2000"
     },
     {
       "imgSrc": "/publications/00-02.gif",
-      "description": "February / March 2000 Car Stereo Review 1995 Toyota Avalon"
+      "name": "Car Stereo Review",
+      "description": "1995 Toyota Avalon",
+      "date": "Feb / Mar 2000"
     },
     {
       "imgSrc": "/publications/99-11.gif",
-      "description": "November 1999 Auto Sound & Security '98 VW M. Beetle & '93 Honda Civic"
+      "name": "Auto Sound & Security",
+      "description": "'98 VW M. Beetle & '93 Honda Civic",
+      "date": "Nov 1999"
     },
     {
       "imgSrc": "/publications/99-04.gif",
-      "description": "April 1999 Car Stereo Review MB Quart's '96 BMW 328i"
+      "name": "Car Stereo Review",
+      "description": "MB Quart's '96 BMW 328i",
+      "date": "Apr 1999"
     },
     {
       "imgSrc": "/publications/99-01.gif",
-      "description": "January 1999 Car Stereo Review SIM Supra"
+      "name": "Car Stereo Review",
+      "description": "SIM Supra",
+      "date": "Jan 1999"
     },
     {
       "imgSrc": "/publications/99-01-2.gif",
-      "description": "January 1999 Auto Sound & Security '98 Jeep Wrangler"
+      "name": "Auto Sound & Security",
+      "description": "'98 Jeep Wrangler",
+      "date": "Jan 1999"
     },
     {
       "imgSrc": "/publications/99-03.gif",
-      "description": "March 1999 Car Audio & Electronics '98 Mercedes ML320"
+      "name": "Car Audio & Electronics",
+      "description": "'98 Mercedes ML320",
+      "date": "Mar 1999"
     },
     {
       "imgSrc": "/publications/98-01.gif",
-      "description": "January 1998 Car Stereo Review '97 BMW M3"
+      "name": "Car Stereo Review",
+      "description": "'97 BMW M3",
+      "date": "Jan 1998"
     },
     {
       "imgSrc": "/publications/99-07.gif",
-      "description": "July 1998 The Boston Globe Article about SIM"
+      "name": "The Boston Globe",
+      "description": "Article about SIM",
+      "date": "Jul 1998"
     },
     {
       "imgSrc": "/publications/03-10.gif",
-      "description": "October 1993 Car Audio & Electronics SIM Supra"
+      "name": "Car Audio & Electronics",
+      "description": "SIM Supra",
+      "date": "Oct 1993"
     }
   ]
 }

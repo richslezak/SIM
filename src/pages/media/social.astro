@@ -9,12 +9,14 @@ const title = 'Social';
     <NavMedia />
     <div class="container fade-in">
       <h1 class="display-6">{title}</h1>
-      <p class="lead">
+      <p class="lead mb-5">
         To see what is currently going on at the shop, or read what people are saying about us,
         please follow us on Social Media, or check out our online reviews and testimonials. You can
-        also see our work extensively featured in magazines (link to publications) (back in the day
-        of print ;). And if you really want to go way back, check out our original website (link to
-        original website) from 20 years ago
+        also see our work extensively featured in various <a
+          href="/media/publications"
+          class="link-effect">magazines</a
+        >. And if you really want to go way back, check out our original website (link to original
+        website - pending for now) from 20 years ago
       </p>
       <section>
         <h4>
@@ -118,6 +120,10 @@ const title = 'Social';
   <style lang="scss">
     main {
       padding-top: 0;
+    }
+
+    a {
+      font-weight: 600;
     }
   </style>
 </Layout>

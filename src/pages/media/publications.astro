@@ -24,7 +24,12 @@ const { publication } = data;
           {
             publication.map((item) => (
               <div>
-                <PublicationCover url={item.imgSrc} description={item.description} />
+                <PublicationCover
+                  url={item.imgSrc}
+                  name={item.name}
+                  description={item.description}
+                  date={item.date}
+                />
               </div>
             ))
           }
@@ -41,18 +46,22 @@ const { publication } = data;
   #publications {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     div {
-      padding-bottom: 7rem;
+      padding-bottom: 4rem;
+      flex: 0 0 auto;
+      width: 100%;
     }
   }
 
   @media (min-width: 768px) {
-    #publications {
-      justify-content: flex-start;
-      div {
-        flex-basis: 50%;
-      }
+    #publications div {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    #publications div {
+      padding-bottom: 7rem;
     }
   }
 </style>
