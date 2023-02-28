@@ -2,189 +2,161 @@
   "audio": [
     {
       "linkText": "Alpine",
-      "linkUrl": "https://www.alpine-usa.com/",
-      "imgSrc": "../src/images/logos/alpine.svg"
+      "linkUrl": "https://www.alpine-usa.com/"
     },
     {
       "linkText": "Pioneer",
-      "linkUrl": "https://www.pioneerelectronics.com/PUSA/",
-      "imgSrc": "../src/images/logos/pioneer.png"
+      "linkUrl": "https://www.pioneerelectronics.com/PUSA/"
     },
     {
       "linkText": "Kenwood",
-      "linkUrl": "https://www.kenwood.com/usa/car/",
-      "imgSrc": "../src/images/logos/kenwood.gif"
-    },
-    {
-      "linkText": "JVC",
-      "linkUrl": "https://www.jvc.com/usa/car-entertainment/?_ga=2.207100694.40383646.1676918232-2102216934.1676918232",
-      "imgSrc": "../src/images/logos/jvc.svg"
+      "linkUrl": "https://www.kenwood.com/usa/car/"
     },
     {
       "linkText": "Mosconi",
-      "linkUrl": "https://mosconi-america.com/",
-      "imgSrc": "../src/images/logos/mosconi.png"
+      "linkUrl": "https://mosconi-america.com/"
     },
     {
       "linkText": "Sinfoni",
-      "linkUrl": "http://www.quartorigo.com/",
-      "imgSrc": "../src/images/logos/quartoringo.png"
+      "linkUrl": "http://www.quartorigo.com/"
     },
     {
-      "linkText": "Audi Development",
-      "linkUrl": "http://www.audiodevelopment.it/",
-      "imgSrc": "../src/images/logos/audiodev.png"
+      "linkText": "Audio Development",
+      "linkUrl": "http://www.audiodevelopment.it/"
     },
     {
       "linkText": "JL Audio",
-      "linkUrl": "https://www.jlaudio.com/",
-      "imgSrc": "../src/images/logos/jlaudio.png"
+      "linkUrl": "https://www.jlaudio.com/"
     },
     {
       "linkText": "Focal",
-      "linkUrl": "https://www.focal-america.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.focal-america.com/"
     },
     {
       "linkText": "Dynaudio",
-      "linkUrl": "https://dynaudio.com/car-audio",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://dynaudio.com/car-audio"
     },
     {
       "linkText": "MB Quart",
-      "linkUrl": "https://mbquart.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://mbquart.com/"
     },
     {
       "linkText": "Rockford Fosgate",
-      "linkUrl": "https://rockfordfosgate.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://rockfordfosgate.com/"
     },
     {
       "linkText": "Morel",
-      "linkUrl": "https://www.morelhifi.com/product-category/car-audio/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.morelhifi.com/product-category/car-audio/"
     },
     {
       "linkText": "Zapco",
-      "linkUrl": "https://www.zapco.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.zapco.com/"
     },
     {
       "linkText": "Audison",
-      "linkUrl": "https://audison.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://audison.com/"
+    },
+    {
+      "linkText": "Hertz",
+      "linkUrl": "https://hertz-audio.com/"
+    },
+    {
+      "linkText": "Helix / Brax / Match",
+      "linkUrl": "https://www.audiotec-fischer.de/en"
     },
     {
       "linkText": "Audio Control",
-      "linkUrl": "https://www.audiocontrol.com/car-audio/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.audiocontrol.com/car-audio/"
     }
   ],
   "radar": [
     {
       "linkText": "Radenso",
-      "linkUrl": "https://radenso.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://radenso.com/"
     },
     {
       "linkText": "AL Priority",
-      "linkUrl": "https://www.alpriorityusa.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.alpriorityusa.com/"
     },
     {
       "linkText": "Stinger",
-      "linkUrl": "https://us.stinger.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://us.stinger.com/"
     },
     {
       "linkText": "K40",
-      "linkUrl": "https://k40.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://k40.com/"
     },
     {
       "linkText": "Escort",
-      "linkUrl": "https://www.escortradar.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.escortradar.com/"
     }
   ],
   "other": [
     {
       "linkText": "BlackVue",
-      "linkUrl": "https://blackvue.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://blackvue.com/"
     },
     {
       "linkText": "Dynamat",
-      "linkUrl": "https://www.dynamat.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.dynamat.com/"
     },
     {
       "linkText": "Metra",
-      "linkUrl": "http://www.metraonline.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "http://www.metraonline.com/"
     },
     {
       "linkText": "NavTv",
-      "linkUrl": "https://navtv.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://navtv.com/"
     },
     {
-      "linkText": "Avin",
-      "linkUrl": "https://avinusa.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkText": "iDatalink Maestro",
+      "linkUrl": "https://www.idatalinkmaestro.com/en"
     },
     {
       "linkText": "Mobileye",
-      "linkUrl": "https://www.mobileye.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.mobileye.com/"
     },
     {
       "linkText": "Grom",
-      "linkUrl": "https://gromaudio.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://gromaudio.com/"
     },
     {
       "linkText": "Bimmer-Tech",
-      "linkUrl": "https://www.bimmer-tech.net/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.bimmer-tech.net/"
     },
     {
       "linkText": "Naviplus",
-      "linkUrl": "https://www.naviplus.com.au/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.naviplus.com.au/"
     },
     {
       "linkText": "AVIN",
-      "linkUrl": "https://avinusa.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://avinusa.com/"
+    },
+    {
+      "linkText": "PAC",
+      "linkUrl": "https://pac-audio.com/"
     },
     {
       "linkText": "RDVFL",
-      "linkUrl": "https://rdvfl.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://rdvfl.com/"
     }
   ],
   "security": [
     {
       "linkText": "Compustar",
-      "linkUrl": "https://www.compustar.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.compustar.com/"
     },
     {
       "linkText": "DEI / Viper",
-      "linkUrl": "https://www.viper.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.viper.com/"
     },
     {
       "linkText": "Eurostart",
-      "linkUrl": "https://www.eurostart.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.eurostart.com/"
     },
     {
       "linkText": "Mid City Engineering",
-      "linkUrl": "https://www.midcityengineering.com/",
-      "imgSrc": "../src/images/logos/"
+      "linkUrl": "https://www.midcityengineering.com/"
     }
   ]
 }
