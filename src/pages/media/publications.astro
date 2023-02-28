@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import MediaNav from '../../components/MediaNav.astro';
+import NavMedia from '../../components/NavMedia.astro';
 import PublicationCover from '../../components/PublicationCover.astro';
 import data from '../../data/publications.json';
 const title = 'Publications';
@@ -9,7 +9,7 @@ const { publication } = data;
 
 <Layout title={title}>
   <main>
-    <MediaNav />
+    <NavMedia />
     <div class="container fade-in">
       <h1 class="display-6">{title}</h1>
       <p class="lead mb-5">
