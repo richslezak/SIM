@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import ProductNav from '../../components/ProductNav.astro';
+import ProductNav from '../../components/PorscheNav.astro';
 import PorscheCupholderOrderForm from '../../components/PorscheCupholderOrderForm.astro';
 import ImgCard from '../../components/ImgCard.astro';
 import img001 from '../../images/installs/porscheCup/001.jpg';
@@ -12,7 +12,7 @@ const title = 'A Cup Holder for Your Early Porsche Boxster or 996';
 <Layout title={title}>
   <main>
     <ProductNav />
-    <div class="container">
+    <div class="container fade-in">
       <h1 class="display-6">{title}</h1>
       <p class="lead mb-5">
         I know, I know we shouldn't be distracted by our beverage while driving. But sometimes on
@@ -54,19 +54,6 @@ const title = 'A Cup Holder for Your Early Porsche Boxster or 996';
   </main>
 </Layout>
 <style lang="scss">
-  .container {
-    animation: fadeIn linear 0.3s;
-  }
-
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
   main {
     padding-top: 0;
   }

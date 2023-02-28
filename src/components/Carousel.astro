@@ -1,10 +1,3 @@
----
-import { SIM_WHITE, SIM_BLACK } from '../config';
-
-const borderColor = SIM_WHITE;
-const textColor = SIM_BLACK;
----
-
 <div
   id="homeCarousel"
   class="carousel slide carousel-fade"
@@ -156,7 +149,7 @@ const textColor = SIM_BLACK;
   </button>
 </div>
 
-<style lang="scss" define:vars={{ borderColor, textColor }}>
+<style lang="scss">
   .overlay {
     position: absolute;
     width: 100%;
@@ -167,7 +160,7 @@ const textColor = SIM_BLACK;
   }
 
   .carousel {
-    border-top: 0.3rem solid var(--borderColor);
+    border-top: 0.3rem solid var(--sim-white);
   }
 
   .carousel-control-prev,

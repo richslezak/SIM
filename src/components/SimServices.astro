@@ -1,0 +1,110 @@
+---
+import IconCaret from '../components/IconCaret.astro';
+---
+
+<ul class="list-unstyled">
+  <li>
+    <IconCaret class="caret" />
+    <a href="fullSystemInstalls.html">Upgraded and High Performance Car Audio Systems</a>
+  </li>
+
+  <li>
+    <IconCaret class="caret" />
+    <a href="installsDetail.html?id=0">Apple CarPlay & Android Auto Integration</a>
+  </li>
+
+  <li>
+    <IconCaret class="caret" />
+
+    <a href="installsDetail.html?id=4">Radar & Laser Detection and Defense Systems</a>
+  </li>
+
+  <li>
+    <IconCaret class="caret" />
+    <a href="/porsche/porsche-cupholder">Porsche Specific Upgrades & Fixes</a>
+  </li>
+
+  <li>
+    <IconCaret class="caret" />
+    <a href="installsDetail.html?id=5">Reverse, Front & 360 Birdseye View Cameras</a>
+  </li>
+
+  <li>
+    <IconCaret class="caret" />
+    Advanced DSP Tuning
+  </li>
+
+  <li>
+    <IconCaret class="caret" />
+    <a href="installsDetail.html?id=7">Sound Deadening</a>
+  </li>
+
+  <li>
+    <IconCaret class="caret" />
+    ADAS (Advanced Driver Assistance Systems)
+  </li>
+
+  <li>
+    <IconCaret class="caret" />
+    <a href="installsDetail.html?id=11">Remote Car Starters & Security Systems</a>
+  </li>
+  <!-- <a href="installsDetail.html?id=10">Vehicle Security Systems</a> car starters and security will be merged -->
+
+  <li>
+    <IconCaret class="caret" />
+    <a href="installsDetail.html?id=2">Satellite & HD Radio Integration</a>
+  </li>
+  <!-- <li><a href="installsDetail.html?id=8">HD Radio</a></li> HD radio and Satellite will be merged -->
+
+  <li>
+    <IconCaret class="caret" />
+    <a href="installsDetail.html?id=13">LED Lighting Upgrades</a>
+  </li>
+
+  <li>
+    <IconCaret class="caret" />
+    <a href="installsDetail.html?id=3">GPS Tracking and Fleet Management Systems</a>
+  </li>
+  <!-- <li><a href="installsDetail.html?id=12">GPS Tracking Systems</a></li> -->
+
+  <li>
+    <IconCaret class="caret" />
+    <a href="installsDetail.html?id=14">Custom Fabrication with Plastic, Wood, Metal etc.</a>
+  </li>
+</ul>
+<style lang="scss">
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 1rem;
+    .caret {
+      color: var(--sim-red);
+      vertical-align: baseline;
+      display: none;
+    }
+  }
+
+  @media (min-width: 375px) {
+    li {
+      font-size: 1.2rem;
+      .caret {
+        display: inline;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 1rem;
+      flex-basis: 50%;
+    }
+  }
+</style>

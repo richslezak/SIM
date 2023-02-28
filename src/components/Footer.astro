@@ -1,9 +1,5 @@
 ---
 const today = new Date();
-import { SIM_RED, SIM_GRAY_LT, SIM_WHITE } from '../config';
-const link = SIM_GRAY_LT;
-const linkHover = SIM_RED;
-const backgroundColor = SIM_WHITE;
 ---
 
 <footer class="mt-auto">
@@ -86,14 +82,14 @@ const backgroundColor = SIM_WHITE;
     </div>
   </div>
 </footer>
-<style lang="scss" define:vars={{ link, linkHover, backgroundColor }}>
+<style lang="scss">
   footer {
-    border-top: 1px solid var(--linkHover);
-    background-color: var(--backgroundColor);
+    border-top: 1px solid var(--sim-red);
+    background-color: var(--sim-white);
     a {
-      color: var(--link);
+      color: var(--sim-gray-lt);
       &:hover {
-        color: var(--linkHover);
+        color: var(--sim-red);
       }
     }
   }

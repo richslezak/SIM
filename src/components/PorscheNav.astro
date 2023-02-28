@@ -1,8 +1,5 @@
 ---
 import HeaderLink from './HeaderLink.astro';
-import { SIM_RED, SIM_BLACK } from '../config';
-const tabColor = SIM_BLACK;
-const tabColorActive = SIM_RED;
 ---
 
 <div class="container">
@@ -30,20 +27,20 @@ const tabColorActive = SIM_RED;
   </ul>
 </div>
 
-<style lang="scss" define:vars={{ tabColor, tabColorActive }}>
+<style lang="scss">
   .nav-link {
     font-weight: 600;
-    color: var(--tabColor);
+    color: var(--sim-black);
     &.active {
       background-color: transparent;
       border-radius: 0;
-      border-bottom: 0.3rem solid var(--tabColorActive);
-      color: var(--tabColorActive);
+      border-bottom: 0.3rem solid var(--sim-red);
+      color: var(--sim-red);
     }
   }
   .nav-link:focus,
   .nav-link:hover {
-    color: var(--tabColorActive);
+    color: var(--sim-red);
   }
 </style>
 

@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import ProductNav from '../../components/ProductNav.astro';
+import ProductNav from '../../components/PorscheNav.astro';
 import ImgCard from '../../components/ImgCard.astro';
 import img001 from '../../images/installs/porscheDoorFix/001.jpg';
 import img002 from '../../images/installs/porscheDoorFix/002.jpg';
@@ -12,7 +12,7 @@ const title = 'Porsche 911 Broken Door Pocket Fix';
 <Layout title={title}>
   <main>
     <ProductNav />
-    <div class="container">
+    <div class="container fade-in">
       <h1 class="display-6">{title}</h1>
       <p class="lead mb-5">
         Do you own a "Modern Classic" 911? Then chances are that there is a crack in the plastic of
@@ -51,19 +51,6 @@ const title = 'Porsche 911 Broken Door Pocket Fix';
   </main>
 </Layout>
 <style lang="scss">
-  .container {
-    animation: fadeIn linear 0.3s;
-  }
-
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
   main {
     padding-top: 0;
   }

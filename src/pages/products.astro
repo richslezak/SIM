@@ -2,16 +2,13 @@
 import Layout from '../layouts/Layout.astro';
 import ProductLinesItem from '../components/ProductLinesItem.astro';
 import data from '../data/product-lines.json';
-import { SIM_RED, SIM_GRAY_XLT } from '../config';
 const title = 'Product Lines';
 const { audio, radar, security, other } = data;
-const headingTitle = SIM_RED;
-const headingBorder = SIM_GRAY_XLT;
 ---
 
 <Layout title={title}>
   <main>
-    <div class="container">
+    <div class="container fade-in">
       <h1 class="display-6">{title}</h1>
       <p class="lead mb-5">
         Sound in Motion is an authorized dealer for most high-quality brand names at competitive
@@ -49,14 +46,10 @@ const headingBorder = SIM_GRAY_XLT;
     </div>
   </main>
 </Layout>
-<style lang="scss" define:vars={{ headingTitle, headingBorder }}>
-  .container {
-    animation: fadeIn linear 0.3s;
-  }
-
+<style lang="scss">
   h4 {
-    color: var(--headingTitle);
-    border-bottom: 1px solid var(--headingBorder);
+    color: var(--sim-red);
+    border-bottom: 1px solid var(--sim-gray-xlt);
     padding-bottom: 0.5rem;
     margin-bottom: 2rem;
   }
@@ -66,14 +59,5 @@ const headingBorder = SIM_GRAY_XLT;
     flex-wrap: wrap;
     padding-left: 0;
     list-style: none;
-  }
-
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
   }
 </style>

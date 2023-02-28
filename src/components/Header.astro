@@ -1,11 +1,6 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import logo from '../images/logos/sim-logo-white.svg';
-import { SIM_RED, SIM_RED_SECONDARY, SIM_WHITE } from '../config';
-
-const navBackgroundColor = SIM_RED;
-const navColor = SIM_WHITE;
-const linkActiveColor = SIM_RED_SECONDARY;
 ---
 
 <header>
@@ -40,7 +35,7 @@ const linkActiveColor = SIM_RED_SECONDARY;
             <HeaderLink href="/porsche/porsche-cupholder" id="nav-porsche">Porsche</HeaderLink>
           </li>
           <li class="nav-item">
-            <HeaderLink href="/product-lines">Product Lines</HeaderLink>
+            <HeaderLink href="/products">Product</HeaderLink>
           </li>
           <li class="nav-item">
             <HeaderLink href="/media/social" id="nav-media">Media</HeaderLink>
@@ -53,10 +48,10 @@ const linkActiveColor = SIM_RED_SECONDARY;
     </div>
   </nav>
 </header>
-<style lang="scss" define:vars={{ navBackgroundColor, navColor, linkActiveColor }}>
+<style lang="scss">
   .navbar {
     padding: 0;
-    background-color: var(--navBackgroundColor);
+    background-color: var(--sim-red);
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(0 0 0 / 15%);
   }
 
@@ -66,7 +61,7 @@ const linkActiveColor = SIM_RED_SECONDARY;
 
   .navbar-toggler {
     border: none;
-    color: var(--navColor);
+    color: var(--sim-white);
     margin-top: 0.6rem;
     margin-bottom: 0.6rem;
   }
@@ -83,19 +78,19 @@ const linkActiveColor = SIM_RED_SECONDARY;
   .navbar-nav {
     height: 100vh;
     .nav-link {
-      color: var(--navColor);
+      color: var(--sim-white);
       padding: 0.7rem 2rem 1rem;
       border-top: 0.3rem solid transparent;
       &:hover {
-        background-color: var(--linkActiveColor);
+        background-color: var(--sim-red-secondary);
       }
     }
   }
 
   .navbar-nav .nav-link.active,
   .navbar-nav .show > .nav-link {
-    color: var(--navColor);
-    background-color: var(--linkActiveColor);
+    color: var(--sim-white);
+    background-color: var(--sim-red-secondary);
     border-radius: 0.25rem;
   }
 
@@ -110,7 +105,7 @@ const linkActiveColor = SIM_RED_SECONDARY;
 
     .navbar-nav .nav-link.active,
     .navbar-nav .show > .nav-link {
-      border-top: 0.3rem solid var(--navColor);
+      border-top: 0.3rem solid var(--sim-white);
       background-color: transparent;
       border-radius: 0;
     }
@@ -122,6 +117,10 @@ const linkActiveColor = SIM_RED_SECONDARY;
   }
 
   @media (min-width: 1200px) {
+    .navbar-brand {
+      margin-right: 4rem;
+    }
+
     .navbar-expand-lg .navbar-nav .nav-link {
       padding-left: 2rem;
       padding-right: 2rem;

@@ -1,8 +1,5 @@
 ---
-import { SIM_BLACK } from '../config';
 import soundInMotionImg from '../images/logos/sound-in-motion.png';
-
-const textColor = SIM_BLACK;
 ---
 
 <div id="sim-logo">
@@ -15,7 +12,7 @@ const textColor = SIM_BLACK;
   <h4>Boston MA</h4>
 </div>
 
-<style lang="scss" define:vars={{ textColor }}>
+<style lang="scss">
   #sim-logo {
     width: 300px;
     h4 {
@@ -26,7 +23,7 @@ const textColor = SIM_BLACK;
       letter-spacing: -0.07rem;
       margin-top: 0.5rem;
       margin-bottom: 0;
-      color: var(--textColor);
+      color: var(--sim-black);
       + h4 {
         text-align: right;
         margin-right: 0.3rem;

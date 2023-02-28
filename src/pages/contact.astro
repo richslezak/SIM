@@ -1,15 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { SIM_RED, SIM_GRAY_XLT } from '../config';
-
 const title = 'Contact Us';
-const headingTitle = SIM_RED;
-const mapBackground = SIM_GRAY_XLT;
 ---
 
 <Layout title={title}>
   <main>
-    <div class="container">
+    <div class="container fade-in">
       <section>
         <div>
           <h1 class="display-6">{title}</h1>
@@ -110,7 +106,7 @@ const mapBackground = SIM_GRAY_XLT;
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
   </main>
-  <style lang="scss" define:vars={{ headingTitle, mapBackground }}>
+  <style lang="scss">
     main {
       padding-bottom: 0;
     }
@@ -128,7 +124,7 @@ const mapBackground = SIM_GRAY_XLT;
 
     svg {
       margin-bottom: 2rem;
-      color: var(--headingTitle);
+      color: var(--sim-red);
     }
 
     .featurette-divider {
@@ -138,7 +134,7 @@ const mapBackground = SIM_GRAY_XLT;
     .featurette-heading {
       font-weight: 300;
       line-height: 1;
-      color: var(--headingTitle);
+      color: var(--sim-red);
       letter-spacing: -0.05rem;
       font-size: 2.5rem;
     }
@@ -147,8 +143,8 @@ const mapBackground = SIM_GRAY_XLT;
       width: 100%;
       height: 750px;
       margin-bottom: -0.25rem;
-      border-top: 1px solid var(--mapBackground);
-      background-color: var(--mapBackground);
+      border-top: 1px solid var(--sim-gray-xlt);
+      background-color: var(--sim-gray-xlt);
     }
 
     @media (min-width: 1200px) {

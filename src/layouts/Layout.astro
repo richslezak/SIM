@@ -2,23 +2,13 @@
 import '../styles/bootstrap.min.css';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import {
-  SITE_TITLE,
-  SITE_DESCRIPTION,
-  SITE_KEYWORDS,
-  SIM_WHITE_SECONDARY,
-  SIM_GRAY,
-  SIM_RED,
-} from '../config';
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_KEYWORDS } from '../config';
 
 export interface Props {
   title: string;
 }
 
 const { title } = Astro.props;
-const bodyColor = SIM_WHITE_SECONDARY;
-const fontColor = SIM_GRAY;
-const hoverColor = SIM_RED;
 ---
 
 <!DOCTYPE html>
@@ -40,14 +30,26 @@ const hoverColor = SIM_RED;
     </script>
   </body>
 </html>
-<style lang="scss" is:global define:vars={{ bodyColor, fontColor, hoverColor }}>
+<style lang="scss" is:global>
+  :root {
+    --sim-red: #bd0000;
+    --sim-red-secondary: hsla(0, 0%, 100%, 0.3);
+    --sim-blue: #3d9ee3;
+    --sim-white: #fff;
+    --sim-white-secondary: #f6f6f6;
+    --sim-gray: #5a5a5a;
+    --sim-gray-lt: #6c757d;
+    --sim-gray-xlt: #dee2e6;
+    --sim-black: #333;
+  }
+
   html {
-    background-color: var(--bodyColor);
+    background-color: var(--sim-white-secondary);
   }
 
   body {
     padding-top: 3.5rem;
-    color: var(--fontColor);
+    color: var(--sim-gray);
     background-color: transparent;
   }
 
@@ -63,12 +65,25 @@ const hoverColor = SIM_RED;
   a,
   a:hover {
     text-decoration: none;
-    color: var(--fontColor);
+    color: var(--sim-gray);
   }
 
   .cardone {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
+  }
+
+  .fade-in {
+    animation: fadeIn linear 0.3s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   @media (min-width: 768px) {
@@ -82,19 +97,15 @@ const hoverColor = SIM_RED;
       padding-top: 3.9rem;
     }
 
-    .navbar-brand {
-      margin-right: 4rem;
-    }
-
     .link-effect {
-      box-shadow: inset 0 0 0 0 var(--hoverColor);
-      color: var(--fontColor);
+      box-shadow: inset 0 0 0 0 var(--sim-red);
+      color: var(--sim-gray);
       margin: 0 -0.225rem;
       padding: 0 0.225rem;
       border-radius: 0.25rem;
       transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
       &:hover {
-        box-shadow: inset 12rem 0 0 0 var(--hoverColor);
+        box-shadow: inset 12rem 0 0 0 var(--sim-red);
         color: white;
       }
     }

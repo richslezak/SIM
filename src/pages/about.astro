@@ -1,19 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { SIM_RED } from '../config';
-const title = 'About Us';
-const headingTitle = SIM_RED;
 import derek from '../images/team/Derek-Kenney.jpg';
 import jim from '../images/team/Jim-Cavanaugh.jpg';
 import fernando from '../images/team/Fernando-Ventura.jpg';
 import pat from '../images/team/Pat-Fennell.jpg';
 import coley from '../images/team/Coley-McGuire.jpg';
 import zach from '../images/team/Zach-Cohen.jpg';
+const title = 'About Us';
 ---
 
 <Layout title={title}>
   <main>
-    <div class="container">
+    <div class="container fade-in">
       <section>
         <div>
           <h1 class="display-6">{title}</h1>
@@ -62,14 +60,12 @@ import zach from '../images/team/Zach-Cohen.jpg';
           </p>
           <p class="lead">
             Sound in Motion is an authorized reseller for most of the high-quality brands at
-            competitive prices. Visit our <a class="link-effect" href="/products/product-lines"
-              >Products</a
-            > section for a substantial list of the primary brands we carry. All of our installations
-            are performed with the utmost care and highest quality of craftsmanship by trained and experienced
-            technicians. We offer a lifetime warranty on all of our work for as long as you own the vehicle
-            and equipment warranty as per the manufacturer. Please <a
-              class="link-effect"
-              href="tel:617-787-7744">Call Us</a
+            competitive prices. Visit our <a class="link-effect" href="/products">Products</a> section
+            for a substantial list of the primary brands we carry. All of our installations are performed
+            with the utmost care and highest quality of craftsmanship by trained and experienced technicians.
+            We offer a lifetime warranty on all of our work for as long as you own the vehicle and equipment
+            warranty as per the manufacturer. Please <a class="link-effect" href="tel:617-787-7744"
+              >Call Us</a
             > or <a class="link-effect" href="mailto:info@sound-in-motion">Email Us</a> or come <a
               class="link-effect"
               href="/contact#location-map">Visit</a
@@ -263,10 +259,10 @@ import zach from '../images/team/Zach-Cohen.jpg';
   </main>
 </Layout>
 
-<style lang="scss" define:vars={{ headingTitle }}>
+<style lang="scss">
   h3 {
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--headingTitle);
+    border-bottom: 2px solid var(--sim-red);
     margin-bottom: 5rem;
   }
 
@@ -277,7 +273,7 @@ import zach from '../images/team/Zach-Cohen.jpg';
   .featurette-heading {
     font-weight: 300;
     line-height: 1;
-    color: var(--headingTitle);
+    color: var(--sim-red);
     letter-spacing: -0.05rem;
     font-size: 2rem;
   }

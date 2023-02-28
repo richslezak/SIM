@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import ProductNav from '../../components/ProductNav.astro';
+import ProductNav from '../../components/PorscheNav.astro';
 import ImgCard from '../../components/ImgCard.astro';
 import img001 from '../../images/installs/porscheSpeakerFix/001.jpg';
 import img002 from '../../images/installs/porscheSpeakerFix/002.jpg';
@@ -16,7 +16,7 @@ const title = 'Porsche 911 Speaker Fix';
 <Layout title={title}>
   <main>
     <ProductNav />
-    <div class="container">
+    <div class="container fade-in">
       <h1 class="display-6">{title}</h1>
       <p class="lead mb-5">
         As these cars become more classic, the foam on the factory speakers deteriorates rendering
@@ -80,19 +80,6 @@ const title = 'Porsche 911 Speaker Fix';
   </main>
 </Layout>
 <style lang="scss">
-  .container {
-    animation: fadeIn linear 0.3s;
-  }
-
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
   main {
     padding-top: 0;
   }
