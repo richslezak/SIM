@@ -24,7 +24,7 @@ const { publication } = data;
           {
             publication.map((item) => (
               <div>
-                <PublicationCover url={item.imgSrc} description={item.title} />
+                <PublicationCover url={item.imgSrc} description={item.description} />
               </div>
             ))
           }
@@ -60,7 +60,7 @@ const { publication } = data;
     #publications {
       justify-content: flex-start;
       div {
-        flex-basis: 25%;
+        flex-basis: 50%;
         padding-bottom: 2.5rem;
       }
     }

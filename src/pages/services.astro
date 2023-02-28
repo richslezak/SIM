@@ -1,26 +1,21 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Carousel from '../components/Carousel.astro';
-import CardoneServices from '../components/CardoneServices.astro';
-import PorscheUpgrades from '../components/PorscheUpgrades.astro';
-import SimLogo from '../components/SimLogo.astro';
 import IconCaret from '../components/IconCaret.astro';
-import { SIM_RED, SIM_GRAY, SIM_WHITE } from '../config';
-
-const headingTitle = SIM_RED;
+const title = 'Services';
 ---
 
-<Layout title="Boston's Best Mobile Entertainment Design, Installation & Custom Fabrication Shops">
-  <main class="flex-shrink-0">
-    <Carousel />
+<Layout title={title}>
+  <main>
     <div class="container">
-      <section class="logo-container d-flex">
-        <SimLogo />
-      </section>
+      <h1 class="display-6">{title}</h1>
+      <p class="lead">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid ea. Omnis obcaecati
+        inventore labore architecto molestiae! Dicta porro ut totam consequuntur dolorum consequatur
+        facere minima illum saepe repellat quibusdam maiores voluptas quo ratione, tempore, sapiente
+        exercitationem omnis itaque qui corporis dolor laboriosam fuga explicabo optio. Dolore
+        aperiam rem necessitatibus.
+      </p>
       <section id="sim-services">
-        <h3 class="display-6">What We Offer</h3>
-        <p class="lead">Consultation, Design, Sales and Installation of the following:</p>
-
         <ul class="list-unstyled">
           <li>
             <IconCaret class="caret" />
@@ -93,30 +88,11 @@ const headingTitle = SIM_RED;
           </li>
         </ul>
       </section>
-      <CardoneServices />
-      <PorscheUpgrades />
     </div>
   </main>
 </Layout>
 
-<style lang="scss" define:vars={{ headingTitle }}>
-  main {
-    padding-top: 0;
-  }
-
-  h3 {
-    border-bottom: 2px solid var(--headingTitle);
-    padding-bottom: 0.5rem;
-    + p {
-      margin-bottom: 2rem;
-    }
-  }
-
-  .logo-container {
-    justify-content: center;
-    padding-top: 1rem;
-  }
-
+<style lang="scss">
   #sim-services {
     ul {
       padding-left: 0;

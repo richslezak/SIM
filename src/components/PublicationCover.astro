@@ -2,9 +2,16 @@
 const { url, description } = Astro.props;
 ---
 
-<img src={url} alt={description} />
-
-<!-- <div>
+<div>
   <img src={url} alt={description} />
   <h5>{description}</h5>
-</div> -->
+</div>
+<style lang="scss">
+  div {
+    display: flex;
+    align-items: center;
+    h5 {
+      padding-left: 2rem;
+    }
+  }
+</style>
