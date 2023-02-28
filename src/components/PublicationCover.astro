@@ -8,10 +8,27 @@ const { url, description } = Astro.props;
 </div>
 <style lang="scss">
   div {
-    display: flex;
-    align-items: center;
+    text-align: center;
     h5 {
-      padding-left: 2rem;
+      margin: 2rem 2rem 0;
+    }
+  }
+
+  @media (min-width: 992px) {
+    div {
+      display: flex;
+      align-items: center;
+      text-align: left;
+      max-width: 100%;
+      h5 {
+        margin: 0 4rem 0 2rem;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    h5 {
+      margin: 0 8rem 0 2rem;
     }
   }
 </style>
