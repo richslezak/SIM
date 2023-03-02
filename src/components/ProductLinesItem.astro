@@ -5,7 +5,6 @@ const { item } = Astro.props;
 <li>
   <a class="link-effect" href={item.linkUrl} target="_blank">
     {item.linkText}
-    <!-- {item.imgSrc && <img src={item.imgSrc} alt={item.linkText} />} -->
   </a>
 </li>
 
@@ -13,7 +12,7 @@ const { item } = Astro.props;
   li {
     margin-bottom: 1rem;
     font-size: 1.2rem;
-    flex-basis: 50%;
+    flex-basis: 100%;
   }
 
   img {
@@ -24,6 +23,12 @@ const { item } = Astro.props;
   a.link-effect {
     padding-top: 0.225rem;
     padding-bottom: 0.225rem;
+  }
+
+  @media (min-width: 420px) {
+    li {
+      flex-basis: 50%;
+    }
   }
 
   @media (min-width: 1200px) {
