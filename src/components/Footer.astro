@@ -100,7 +100,7 @@ const today = new Date();
       </div>
     </section>
     <section id="nav-footer">
-      <div class="row row-cols-1 row-cols-lg-2 mt-5">
+      <div class="row row-cols-1 row-cols-lg-2">
         <div class="col">
           <ul class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Home</a></li>
@@ -208,17 +208,16 @@ const today = new Date();
   }
 
   #nav-footer {
+    margin-top: 2rem;
     .col {
       display: flex;
-      &:last-child {
-        margin-bottom: 0;
-      }
     }
     ul {
       margin: 0 auto;
     }
     li {
       font-size: 0.8rem;
+      margin-bottom: 0;
     }
     .breadcrumb-item {
       & + .breadcrumb-item {
@@ -266,6 +265,7 @@ const today = new Date();
     }
 
     #nav-footer {
+      margin-top: 3rem;
       ul {
         margin: 0;
       }

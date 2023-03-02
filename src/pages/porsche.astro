@@ -1,0 +1,330 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NavPorsche from '../components/NavPorsche.astro';
+import PorscheCupholderOrderForm from '../components/PorscheCupholderOrderForm.astro';
+import ImgCard from '../components/ImgCard.astro';
+import cup001 from '../images/installs/porscheCup/001.jpg';
+import cup002 from '../images/installs/porscheCup/002.jpg';
+import cup003 from '../images/installs/porscheCup/003.jpg';
+import sub001 from '../images/installs/porscheSub/001.jpg';
+import sub002 from '../images/installs/porscheSub/002.jpg';
+import sub003 from '../images/installs/porscheSub/003.jpg';
+import sub004 from '../images/installs/porscheSub/004.jpg';
+import sub005 from '../images/installs/porscheSub/005.jpg';
+import spk001 from '../images/installs/porscheSpeakerFix/001.jpg';
+import spk002 from '../images/installs/porscheSpeakerFix/002.jpg';
+import spk003 from '../images/installs/porscheSpeakerFix/003.jpg';
+import spk004 from '../images/installs/porscheSpeakerFix/004.jpg';
+import spk005 from '../images/installs/porscheSpeakerFix/005.jpg';
+import spk006 from '../images/installs/porscheSpeakerFix/006.jpg';
+import spk007 from '../images/installs/porscheSpeakerFix/007.jpg';
+import spk008 from '../images/installs/porscheSpeakerFix/008.jpg';
+import door001 from '../images/installs/porscheDoorFix/001.jpg';
+import door002 from '../images/installs/porscheDoorFix/002.jpg';
+import door003 from '../images/installs/porscheDoorFix/003.jpg';
+import door004 from '../images/installs/porscheDoorFix/004.jpg';
+const title = '';
+---
+
+<Layout title={title}>
+  <div id="sub-nav">
+    <div class="container">
+      <nav id="porsche-nav">
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#cup-holder" class="nav-link"
+              ><span class="d-none d-lg-inline">Porsche</span> Cup Holder</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#subwoofer" class="nav-link"
+              ><span class="d-none d-lg-inline">Porsche</span> Subwoofer</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#speaker-fix" class="nav-link"
+              ><span class="d-none d-lg-inline">Porsche</span> Speaker Fix</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#door-pocket-fix" class="nav-link"
+              ><span class="d-none d-lg-inline">Porsche</span> Door Fix</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <main
+    data-bs-spy="scroll"
+    data-bs-target="#porsche-nav"
+    data-bs-offset="80"
+    data-bs-root-margin="40px 40px -80%"
+  >
+    <section id="cup-holder">
+      <div class="container fade-in">
+        <h1 class="display-6">A Cup Holder for Your Early Porsche Boxster or 996</h1>
+        <p class="lead mb-5">
+          I know, I know we shouldn't be distracted by our beverage while driving. But sometimes on
+          that long cruise or distant trek to the track, don't you wish you had a place to put your
+          drink? This was inspired by our customers request for the early models that didn't offer a
+          factory cup holder. We made a few and the response was phenomenal. Constructed out of 6mm
+          (¼") ABS plastic and contoured to the perfect angle with a 73mm (2 ⅞") opening, it slides
+          in securely between the lower and upper console.
+        </p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col d-flex align-items-stretch">
+            <ImgCard imgsrc={cup001} description="Before the cup holder is installed" />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={cup002}
+              description="Just slide the cup holder in, or out if you don't want to use it."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={cup003}
+              description="Done! It even fills in the unpleasant gap between the two consoles."
+            />
+          </div>
+        </div>
+
+        <div class="my-5">
+          <h4>Buy Now - $59.99</h4>
+          <PorscheCupholderOrderForm />
+        </div>
+        <p>
+          * For Right Hand Drive Vehicles and International Shipping, please <strong
+            ><a class="link-effect" href="mailto:info@sound-in-motion">contact us</a>
+          </strong> directly
+        </p>
+      </div>
+    </section>
+    <section id="subwoofer">
+      <div class="container fade-in">
+        <h1 class="display-6">A Subwoofer for Porsche 964, 996, 997, Boxster and Cayman</h1>
+        <p class="lead mb-5">
+          We have tried many different approaches to getting clean tight bass into these cars
+          without compromising esthetics or functionality. This subwoofer enclosure sits in the
+          passenger footwell perfectly and features a 10" Diamond Audio driver that handles 150
+          Watts RMS. The sound is rich, deep and clean. Even in convertibles, for which we
+          originally designed it. The carpet is either standard or Porsche factory carpet and the
+          match is usually perfect or very close, though we can't guarantee it. Note: Will not work
+          with factory BOSE subwoofer mounted to the side of the console.
+        </p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={sub001}
+              description="At only 4 ½” deep it leaves plenty of space for even long legged passengers. It sits equal to where your feet would be positioned on the driver's side pedals."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={sub002}
+              description="The back is finished, wired and ready for an amplifier. Note: A separate amplifier, wiring and installation is required."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard imgsrc={sub003} description="No one will ever know, until you turn it on." />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={sub004}
+              description="Due to the limited space in the 964 foot well we placed this one in front of the passenger seat."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={sub005}
+              description="Same idea as our more popular 996 / 997 / Boxster box. A down-firing Diamond Audio 10” Sub."
+            />
+          </div>
+        </div>
+
+        <div class="my-5">
+          <h4>
+            Give us a <a href="tel:617-787-7744" class="link-effect">call</a> to Purchase the subwoofer
+            with either standard or factory carpet.
+          </h4>
+          <p><a href="tel:617-787-7744" class="link-effect">617-787-7744</a></p>
+        </div>
+      </div>
+    </section>
+    <section id="speaker-fix">
+      <div class="container fade-in">
+        <h1 class="display-6">Porsche 911 Speaker Fix</h1>
+        <p class="lead mb-5">
+          As these cars become more classic, the foam on the factory speakers deteriorates rendering
+          them useless. For the front speakers we usually upgrade from the original 5¼" to a 6½"
+          woofer and a better tweeter in the stock location. For the rear we sell a custom mounting
+          plate that will accommodate a 4" coaxial speaker as well as the stock grille for that
+          original look.
+        </p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={spk001}
+              description="Even on this low mileage car the foam surround on the original speakers just disintegrated over time."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={spk002}
+              description="The hole on the door panel gets opened up to accommodate the larger woofer, but no metal is cut on the door itself."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={spk003}
+              description="An ABS spacer ring is used to compensate for the uneven door skin. The speaker will be mounted to the metal and needs to sit flat."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={spk004}
+              description="We always recommend the sound deadening. The original plastic vapor barrier is replaced with Dynamat Extreeme and some is also installed on the outer door skin."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={spk005}
+              description="The result, a clean original look, with a huge improvement in sound."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={spk006}
+              description="The rear factory speaker is part of the mounting plate that holds the original rectangular grille. And there are no good 4x6” replacement speakers with this grille shape."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={spk007}
+              description="So what we came up with is a custom mounting plate, that allows us to use the original grille while utelizing a high quality 4” co-axial midrange and tweeter. No modification to the rear deck is necessary."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={spk008}
+              description="Again, a clean original look, with a huge improvement in sound."
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="door-pocket-fix">
+      <div class="container fade-in">
+        <h1 class="display-6">Porsche 911 Broken Door Pocket Fix</h1>
+        <p class="lead mb-5">
+          Do you own a "Modern Classic" 911? Then chances are that there is a crack in the plastic
+          of your door pocket. This was a bad design from the factory and if this annoys you, we
+          have a fix for it. You can either bring the car to our shop in Boston, or remove the six
+          screws (don't lose the countersunk washers stuck to the carpet) and send the pockets to
+          us. We clean and reseal the original plastic, and then add a reinforcement piece behind it
+          plus supply a new longer screw and countersunk washer. We have been doing this fix for
+          over ten years and it holds up great.
+        </p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={door001}
+              description="A very common problem, the plastic cracks around the mounting screw. This one is not too bad but eventually the whole pocket will hang off."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={door002}
+              description="The original plastic is sealed back together and reinforcement added along with a new longer screw and countersunk washer."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard
+              imgsrc={door003}
+              description="Here is an example with the broken pocket removed from the car."
+            />
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <ImgCard imgsrc={door004} description="The fixed pocket prior to reinstallation." />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+<style lang="scss">
+  main {
+    padding-top: 0;
+  }
+
+  section {
+    padding-top: 10rem;
+  }
+
+  #navbar-example2 {
+    position: fixed;
+    top: 4rem;
+    width: 100%;
+  }
+
+  #sub-nav {
+    position: fixed;
+    top: 3.5rem;
+    right: 0;
+    left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--sim-white-secondary);
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    z-index: 5;
+    .nav-link {
+      font-weight: 600;
+      color: var(--sim-gray);
+      border-bottom: 0.3rem solid transparent;
+      padding: 0.25rem;
+      &.active {
+        background-color: transparent;
+        border-radius: 0;
+        border-bottom: 0.3rem solid var(--sim-red);
+        color: var(--sim-red);
+      }
+    }
+    .nav-link:focus,
+    .nav-link:hover {
+      color: var(--sim-red);
+    }
+  }
+
+  @media (min-width: 420px) {
+    #sub-nav {
+      .nav-link {
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  @media (min-width: 500px) {
+    #sub-nav {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      .nav-link {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    #sub-nav {
+      top: 3.9rem;
+    }
+
+    section {
+      padding-top: 12rem;
+    }
+  }
+</style>
