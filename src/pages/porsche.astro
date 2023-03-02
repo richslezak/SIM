@@ -1,6 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import NavPorsche from '../components/NavPorsche.astro';
 import PorscheCupholderOrderForm from '../components/PorscheCupholderOrderForm.astro';
 import ImgCard from '../components/ImgCard.astro';
 import cup001 from '../images/installs/porscheCup/001.jpg';
@@ -55,14 +54,9 @@ const title = 'Porsche';
       </nav>
     </div>
   </div>
-  <main
-    data-bs-spy="scroll"
-    data-bs-target="#porsche-nav"
-    data-bs-offset="80"
-    data-bs-root-margin="40px 40px -80%"
-  >
-    <section id="cup-holder">
-      <div class="container fade-in">
+  <main>
+    <div class="container fade-in" data-bs-spy="scroll" data-bs-target="#porsche-nav">
+      <section id="cup-holder">
         <h1 class="display-6">A Cup Holder for Your Early Porsche Boxster or 996</h1>
         <p class="lead mb-5">
           I know, I know we shouldn't be distracted by our beverage while driving. But sometimes on
@@ -72,7 +66,6 @@ const title = 'Porsche';
           (¼") ABS plastic and contoured to the perfect angle with a 73mm (2 ⅞") opening, it slides
           in securely between the lower and upper console.
         </p>
-
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col d-flex align-items-stretch">
             <ImgCard imgsrc={cup001} description="Before the cup holder is installed" />
@@ -90,7 +83,6 @@ const title = 'Porsche';
             />
           </div>
         </div>
-
         <div class="my-5">
           <h4>Buy Now - $59.99</h4>
           <PorscheCupholderOrderForm />
@@ -100,10 +92,9 @@ const title = 'Porsche';
             ><a class="link-effect" href="mailto:info@sound-in-motion">contact us</a>
           </strong> directly
         </p>
-      </div>
-    </section>
-    <section id="subwoofer">
-      <div class="container fade-in">
+      </section>
+      <hr class="featurette-divider" />
+      <section id="subwoofer">
         <h1 class="display-6">A Subwoofer for Porsche 964, 996, 997, Boxster and Cayman</h1>
         <p class="lead mb-5">
           We have tried many different approaches to getting clean tight bass into these cars
@@ -144,7 +135,6 @@ const title = 'Porsche';
             />
           </div>
         </div>
-
         <div class="my-5">
           <h4>
             Give us a <a href="tel:617-787-7744" class="link-effect">call</a> to Purchase the subwoofer
@@ -152,10 +142,9 @@ const title = 'Porsche';
           </h4>
           <p><a href="tel:617-787-7744" class="link-effect">617-787-7744</a></p>
         </div>
-      </div>
-    </section>
-    <section id="speaker-fix">
-      <div class="container fade-in">
+      </section>
+      <hr class="featurette-divider" />
+      <section id="speaker-fix">
         <h1 class="display-6">Porsche 911 Speaker Fix</h1>
         <p class="lead mb-5">
           As these cars become more classic, the foam on the factory speakers deteriorates rendering
@@ -164,7 +153,6 @@ const title = 'Porsche';
           plate that will accommodate a 4" coaxial speaker as well as the stock grille for that
           original look.
         </p>
-
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col d-flex align-items-stretch">
             <ImgCard
@@ -215,10 +203,9 @@ const title = 'Porsche';
             />
           </div>
         </div>
-      </div>
-    </section>
-    <section id="door-pocket-fix">
-      <div class="container fade-in">
+      </section>
+      <hr class="featurette-divider" />
+      <section id="door-pocket-fix">
         <h1 class="display-6">Porsche 911 Broken Door Pocket Fix</h1>
         <p class="lead mb-5">
           Do you own a "Modern Classic" 911? Then chances are that there is a crack in the plastic
@@ -229,7 +216,6 @@ const title = 'Porsche';
           plus supply a new longer screw and countersunk washer. We have been doing this fix for
           over ten years and it holds up great.
         </p>
-
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col d-flex align-items-stretch">
             <ImgCard
@@ -253,8 +239,8 @@ const title = 'Porsche';
             <ImgCard imgsrc={door004} description="The fixed pocket prior to reinstallation." />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
 </Layout>
 <style lang="scss">
