@@ -4,7 +4,7 @@ const today = new Date();
 
 <footer class="mt-auto">
   <div class="container position-relative pt-5">
-    <a id="link-top" href="#">
+    <a id="link-to-top" href="#">
       Top
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +190,8 @@ const today = new Date();
     li {
       margin-bottom: 1rem;
       font-size: 0.9rem;
-      + li {
+      font-weight: 500;
+      & + li {
         margin-bottom: 0;
       }
     }
@@ -199,9 +200,9 @@ const today = new Date();
     }
   }
 
-  #link-top {
+  #link-to-top {
     position: absolute;
-    top: 1.5rem;
+    top: 3rem;
     right: 1.5rem;
     display: inline-block;
   }
@@ -217,10 +218,16 @@ const today = new Date();
       margin: 0 auto;
     }
     li {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
-    .breadcrumb-item + .breadcrumb-item::before {
-      content: '|';
+    .breadcrumb-item {
+      & + .breadcrumb-item {
+        padding-left: 0.3rem;
+        &::before {
+          content: '|';
+          padding-right: 0.3rem;
+        }
+      }
     }
   }
 
@@ -234,6 +241,22 @@ const today = new Date();
   @media (min-width: 400px) {
     footer li {
       font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 475px) {
+    #nav-footer {
+      li {
+        font-size: 1rem;
+      }
+      .breadcrumb-item {
+        & + .breadcrumb-item {
+          padding-left: 0.5rem;
+          &::before {
+            padding-right: 0.5rem;
+          }
+        }
+      }
     }
   }
 
