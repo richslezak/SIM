@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import installData from '../data/full-system-installs.json';
 import InstalIItem from '../components/InstalIItem.astro';
-const { install } = installData;
+const { installs } = installData;
 const title = 'Upgraded and High Performance Car Audio Systems';
 ---
 
@@ -18,7 +18,7 @@ const title = 'Upgraded and High Performance Car Audio Systems';
       </p>
       <div id="installs">
         {
-          install.map((item) => (
+          installs.map((item) => (
             <InstalIItem
               url={item.linkUrl}
               src={item.imgSrc}

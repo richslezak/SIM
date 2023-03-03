@@ -4,7 +4,7 @@ import NavMedia from '../../components/NavMedia.astro';
 import PublicationCover from '../../components/PublicationCover.astro';
 import data from '../../data/publications.json';
 const title = 'Publications';
-const { publication } = data;
+const { publications } = data;
 ---
 
 <Layout title={title}>
@@ -22,7 +22,7 @@ const { publication } = data;
       <section>
         <div id="publications">
           {
-            publication.map((item) => (
+            publications.map((item) => (
               <div>
                 <PublicationCover
                   url={item.imgSrc}

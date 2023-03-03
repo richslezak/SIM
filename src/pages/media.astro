@@ -2,10 +2,10 @@
 import Layout from '../layouts/Layout.astro';
 import PublicationCover from '../components/PublicationCover.astro';
 import publicationData from '../data/publications.json';
-const { publication } = publicationData;
+const { publications } = publicationData;
 import Testimonial from '../components/Testimonial.astro';
 import testimonialData from '../data/testimonals.json';
-const { testimonial } = testimonialData;
+const { testimonials } = testimonialData;
 const title = 'Media';
 ---
 
@@ -196,7 +196,7 @@ const title = 'Media';
         </p>
         <ul class="list-unstyled">
           {
-            testimonial.map((item) => (
+            testimonials.map((item) => (
               <li class="mt-5">
                 <Testimonial item={item} />
               </li>
@@ -216,7 +216,7 @@ const title = 'Media';
         </p>
         <div id="publications-list">
           {
-            publication.map((item) => (
+            publications.map((item) => (
               <div>
                 <PublicationCover
                   url={item.imgSrc}
