@@ -1,5 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import installData from '../data/full-system-installs.json';
+import InstalIItem from '../components/InstalIItem.astro';
+const { install } = installData;
 const title = 'Upgraded and High Performance Car Audio Systems';
 ---
 
@@ -7,12 +10,25 @@ const title = 'Upgraded and High Performance Car Audio Systems';
   <main>
     <div class="container fade-in">
       <h1 class="display-6">{title}</h1>
-      <p class="lead">
+      <p class="lead mb-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptates fuga
         molestiae illo expedita facere recusandae nostrum, rem saepe in ad. Sint deserunt, sed et
         possimus odit qui, iste commodi quam beatae vero quis fugit. At expedita aut inventore quas
         soluta error cum, velit ipsum consectetur doloribus, voluptatum perferendis eaque.
       </p>
+      <div id="installs">
+        {
+          install.map((item) => (
+            <InstalIItem
+              url={item.linkUrl}
+              src={item.imgSrc}
+              name={item.linkText}
+              description={item.description}
+              date={item.date}
+            />
+          ))
+        }
+      </div>
     </div>
   </main>
   <style lang="scss"></style>
