@@ -194,9 +194,15 @@ const title = 'Media';
           Chambers Porsche / BMW / Toyota, Novint Technologies, Mercedes of Westwood, Chambers
           Motorcars, Rockingham Scion and many more. See what they have to say about us.
         </p>
-        <div>
-          {testimonial.map((item) => <Testimonial item={item} />)}
-        </div>
+        <ul class="list-unstyled">
+          {
+            testimonial.map((item) => (
+              <li class="mt-5">
+                <Testimonial item={item} />
+              </li>
+            ))
+          }
+        </ul>
       </section>
       <hr class="featurette-divider" />
       <section id="publications">
