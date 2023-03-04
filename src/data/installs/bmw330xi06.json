@@ -1,83 +1,64 @@
 {
-    "id": "2006BMW330xi",
-    "install_title": "2006 BMW 330xi (Install July 06)",
-    "icon_url": "img/installIcons/bmw330xi06_install.jpg",
-    "install_description": "",
-    "photos": [
-        {
-            "photo_url": "img/installFull/bmw330xi06/001.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/001.jpg",
-            "description": "The E90 &#40;new 3 series&#41; poses the same challenges for an audio upgrade as the 5, 6 and 7 series. Take a look at how we conquered some of the issues with a well designed and tasteful install." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/002.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/002.jpg",
-            "description": "With its all-wheel drive, sexy styling and wide array of gadgets, this car is pretty well equipped... unless you value good sound. Granted the premium Harman Kardon system is not the worst system we ever heard, but let's face it, BMW builds &quot;Driving Machines&quot;." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/003.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/003.jpg",
-            "description": "Because of its clever integration of electronics gadgets, like the iDrive, navigation and satellite radio, we kept the factory radio as the primary audio source." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/004.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/004.jpg",
-            "description": "First we analyzed the factory layout and took all necessary measurements for each driver and amplifier channel. As with all newer BMWs we found this to be an active and equalized system. This was no surprise, nothing a little readjustment can't fix." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/005.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/005.jpg",
-            "description": "The original front stage consisted of 4&quot; separates in the doors, an 8&quot; subwoofer under each seat and a center channel." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/006.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/006.jpg",
-            "description": "Due to the small mounting area and the fact that we did not want to alter the factory grille in the door, we opted for the Focal K2 Power. This 100mm driver with its neodymium magnet performed unbelievable. The tweeter was mounted in the factory &quot;sail panel&quot; location as well." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/007.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/007.jpg",
-            "description": "The Focal passive crossovers were mounted in the door as well. We used twisted 16ga wire wrapped in &#188;&quot; cloth tape &#40;just like BMW&#41; for a factory look and ultimate noise rejection." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/008.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/008.jpg",
-            "description": "Under each seat we built a custom vented enclosure out of &#189;&quot; MDF with a 1&quot; baffle to accommodate the new 9&quot; Morel Elite subwoofer. We used Dynamat sound deadening and carpet to make sure there are no rattles or buzzes. This gave great mid-bass performance up front." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/009.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/009.jpg",
-            "description": "In the trunk we ditched the factory look for a highlighted show piece. The left and right panels where recovered in charcoal Ultrasuede. So where the new amp rack, sub box, trunk lid, rear deck and headliner." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/010.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/010.jpg",
-            "description": "Electric blue neon and frosted Plexiglas accent the Zapco digital reference amplifiers. We chose these amps because of their efficient performance and built in DSP. A tumble fan cools the amps from underneath." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/011.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/011.jpg",
-            "description": "The original storage bin is now home to a JL Audio 10W6V2 subwoofer in a .65 cu ft sealed enclosure that takes care of the real low bass. A smaller storage bin was retained on the left. And in case you are wondering, these cars don't come with spare tires." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/012.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/012.jpg",
-            "description": "The heart of the factory integration is this Audio Control LC8, a high quality signal summing device that allows us to combine factory high-level channels, so we can later manipulate them to our liking. We are also using a remote sub level control." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/013.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/013.jpg",
-            "description": "Once all the data is gathered and all the amps and speakers are installed, it is time to tune the new system. This is done with a laptop via a USB port on the Zapco digital reference amplifiers. Our main objective is to counter EQ the factory system for a flat / linear response, but we also control all the crossovers, gains and even time delay." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/014.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/014.jpg",
-            "description": "Speed protection without detection is always a must! Here we got real clever and modified the original cigarette lighter to hold the K-40 control knob. The illuminated ring around it will glow orange for City mode and green for Hwy mode." 
-        },
-        {
-            "photo_url": "img/installFull/bmw330xi06/015.jpg",
-            "thumb_url": "img/installThumbs/bmw330xi06/015.jpg",
-            "description": "The red K-40 warning LED's were added to the original green blinker / hazard lights. So when they blink green it's just your indicator but when they flash red, slow down." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/bmw330xi06/001.jpg",
+      "description": "The E90 (new 3 series) poses the same challenges for an audio upgrade as the 5, 6 and 7 series. Take a look at how we conquered some of the issues with a well designed and tasteful install."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/002.jpg",
+      "description": "With its all-wheel drive, sexy styling and wide array of gadgets, this car is pretty well equipped... unless you value good sound. Granted the premium Harman Kardon system is not the worst system we ever heard, but let's face it, BMW builds \"Driving Machines\"."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/003.jpg",
+      "description": "Because of its clever integration of electronics gadgets, like the iDrive, navigation and satellite radio, we kept the factory radio as the primary audio source."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/004.jpg",
+      "description": "First we analyzed the factory layout and took all necessary measurements for each driver and amplifier channel. As with all newer BMWs we found this to be an active and equalized system. This was no surprise, nothing a little readjustment can't fix."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/005.jpg",
+      "description": "The original front stage consisted of 4\" separates in the doors, an 8\" subwoofer under each seat and a center channel."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/006.jpg",
+      "description": "Due to the small mounting area and the fact that we did not want to alter the factory grille in the door, we opted for the Focal K2 Power. This 100mm driver with its neodymium magnet performed unbelievable. The tweeter was mounted in the factory \"sail panel\" location as well."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/007.jpg",
+      "description": "The Focal passive crossovers were mounted in the door as well. We used twisted 16ga wire wrapped in &#188;\" cloth tape (just like BMW) for a factory look and ultimate noise rejection."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/008.jpg",
+      "description": "Under each seat we built a custom vented enclosure out of &#189;\" MDF with a 1\" baffle to accommodate the new 9\" Morel Elite subwoofer. We used Dynamat sound deadening and carpet to make sure there are no rattles or buzzes. This gave great mid-bass performance up front."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/009.jpg",
+      "description": "In the trunk we ditched the factory look for a highlighted show piece. The left and right panels where recovered in charcoal Ultrasuede. So where the new amp rack, sub box, trunk lid, rear deck and headliner."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/010.jpg",
+      "description": "Electric blue neon and frosted Plexiglas accent the Zapco digital reference amplifiers. We chose these amps because of their efficient performance and built in DSP. A tumble fan cools the amps from underneath."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/011.jpg",
+      "description": "The original storage bin is now home to a JL Audio 10W6V2 subwoofer in a .65 cu ft sealed enclosure that takes care of the real low bass. A smaller storage bin was retained on the left. And in case you are wondering, these cars don't come with spare tires."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/012.jpg",
+      "description": "The heart of the factory integration is this Audio Control LC8, a high quality signal summing device that allows us to combine factory high-level channels, so we can later manipulate them to our liking. We are also using a remote sub level control."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/013.jpg",
+      "description": "Once all the data is gathered and all the amps and speakers are installed, it is time to tune the new system. This is done with a laptop via a USB port on the Zapco digital reference amplifiers. Our main objective is to counter EQ the factory system for a flat / linear response, but we also control all the crossovers, gains and even time delay."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/014.jpg",
+      "description": "Speed protection without detection is always a must! Here we got real clever and modified the original cigarette lighter to hold the K-40 control knob. The illuminated ring around it will glow orange for City mode and green for Hwy mode."
+    },
+    {
+      "imgSrc": "/installs/bmw330xi06/015.jpg",
+      "description": "The red K-40 warning LED's were added to the original green blinker / hazard lights. So when they blink green it's just your indicator but when they flash red, slow down."
+    }
+  ]
 }

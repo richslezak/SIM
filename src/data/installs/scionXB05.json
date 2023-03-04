@@ -1,68 +1,52 @@
 {
-    "id": "scionXB05",
-    "install_title": "2005 Scion xB (Install February 06)",
-    "icon_url": "img/installIcons/scionXB05_install.jpg",
-    "description": "",
-    "photos": [
-        {
-            "photo_url": "img/installFull/scionXB05/001.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/001.jpg",
-            "description": "Drawing attention was top priority for this Rockingham Scion xB. We did it with a 37&quot; motorized Plasma screen and a thumping sound system." 
-        },
-        {
-            "photo_url": "img/installFull/scionXB05/002.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/002.jpg",
-            "description": "A 37&quot; Panasonic commercial grade Plasma screen made sure this Scion receives as much recognition as possible while sitting on the showroom floor at Rockingham Toyota, or traveling to local Tuner shows." 
-        },
-        {
-            "photo_url": "img/installFull/scionXB05/003.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/003.jpg",
-            "description": "Hey, why not motorize the screen so it is viewable at eye level? Red neon was added as a subtle accent at night." 
-        },
-        {
-            "photo_url": "img/installFull/scionXB05/004.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/004.jpg",
-            "description": "Here is a side view, showcasing the &quot;Fish-drive&quot; motors and 100lbs ball bearing tracks responsible for moving and holding the very heavy screen securely." 
-        },
-        {
-            "photo_url": "img/installFull/scionXB05/005.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/005.jpg",
-            "description": "A movable drawer houses an Accele DVD player and also has room for a video game. A 110V outlet and AUX A/V inputs are built right into the drawer." 
-        },
-        {
-            "photo_url": "img/installFull/scionXB05/006.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/006.jpg",
-            "description": "Front and center of the drawer is a unique plaque promoting &quot;Rockingham Scion&quot;, &quot;Northeast Tuners&quot; and &quot;Sound in Motion&quot;. The cool part is that the sign changes colors constantly with the beat of the music." 
-        },
-        {
-            "photo_url": "img/installFull/scionXB05/007.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/007.jpg",
-            "description": "Alpine &quot;Type R&quot; 6.5&quot; coaxial speakers where used to disperse the audio out back. The red theme was carried over from the custom seat covers." 
-        },
-        {
-            "photo_url": "img/installFull/scionXB05/008.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/008.jpg",
-            "description": "A four channel Alpine V12 amp makes sure we have plenty of power. Channel 1 & 2 feed the coaxial speakers while the other two are bridged to power the 10&quot; Alpine &quot;Type R&quot; sub facing down &#40;under the amp-rack&#41;." 
-        },
-        {
-            "photo_url": "img/installFull/scionXB05/009.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/009.jpg",
-            "description": "Very strong and very light weight, some creative engineering went into designing the rack that holds and moves the massive screen." 
-        },
-        {
-            "photo_url": "img/installFull/scionXB05/010.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/010.jpg",
-            "description": "Here is a view of the tracks and motors, prior to final assembly." 
-        },
-        {
-            "photo_url": "img/installFull/scionXB05/011.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/011.jpg",
-            "description": "&frac12;&quot; square steel tubing was used primarily. Everything is 100% serviceable." 
-        },
-        {
-            "photo_url": "img/installFull/scionXB05/012.jpg",
-            "thumb_url": "img/installThumbs/scionXB05/012.jpg",
-            "description": "The concealed .65 cu inch enclosure is made of &frac34;&quot; MDF. It mounts to the screen rack and faces down into the rear well, which was treated with Dynamat sound deadening." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/scionXB05/001.jpg",
+      "description": "Drawing attention was top priority for this Rockingham Scion xB. We did it with a 37\" motorized Plasma screen and a thumping sound system."
+    },
+    {
+      "imgSrc": "/installs/scionXB05/002.jpg",
+      "description": "A 37\" Panasonic commercial grade Plasma screen made sure this Scion receives as much recognition as possible while sitting on the showroom floor at Rockingham Toyota, or traveling to local Tuner shows."
+    },
+    {
+      "imgSrc": "/installs/scionXB05/003.jpg",
+      "description": "Hey, why not motorize the screen so it is viewable at eye level? Red neon was added as a subtle accent at night."
+    },
+    {
+      "imgSrc": "/installs/scionXB05/004.jpg",
+      "description": "Here is a side view, showcasing the \"Fish-drive\" motors and 100lbs ball bearing tracks responsible for moving and holding the very heavy screen securely."
+    },
+    {
+      "imgSrc": "/installs/scionXB05/005.jpg",
+      "description": "A movable drawer houses an Accele DVD player and also has room for a video game. A 110V outlet and AUX A/V inputs are built right into the drawer."
+    },
+    {
+      "imgSrc": "/installs/scionXB05/006.jpg",
+      "description": "Front and center of the drawer is a unique plaque promoting \"Rockingham Scion\", \"Northeast Tuners\" and \"Sound in Motion\". The cool part is that the sign changes colors constantly with the beat of the music."
+    },
+    {
+      "imgSrc": "/installs/scionXB05/007.jpg",
+      "description": "Alpine \"Type R\" 6.5\" coaxial speakers where used to disperse the audio out back. The red theme was carried over from the custom seat covers."
+    },
+    {
+      "imgSrc": "/installs/scionXB05/008.jpg",
+      "description": "A four channel Alpine V12 amp makes sure we have plenty of power. Channel 1 & 2 feed the coaxial speakers while the other two are bridged to power the 10\" Alpine \"Type R\" sub facing down (under the amp-rack)."
+    },
+    {
+      "imgSrc": "/installs/scionXB05/009.jpg",
+      "description": "Very strong and very light weight, some creative engineering went into designing the rack that holds and moves the massive screen."
+    },
+    {
+      "imgSrc": "/installs/scionXB05/010.jpg",
+      "description": "Here is a view of the tracks and motors, prior to final assembly."
+    },
+    {
+      "imgSrc": "/installs/scionXB05/011.jpg",
+      "description": "&frac12;\" square steel tubing was used primarily. Everything is 100% serviceable."
+    },
+    {
+      "imgSrc": "/installs/scionXB05/012.jpg",
+      "description": "The concealed .65 cu inch enclosure is made of &frac34;\" MDF. It mounts to the screen rack and faces down into the rear well, which was treated with Dynamat sound deadening."
+    }
+  ]
 }

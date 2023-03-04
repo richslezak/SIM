@@ -1,178 +1,140 @@
 {
-    "id": "videoEntertainment",
-    "install_title": "Video Entertainment",
-    "icon_url": "img/installIcons/screens_install.jpg",
-    "install_description": "There are several options here, from screens mounted in the headrests, visors, rear view mirror, center consoles, dashboards or any other place you wish. They can entertain with DVD movies, video games, satellite TV, reg. TV, PC's, VCR's, camcorders, video iPods or any other video source. Dash mounted screens are primarily used for more informative things like navigation, in-car computers, back-up or baby-view cameras and media information. Again, factory fit and finish fabrication is what we provide.",
-    "photos": [
-        {
-            "photo_url": "img/installFull/screens/033.jpg",
-            "thumb_url": "img/installThumbs/screens/033.jpg",
-            "description": "<strong>2004 GMC Denali </strong> - Here is a challenge, put a 15.4&quot; LCD screen in a GM dash. The original monitor came out of an Accele overhead flip down unit. The install required relocating the radio (now Eclipse) and climate control to the center console as well as some extensive plastic work." 
-        },
-        {
-            "photo_url": "img/installFull/screens/030.jpg",
-            "thumb_url": "img/installThumbs/screens/030.jpg",
-            "description": "<strong>2004 Toyota Solara</strong> - The factory Toyota Navigation unit looks almost identical to this Eclipse AVN. That is because they are both made by Fujitsu Ten. The custom dash piece was matched perfectly to the upper dash in texture and color." 
-        },
-        {
-            "photo_url": "img/installFull/screens/014.jpg",
-            "thumb_url": "img/installThumbs/screens/014.jpg",
-            "description": "<strong>2003 Nissan 350Z</strong> - If you don't get the factory navigation, Nissan gives you a big storage pocket above the radio. This is easily filled with an Alpine 6.5&quot; screen while the original cover still folds down to conceal it." 
-        },
-        {
-            "photo_url": "img/installFull/screens/026.jpg",
-            "thumb_url": "img/installThumbs/screens/026.jpg",
-            "description": "<strong>2002 BMW X5</strong> - If visors is what you desire we can do that too. Here we utilized a Blackmore visor with a 7&quot; screen and recovered it with black material to match the BMW interior." 
-        },
-        {
-            "photo_url": "img/installFull/screens/001.jpg",
-            "thumb_url": "img/installThumbs/screens/001.jpg",
-            "description": "<strong>1999 Audi A4</strong> - A complete reconstruction of the center dash was done to accommodate an Eclipse 7&quot; screen and radio. The fog light and hazard buttons were moved down to where the ashtray used to be and the horizontal cup holder was traded for a vertical one out of a Saab 9-3." 
-        },
-        {
-            "photo_url": "img/installFull/screens/003.jpg",
-            "thumb_url": "img/installThumbs/screens/003.jpg",
-            "description": "<strong>2000 Audi S4</strong> - The factory double DIN radio was removed in favor of an Eclipse AVN 2434 CD/MP3/DVD/Navigation tuner with a 6.5&quot; touch-screen. A custom ABS trim piece was made and color matched to the factory dash." 
-        },
-        {
-            "photo_url": "img/installFull/screens/004.jpg",
-            "thumb_url": "img/installThumbs/screens/004.jpg",
-            "description": "<strong>2003 BMW 330i</strong> - An Alpine 6.5&quot; screen was fitted were the storage pockets used to be. A three-dimensional dash insert was constructed to house the screen and factory buttons. No permanent modifications were made to the dash." 
-        },
-        {
-            "photo_url": "img/installFull/screens/005.jpg",
-            "thumb_url": "img/installThumbs/screens/005.jpg",
-            "description": "<strong>2003 BMW 745i</strong> - With the help of a RGB converter we were able to create an auxiliary video input into the factory navigation screen. Audio was piped in through the factory tuner module." 
-        },
-        {
-            "photo_url": "img/installFull/screens/006.jpg",
-            "thumb_url": "img/installThumbs/screens/006.jpg",
-            "description": "<strong>2003 BMW X5 4.6L</strong> - In Germany if you get navigation in your BMW it will most likely come with a TV tuner. NAV-TV imports these factory units and converts them to U.S. specs and gives them an Aux. A/V input for DVD etc. They work great and look absolutely factory, because they are." 
-        },
-        {
-            "photo_url": "img/installFull/screens/007.jpg",
-            "thumb_url": "img/installThumbs/screens/007.jpg",
-            "description": "<strong>2002 Cadillac Escalade</strong> - The center console is now home to an Alpine 6.5&quot; screen. The area used to house a clock and a board computer. The computer was moved to were the ashtray used to be and both pieces were covered in Gucci material to match the seats and other trim panels." 
-        },
-        {
-            "photo_url": "img/installFull/screens/008.jpg",
-            "thumb_url": "img/installThumbs/screens/008.jpg",
-            "description": "<strong>2000 Chevrolet Tahoe </strong> - This GM radio opening was modified to accommodate an Eclipse 7301 double DIN CD/Cassette tuner with a 5.8&quot; screen. Also a Valentine One radar detector and some control knobs were installed." 
-        },
-        {
-            "photo_url": "img/installFull/screens/009.jpg",
-            "thumb_url": "img/installThumbs/screens/009.jpg",
-            "description": "<strong>2004 Ford F 150 </strong> - This took some work, but an Accele 10.4&quot; LCD screen was fitted into the completely reconstructed dash. The Pioneer radio was relocated lower in the dash to were the power outlets used to be." 
-        },
-        {
-            "photo_url": "img/installFull/screens/010.jpg",
-            "thumb_url": "img/installThumbs/screens/010.jpg",
-            "description": "<strong>2002 GMC Yukon</strong> - The radio and climate controls were relocated to the center console to allow room for this Accele 10.4&quot; LCD screen. Extensive plastic fabrication was required to get this done." 
-        },
-        {
-            "photo_url": "img/installFull/screens/011.jpg",
-            "thumb_url": "img/installThumbs/screens/011.jpg",
-            "description": "<strong>2001 Honda Prelude</strong> - Once a vent and a digital clock resided here. But they were sacrificed to make room for this 7&quot; Eclipse screen. The entire section was constructed out of ABS plastic and color matched to the factory dash. Note the hazard button was incorporated into this piece and the new radio has a clock built in." 
-        },
-        {
-            "photo_url": "img/installFull/screens/012.jpg",
-            "thumb_url": "img/installThumbs/screens/012.jpg",
-            "description": "<strong>2002 Hummer H2</strong> - Bigger is better, but this Accele 10.4&quot; LCD screen looks right at home in this big dash. To make room for this, the factory GM radio was replaced with a smaller Eclipse and this along with the climate controls were moved down to were the On-Star and power outlets were. The On-Star was relocated into the overhead console and the power outlet moved to the left." 
-        },
-        {
-            "photo_url": "img/installFull/screens/013.jpg",
-            "thumb_url": "img/installThumbs/screens/013.jpg",
-            "description": "<strong>2004 Mercedes SL 55</strong> - A modified European TV tuner was installed to get TV stations as well as DVD on to this factory navigation screen" 
-        },
-        {
-            "photo_url": "img/installFull/screens/002.jpg",
-            "thumb_url": "img/installThumbs/screens/002.jpg",
-            "description": "<strong>2002 BMW 325 Wagon</strong> - Don't ask us to do this again. This install involved reconstructing dash vents and redirecting their linkage, as well as constructing a pretty elaborate dash piece." 
-        },
-        {
-            "photo_url": "img/installFull/screens/015.jpg",
-            "thumb_url": "img/installThumbs/screens/015.jpg",
-            "description": "<strong>2001 Nissan Maxima</strong> - Here is another dash that has undergone some major plastic surgery. The original climate controls were moved down several inches to allow space for the Eclipse 7&quot; LCD screen and the Sony Radio. The entire center section of this dash was rebuilt out of ABS plastic." 
-        },
-        {
-            "photo_url": "img/installFull/screens/016.jpg",
-            "thumb_url": "img/installThumbs/screens/016.jpg",
-            "description": "<strong>2003 Nissan Murano</strong> - An outboard RGB converter was used to interrupt the video signal from the factory navigation and pipe in a composite DVD signal." 
-        },
-        {
-            "photo_url": "img/installFull/screens/017.jpg",
-            "thumb_url": "img/installThumbs/screens/017.jpg",
-            "description": "<strong>2003 Porsche 996 Turbo</strong> - The radio opening in all 996 and Boxsters lends itself to an easy upgrade to the Eclipse AVN double DIN DVD navigation unit. This sometimes requires moving the climate control to the lower section. Piece of cake, seeing how it's only two screws and Porsche sells the trim piece for $7." 
-        },
-        {
-            "photo_url": "img/installFull/screens/018.jpg",
-            "thumb_url": "img/installThumbs/screens/018.jpg",
-            "description": "<strong>2002 Range Rover</strong> - This car is mostly BMW electronics inside, so it's only natural that the NAV-TV (option in Europe) TV tuner with DVD works flawlessly." 
-        },
-        {
-            "photo_url": "img/installFull/screens/019.jpg",
-            "thumb_url": "img/installThumbs/screens/019.jpg",
-            "description": "<strong>2004 Subaru WRX Sti</strong> - This car comes without a stereo but has a factory double DIN opening. To mount any double DIN such as this Eclipse AVN is an easy ISO-mount install with no custom work." 
-        },
-        {
-            "photo_url": "img/installFull/screens/020.jpg",
-            "thumb_url": "img/installThumbs/screens/020.jpg",
-            "description": "<strong>2002 Toyota Corrola</strong> - This is actually a 7&quot; LCD touch-screen that goes to a mobile computer. This area originally housed the factory radio. The vents and climate control panel were modified to accommodate this odd-shaped screen. The radio was replaced with an Alpine that was moved into the original upper pocket location." 
-        },
-        {
-            "photo_url": "img/installFull/screens/021.jpg",
-            "thumb_url": "img/installThumbs/screens/021.jpg",
-            "description": "<strong>2004 Toyota Sienna</strong> - Wow, this was a tough dash to do. At the time of this install no kits were available so the entire upper dash section was custom made out of ABS plastic. It was rounded in every direction, similar to covering a basketball with a flat piece of plastic. The end result was a complicated three-dimensional dash piece that was color and texture matched to the factory dash and houses a Eclipse DVD navigation unit / stereo." 
-        },
-        {
-            "photo_url": "img/installFull/screens/027.jpg",
-            "thumb_url": "img/installThumbs/screens/027.jpg",
-            "description": "<strong>2000 Porsche Boxster</strong> - By relocating the climate control to the lower dash it opens up a nice spot to install a Eclipses double-Din navigation unit." 
-        },
-        {
-            "photo_url": "img/installFull/screens/028.jpg",
-            "thumb_url": "img/installThumbs/screens/028.jpg",
-            "description": "<strong>2005 Infinity FX 35</strong> - The original sunglass holder was replaced with an Alpine 5.8&quot; Navigation screen. This was a great solution for a car with limited possibilities." 
-        },
-        {
-            "photo_url": "img/installFull/screens/029.jpg",
-            "thumb_url": "img/installThumbs/screens/029.jpg",
-            "description": "<strong>2004 Ford Explorer</strong> - The Eclipse AVN DVD Navigation unit looks factory in this Fords original radio location. The steering wheel controls were integrated as well." 
-        },
-        {
-            "photo_url": "img/installFull/screens/031.jpg",
-            "thumb_url": "img/installThumbs/screens/031.jpg",
-            "description": "<strong>2003 Toyota Sequoia</strong> - This Accele 10.4&quot; flip-down screen is a great solution to keeping your rear seat passengers entertained. But most importantly is the low profile when it is not in use." 
-        },
-        {
-            "photo_url": "img/installFull/screens/032.jpg",
-            "thumb_url": "img/installThumbs/screens/032.jpg",
-            "description": "<strong>2000 Chevrolet Tahoe</strong> - This headrest was done before Visualogic offered its pre-made ones. This is an Eclipse 7&quot; LCD with a custom trim-bezel wrapped in OEM vinyl." 
-        },
-        {
-            "photo_url": "img/installFull/screens/034.jpg",
-            "thumb_url": "img/installThumbs/screens/034.jpg",
-            "description": "<strong>2004 Lincoln Navigator</strong> - This factory double Din opening makes a great home for this Eclipse AVN. Not much modification was required but the install looks OEM and the door still covers it." 
-        },
-        {
-            "photo_url": "img/installFull/screens/022.jpg",
-            "thumb_url": "img/installThumbs/screens/022.jpg",
-            "description": "<strong>2004 Toyota Camry</strong> - These Toyotas require a custom trim bezel that contours with the arched dash, to give the Eclipse AVN DVD navigation unit a factory fit and finish." 
-        },
-        {
-            "photo_url": "img/installFull/screens/023.jpg",
-            "thumb_url": "img/installThumbs/screens/023.jpg",
-            "description": "<strong>2004 Toyota Camry</strong> - Once the 6.5&quot; touch-screen opens on the Eclipse AVN it reveals the two loading slots, one for the DVD navigation disc (or movies) and one for regular CDs." 
-        },
-        {
-            "photo_url": "img/installFull/screens/024.jpg",
-            "thumb_url": "img/installThumbs/screens/024.jpg",
-            "description": "<strong>2000 Chevrolet Suburban</strong> - A structure was created to tie in the dash with the center console; it now houses an Accele 10.4&quot; LCD screen and a small coin tray. OEM vinyl was used to cover it for a factory look." 
-        },
-        {
-            "photo_url": "img/installFull/screens/025.jpg",
-            "thumb_url": "img/installThumbs/screens/025.jpg",
-            "description": "<strong>2000 Chevrolet Suburban </strong> - Here is an alternative to flip-down screens and headrest monitors. We constructed an overhead console out of ABS to house two alpine 6.5&quot; monitors as well as the original vent." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/screens/033.jpg",
+      "description": "<strong>2004 GMC Denali </strong> - Here is a challenge, put a 15.4\" LCD screen in a GM dash. The original monitor came out of an Accele overhead flip down unit. The install required relocating the radio (now Eclipse) and climate control to the center console as well as some extensive plastic work."
+    },
+    {
+      "imgSrc": "/installs/screens/030.jpg",
+      "description": "<strong>2004 Toyota Solara</strong> - The factory Toyota Navigation unit looks almost identical to this Eclipse AVN. That is because they are both made by Fujitsu Ten. The custom dash piece was matched perfectly to the upper dash in texture and color."
+    },
+    {
+      "imgSrc": "/installs/screens/014.jpg",
+      "description": "<strong>2003 Nissan 350Z</strong> - If you don't get the factory navigation, Nissan gives you a big storage pocket above the radio. This is easily filled with an Alpine 6.5\" screen while the original cover still folds down to conceal it."
+    },
+    {
+      "imgSrc": "/installs/screens/026.jpg",
+      "description": "<strong>2002 BMW X5</strong> - If visors is what you desire we can do that too. Here we utilized a Blackmore visor with a 7\" screen and recovered it with black material to match the BMW interior."
+    },
+    {
+      "imgSrc": "/installs/screens/001.jpg",
+      "description": "<strong>1999 Audi A4</strong> - A complete reconstruction of the center dash was done to accommodate an Eclipse 7\" screen and radio. The fog light and hazard buttons were moved down to where the ashtray used to be and the horizontal cup holder was traded for a vertical one out of a Saab 9-3."
+    },
+    {
+      "imgSrc": "/installs/screens/003.jpg",
+      "description": "<strong>2000 Audi S4</strong> - The factory double DIN radio was removed in favor of an Eclipse AVN 2434 CD/MP3/DVD/Navigation tuner with a 6.5\" touch-screen. A custom ABS trim piece was made and color matched to the factory dash."
+    },
+    {
+      "imgSrc": "/installs/screens/004.jpg",
+      "description": "<strong>2003 BMW 330i</strong> - An Alpine 6.5\" screen was fitted were the storage pockets used to be. A three-dimensional dash insert was constructed to house the screen and factory buttons. No permanent modifications were made to the dash."
+    },
+    {
+      "imgSrc": "/installs/screens/005.jpg",
+      "description": "<strong>2003 BMW 745i</strong> - With the help of a RGB converter we were able to create an auxiliary video input into the factory navigation screen. Audio was piped in through the factory tuner module."
+    },
+    {
+      "imgSrc": "/installs/screens/006.jpg",
+      "description": "<strong>2003 BMW X5 4.6L</strong> - In Germany if you get navigation in your BMW it will most likely come with a TV tuner. NAV-TV imports these factory units and converts them to U.S. specs and gives them an Aux. A/V input for DVD etc. They work great and look absolutely factory, because they are."
+    },
+    {
+      "imgSrc": "/installs/screens/007.jpg",
+      "description": "<strong>2002 Cadillac Escalade</strong> - The center console is now home to an Alpine 6.5\" screen. The area used to house a clock and a board computer. The computer was moved to were the ashtray used to be and both pieces were covered in Gucci material to match the seats and other trim panels."
+    },
+    {
+      "imgSrc": "/installs/screens/008.jpg",
+      "description": "<strong>2000 Chevrolet Tahoe </strong> - This GM radio opening was modified to accommodate an Eclipse 7301 double DIN CD/Cassette tuner with a 5.8\" screen. Also a Valentine One radar detector and some control knobs were installed."
+    },
+    {
+      "imgSrc": "/installs/screens/009.jpg",
+      "description": "<strong>2004 Ford F 150 </strong> - This took some work, but an Accele 10.4\" LCD screen was fitted into the completely reconstructed dash. The Pioneer radio was relocated lower in the dash to were the power outlets used to be."
+    },
+    {
+      "imgSrc": "/installs/screens/010.jpg",
+      "description": "<strong>2002 GMC Yukon</strong> - The radio and climate controls were relocated to the center console to allow room for this Accele 10.4\" LCD screen. Extensive plastic fabrication was required to get this done."
+    },
+    {
+      "imgSrc": "/installs/screens/011.jpg",
+      "description": "<strong>2001 Honda Prelude</strong> - Once a vent and a digital clock resided here. But they were sacrificed to make room for this 7\" Eclipse screen. The entire section was constructed out of ABS plastic and color matched to the factory dash. Note the hazard button was incorporated into this piece and the new radio has a clock built in."
+    },
+    {
+      "imgSrc": "/installs/screens/012.jpg",
+      "description": "<strong>2002 Hummer H2</strong> - Bigger is better, but this Accele 10.4\" LCD screen looks right at home in this big dash. To make room for this, the factory GM radio was replaced with a smaller Eclipse and this along with the climate controls were moved down to were the On-Star and power outlets were. The On-Star was relocated into the overhead console and the power outlet moved to the left."
+    },
+    {
+      "imgSrc": "/installs/screens/013.jpg",
+      "description": "<strong>2004 Mercedes SL 55</strong> - A modified European TV tuner was installed to get TV stations as well as DVD on to this factory navigation screen"
+    },
+    {
+      "imgSrc": "/installs/screens/002.jpg",
+      "description": "<strong>2002 BMW 325 Wagon</strong> - Don't ask us to do this again. This install involved reconstructing dash vents and redirecting their linkage, as well as constructing a pretty elaborate dash piece."
+    },
+    {
+      "imgSrc": "/installs/screens/015.jpg",
+      "description": "<strong>2001 Nissan Maxima</strong> - Here is another dash that has undergone some major plastic surgery. The original climate controls were moved down several inches to allow space for the Eclipse 7\" LCD screen and the Sony Radio. The entire center section of this dash was rebuilt out of ABS plastic."
+    },
+    {
+      "imgSrc": "/installs/screens/016.jpg",
+      "description": "<strong>2003 Nissan Murano</strong> - An outboard RGB converter was used to interrupt the video signal from the factory navigation and pipe in a composite DVD signal."
+    },
+    {
+      "imgSrc": "/installs/screens/017.jpg",
+      "description": "<strong>2003 Porsche 996 Turbo</strong> - The radio opening in all 996 and Boxsters lends itself to an easy upgrade to the Eclipse AVN double DIN DVD navigation unit. This sometimes requires moving the climate control to the lower section. Piece of cake, seeing how it's only two screws and Porsche sells the trim piece for $7."
+    },
+    {
+      "imgSrc": "/installs/screens/018.jpg",
+      "description": "<strong>2002 Range Rover</strong> - This car is mostly BMW electronics inside, so it's only natural that the NAV-TV (option in Europe) TV tuner with DVD works flawlessly."
+    },
+    {
+      "imgSrc": "/installs/screens/019.jpg",
+      "description": "<strong>2004 Subaru WRX Sti</strong> - This car comes without a stereo but has a factory double DIN opening. To mount any double DIN such as this Eclipse AVN is an easy ISO-mount install with no custom work."
+    },
+    {
+      "imgSrc": "/installs/screens/020.jpg",
+      "description": "<strong>2002 Toyota Corrola</strong> - This is actually a 7\" LCD touch-screen that goes to a mobile computer. This area originally housed the factory radio. The vents and climate control panel were modified to accommodate this odd-shaped screen. The radio was replaced with an Alpine that was moved into the original upper pocket location."
+    },
+    {
+      "imgSrc": "/installs/screens/021.jpg",
+      "description": "<strong>2004 Toyota Sienna</strong> - Wow, this was a tough dash to do. At the time of this install no kits were available so the entire upper dash section was custom made out of ABS plastic. It was rounded in every direction, similar to covering a basketball with a flat piece of plastic. The end result was a complicated three-dimensional dash piece that was color and texture matched to the factory dash and houses a Eclipse DVD navigation unit / stereo."
+    },
+    {
+      "imgSrc": "/installs/screens/027.jpg",
+      "description": "<strong>2000 Porsche Boxster</strong> - By relocating the climate control to the lower dash it opens up a nice spot to install a Eclipses double-Din navigation unit."
+    },
+    {
+      "imgSrc": "/installs/screens/028.jpg",
+      "description": "<strong>2005 Infinity FX 35</strong> - The original sunglass holder was replaced with an Alpine 5.8\" Navigation screen. This was a great solution for a car with limited possibilities."
+    },
+    {
+      "imgSrc": "/installs/screens/029.jpg",
+      "description": "<strong>2004 Ford Explorer</strong> - The Eclipse AVN DVD Navigation unit looks factory in this Fords original radio location. The steering wheel controls were integrated as well."
+    },
+    {
+      "imgSrc": "/installs/screens/031.jpg",
+      "description": "<strong>2003 Toyota Sequoia</strong> - This Accele 10.4\" flip-down screen is a great solution to keeping your rear seat passengers entertained. But most importantly is the low profile when it is not in use."
+    },
+    {
+      "imgSrc": "/installs/screens/032.jpg",
+      "description": "<strong>2000 Chevrolet Tahoe</strong> - This headrest was done before Visualogic offered its pre-made ones. This is an Eclipse 7\" LCD with a custom trim-bezel wrapped in OEM vinyl."
+    },
+    {
+      "imgSrc": "/installs/screens/034.jpg",
+      "description": "<strong>2004 Lincoln Navigator</strong> - This factory double Din opening makes a great home for this Eclipse AVN. Not much modification was required but the install looks OEM and the door still covers it."
+    },
+    {
+      "imgSrc": "/installs/screens/022.jpg",
+      "description": "<strong>2004 Toyota Camry</strong> - These Toyotas require a custom trim bezel that contours with the arched dash, to give the Eclipse AVN DVD navigation unit a factory fit and finish."
+    },
+    {
+      "imgSrc": "/installs/screens/023.jpg",
+      "description": "<strong>2004 Toyota Camry</strong> - Once the 6.5\" touch-screen opens on the Eclipse AVN it reveals the two loading slots, one for the DVD navigation disc (or movies) and one for regular CDs."
+    },
+    {
+      "imgSrc": "/installs/screens/024.jpg",
+      "description": "<strong>2000 Chevrolet Suburban</strong> - A structure was created to tie in the dash with the center console; it now houses an Accele 10.4\" LCD screen and a small coin tray. OEM vinyl was used to cover it for a factory look."
+    },
+    {
+      "imgSrc": "/installs/screens/025.jpg",
+      "description": "<strong>2000 Chevrolet Suburban </strong> - Here is an alternative to flip-down screens and headrest monitors. We constructed an overhead console out of ABS to house two alpine 6.5\" monitors as well as the original vent."
+    }
+  ]
 }

@@ -1,133 +1,104 @@
 {
-    "id": "Porsche1970",
-    "install_title": "1970 Porsche 911T  (Install Jan 07)",
-    "icon_url": "img/installIcons/Porsche1970_install.jpg",
-    "description": "For the hard-core 911 lover,  this is the only one that will due. Completely restored with top notch paint, suspension and over 300HP, it was up to Sound in Motion to design and built a new interior along with the sound system.",
-    "photos": [
-        {
-            "photo_url": "img/installFull/Porsche1970/001.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/001.jpg",
-            "description": "For the hard-core 911 lover,  this is the only one that will due. Completely restored with top notch paint, suspension and over 300HP, it was up to Sound in Motion to design and built a new interior along with the sound system." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/002.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/002.jpg",
-            "description": "A double DIN radio in an air cooled 911? We have not seen it done, so we decided to take the challenge. This required relocating and rewiring the defroster switch, an auxiliary fan switch and the cigarette lighter. As well as cutting through the firewall, welding a new housing and relocating the windshield wiper motor... &quot;piece of cake&quot;" 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/003.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/003.jpg",
-            "description": "A double DIN Alpine W200 AM/FM DVD radio was chosen for its excellent iPod and XM radio interface, its ease of operation and cool looks." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/004.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/004.jpg",
-            "description": "The upper and lower dash was removed and covered in Alcantara suede. All of the dash-trim pieces were hand made out of 3/16&quot; solid aluminum. A brushed finish was applied to go with the classic race car look." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/005.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/005.jpg",
-            "description": "Here are the original pieces along with the new ones." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/006.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/006.jpg",
-            "description": "The new dash was big improvement from what we started with." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/007.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/007.jpg",
-            "description": "The car arrived with just a piece of plywood, holding an old Alpine radio in the glove compartment. We constructed a new one out of ABS plastic with the relocated power outlet in it. A strap was used with the original mounting screw to secure it." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/008.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/008.jpg",
-            "description": "The inside was flocked with black suede and the iPod now resides here." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/009.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/009.jpg",
-            "description": "A close-up of the suede dash with the french stitching. With its race-inspired look this really makes the car." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/010.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/010.jpg",
-            "description": "Kick panels where fabricated out of MDF to hold a pair of MB Quart Q series 6&#189;&quot; component Speakers. The entire floor and kicks where covered in a custom Sliver Knit carpet &#40;very soft carpet used in later model 911s&#41;. Notice the sewn-in heel pad." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/011.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/011.jpg",
-            "description": "The original top and armrest were re-stitched in Alcantara suede while the rest of the door panel is completely fabricated from scratch. &#8539;&quot; ABS was covered with Endurasoft vinyl and the same Sliver Knit carpet separated by a custom made aluminum accent." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/012.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/012.jpg",
-            "description": "We chose the black Endurasoft vinyl because it matched the leather Recaro racing seats." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/013.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/013.jpg",
-            "description": "Talk about starting with a blank canvas. This car had nothing in it when it came to us." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/014.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/014.jpg",
-            "description": "We started with a good dose of Dynamat Extreeme sound deadening. Even though weight was always kept in mind, we felt this was worth it." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/015.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/015.jpg",
-            "description": "Next, a little brainstorming and some sketching brought us to a design that does not deviate to much from the traditional Porsche interior. The rear seats where deleted in favor of two 8&quot; down firing subwoofers with some storage space on top." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/016.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/016.jpg",
-            "description": "The rear deck and trim bumper where covered in suede to match the doors and dash, while the side and back panels where covered in the same vinyl as in the doors. More brushed aluminum was used to accent the back." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/017.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/017.jpg",
-            "description": "Vents for the JL Audio subwoofers were integrated behind the seats along with a Sound in Motion plaque." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/018.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/018.jpg",
-            "description": "Here you see the bottom of the sub box with two JL Audio 8W3's" 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/019.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/019.jpg",
-            "description": "The side panels were fabricated out of ABS plastic. Even though we used a 6&#189;&quot; MB Quart for rear fill we used a 5&#188;&quot; grille because of the limited space." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/020.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/020.jpg",
-            "description": "The top deck stretches from door to door. It is made completely out of ABS so it can be bent for removal." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/021.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/021.jpg",
-            "description": "Another view of the finished back, notice the four tie-down hooks from a Mercedes." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/022.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/022.jpg",
-            "description": "A 300+ HP, dual ignition, fuel injected 3.6liter modified engine replaces the original 2.4. Intake and stainless steel exhaust were done as well as an all new suspension." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/023.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/023.jpg",
-            "description": "This view is from under the hood, to where the cutout for the new double DIN radio is going to be. Relocating the wiring was easy, but the wiper motor had to be turned 180 degrees to make room." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/024.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/024.jpg",
-            "description": "Here you see the relocated wiper motor as well as the new radio housing welded in. The wiring was cleaned up and new mounting studs where welded in for the relays and grounding points." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche1970/025.jpg",
-            "thumb_url": "img/installThumbs/Porsche1970/025.jpg",
-            "description": "These are two plastic cover panels, made to go into the passenger foot well and around the pedals. They were carpeted with the Porsche carpeting as well." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/Porsche1970/001.jpg",
+      "description": "For the hard-core 911 lover,  this is the only one that will due. Completely restored with top notch paint, suspension and over 300HP, it was up to Sound in Motion to design and built a new interior along with the sound system."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/002.jpg",
+      "description": "A double DIN radio in an air cooled 911? We have not seen it done, so we decided to take the challenge. This required relocating and rewiring the defroster switch, an auxiliary fan switch and the cigarette lighter. As well as cutting through the firewall, welding a new housing and relocating the windshield wiper motor... \"piece of cake\""
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/003.jpg",
+      "description": "A double DIN Alpine W200 AM/FM DVD radio was chosen for its excellent iPod and XM radio interface, its ease of operation and cool looks."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/004.jpg",
+      "description": "The upper and lower dash was removed and covered in Alcantara suede. All of the dash-trim pieces were hand made out of 3/16\" solid aluminum. A brushed finish was applied to go with the classic race car look."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/005.jpg",
+      "description": "Here are the original pieces along with the new ones."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/006.jpg",
+      "description": "The new dash was big improvement from what we started with."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/007.jpg",
+      "description": "The car arrived with just a piece of plywood, holding an old Alpine radio in the glove compartment. We constructed a new one out of ABS plastic with the relocated power outlet in it. A strap was used with the original mounting screw to secure it."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/008.jpg",
+      "description": "The inside was flocked with black suede and the iPod now resides here."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/009.jpg",
+      "description": "A close-up of the suede dash with the french stitching. With its race-inspired look this really makes the car."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/010.jpg",
+      "description": "Kick panels where fabricated out of MDF to hold a pair of MB Quart Q series 6&#189;\" component Speakers. The entire floor and kicks where covered in a custom Sliver Knit carpet (very soft carpet used in later model 911s). Notice the sewn-in heel pad."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/011.jpg",
+      "description": "The original top and armrest were re-stitched in Alcantara suede while the rest of the door panel is completely fabricated from scratch. &#8539;\" ABS was covered with Endurasoft vinyl and the same Sliver Knit carpet separated by a custom made aluminum accent."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/012.jpg",
+      "description": "We chose the black Endurasoft vinyl because it matched the leather Recaro racing seats."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/013.jpg",
+      "description": "Talk about starting with a blank canvas. This car had nothing in it when it came to us."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/014.jpg",
+      "description": "We started with a good dose of Dynamat Extreeme sound deadening. Even though weight was always kept in mind, we felt this was worth it."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/015.jpg",
+      "description": "Next, a little brainstorming and some sketching brought us to a design that does not deviate to much from the traditional Porsche interior. The rear seats where deleted in favor of two 8\" down firing subwoofers with some storage space on top."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/016.jpg",
+      "description": "The rear deck and trim bumper where covered in suede to match the doors and dash, while the side and back panels where covered in the same vinyl as in the doors. More brushed aluminum was used to accent the back."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/017.jpg",
+      "description": "Vents for the JL Audio subwoofers were integrated behind the seats along with a Sound in Motion plaque."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/018.jpg",
+      "description": "Here you see the bottom of the sub box with two JL Audio 8W3's"
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/019.jpg",
+      "description": "The side panels were fabricated out of ABS plastic. Even though we used a 6&#189;\" MB Quart for rear fill we used a 5&#188;\" grille because of the limited space."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/020.jpg",
+      "description": "The top deck stretches from door to door. It is made completely out of ABS so it can be bent for removal."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/021.jpg",
+      "description": "Another view of the finished back, notice the four tie-down hooks from a Mercedes."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/022.jpg",
+      "description": "A 300+ HP, dual ignition, fuel injected 3.6liter modified engine replaces the original 2.4. Intake and stainless steel exhaust were done as well as an all new suspension."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/023.jpg",
+      "description": "This view is from under the hood, to where the cutout for the new double DIN radio is going to be. Relocating the wiring was easy, but the wiper motor had to be turned 180 degrees to make room."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/024.jpg",
+      "description": "Here you see the relocated wiper motor as well as the new radio housing welded in. The wiring was cleaned up and new mounting studs where welded in for the relays and grounding points."
+    },
+    {
+      "imgSrc": "/installs/Porsche1970/025.jpg",
+      "description": "These are two plastic cover panels, made to go into the passenger foot well and around the pedals. They were carpeted with the Porsche carpeting as well."
+    }
+  ]
 }

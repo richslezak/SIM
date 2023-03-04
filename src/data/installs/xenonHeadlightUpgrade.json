@@ -1,48 +1,36 @@
 {
-    "id": "xenonHeadlightUpgrades",
-    "install_title": "HID / Xenon Headlight Upgrades",
-    "icon_url": "img/installIcons/xenonTheft_install.jpg",
-    "install_description": "Just like they used to steel steering wheels with airbags, now they are stealing xenon headlights with high voltage transformers. Thieves are selling these $2000 headlights on the internet or making stun-guns with the transformers. Many owners don't even know they are a target until it is too late. Our proven system &#40;explained below&#41; has allowed many to have a good night sleep again.",
-    "photos": [
-        {
-            "photo_url": "img/installFull/xenonTheft/001.jpg",
-            "thumb_url": "img/installThumbs/xenonTheft/001.jpg",
-            "description": "Do you own an Audi, BMW, Acura or Nissan with Xenon HID Headlamps? They are getting stolen a lot; here is what we can do." 
-        },
-        {
-            "photo_url": "img/installFull/xenonTheft/002.jpg",
-            "thumb_url": "img/installThumbs/xenonTheft/002.jpg",
-            "description": "This is not what you want to see when you come back to your car. In about 20 seconds thieves cause between $3000 and $5000 worth of damage. For less than the cost of most deductibles we have some solutions." 
-        },
-        {
-            "photo_url": "img/installFull/xenonTheft/003.jpg",
-            "thumb_url": "img/installThumbs/xenonTheft/003.jpg",
-            "description": "The factory alarm only goes off when the hood is completely unlatched. Our suggestion is to add two extra hood pin switches at the far corners of the hood that will activate when the hood is just lifted slightly at either side." 
-        },
-        {
-            "photo_url": "img/installFull/xenonTheft/004.jpg",
-            "thumb_url": "img/installThumbs/xenonTheft/004.jpg",
-            "description": "The other shortcoming of most OEM security system is the lack of an impact sensor. We recommend putting a weather-tight impact sensor on the back of each headlamp. This will protect the entire vehicle, but will be extra sensitive on the headlights." 
-        },
-        {
-            "photo_url": "img/installFull/xenonTheft/005.jpg",
-            "thumb_url": "img/installThumbs/xenonTheft/005.jpg",
-            "description": "Here you see the impact sensor sealed and installed. Once it is adjusted properly it should not require any servicing." 
-        },
-        {
-            "photo_url": "img/installFull/xenonTheft/006.jpg",
-            "thumb_url": "img/installThumbs/xenonTheft/006.jpg",
-            "description": "The hood pin switches and impact sensors can be added to most aftermarket and factory alarms. And if your factory alarm only sounds your horn, additional sirens can be added as a further deterrent." 
-        },
-        {
-            "photo_url": "img/installFull/xenonTheft/007.jpg",
-            "thumb_url": "img/installThumbs/xenonTheft/007.jpg",
-            "description": "And for the ultimate scare-off, we recommend a loud set of air-horns." 
-        },
-        {
-            "photo_url": "img/installFull/xenonTheft/008.jpg",
-            "thumb_url": "img/installThumbs/xenonTheft/008.jpg",
-            "description": "If you see this guy, call the police immediately!!! &#40;Only kidding, this picture was staged&#41;" 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/xenonTheft/001.jpg",
+      "description": "Do you own an Audi, BMW, Acura or Nissan with Xenon HID Headlamps? They are getting stolen a lot; here is what we can do."
+    },
+    {
+      "imgSrc": "/installs/xenonTheft/002.jpg",
+      "description": "This is not what you want to see when you come back to your car. In about 20 seconds thieves cause between $3000 and $5000 worth of damage. For less than the cost of most deductibles we have some solutions."
+    },
+    {
+      "imgSrc": "/installs/xenonTheft/003.jpg",
+      "description": "The factory alarm only goes off when the hood is completely unlatched. Our suggestion is to add two extra hood pin switches at the far corners of the hood that will activate when the hood is just lifted slightly at either side."
+    },
+    {
+      "imgSrc": "/installs/xenonTheft/004.jpg",
+      "description": "The other shortcoming of most OEM security system is the lack of an impact sensor. We recommend putting a weather-tight impact sensor on the back of each headlamp. This will protect the entire vehicle, but will be extra sensitive on the headlights."
+    },
+    {
+      "imgSrc": "/installs/xenonTheft/005.jpg",
+      "description": "Here you see the impact sensor sealed and installed. Once it is adjusted properly it should not require any servicing."
+    },
+    {
+      "imgSrc": "/installs/xenonTheft/006.jpg",
+      "description": "The hood pin switches and impact sensors can be added to most aftermarket and factory alarms. And if your factory alarm only sounds your horn, additional sirens can be added as a further deterrent."
+    },
+    {
+      "imgSrc": "/installs/xenonTheft/007.jpg",
+      "description": "And for the ultimate scare-off, we recommend a loud set of air-horns."
+    },
+    {
+      "imgSrc": "/installs/xenonTheft/008.jpg",
+      "description": "If you see this guy, call the police immediately!!! (Only kidding, this picture was staged)"
+    }
+  ]
 }

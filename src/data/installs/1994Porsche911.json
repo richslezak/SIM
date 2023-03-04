@@ -1,58 +1,44 @@
 {
-    "id": "porsche911",
-    "install_title": "1994 Porsche 911 3.6l Turbo (Install August 2007)",
-    "icon_url": "img/installIcons/Porsche911Turbo_install.jpg",
-    "install_description": "",
-    "photos": [
-        {
-            "photo_url": "img/installFull/Porsche911Turbo/001.jpg",
-            "thumb_url": "img/installThumbs/Porsche911Turbo/001.jpg",
-            "description": "With only a little over a thousand 3.6l 964 Turbo's ever brought to the U.S., it was top priority to keep the new audio system completely stock looking." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche911Turbo/002.jpg",
-            "thumb_url": "img/installThumbs/Porsche911Turbo/002.jpg",
-            "description": "This very desirable air-cooled 3.6l Turbo is all original and in pristine showroom condition, with only 10K original miles." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche911Turbo/003.jpg",
-            "thumb_url": "img/installThumbs/Porsche911Turbo/003.jpg",
-            "description": "The original DIN opening received an Alpine CDA-9885 because of its great iPod interface and multi line display. Also the white Biolite display best matches the Porsche dash lights." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche911Turbo/004.jpg",
-            "thumb_url": "img/installThumbs/Porsche911Turbo/004.jpg",
-            "description": "Stock speaker locations where upgraded with 6.5&quot; MB Quart Premium components. The tweeter was mounted behind a modified original grille, while the oversized woofer hides behind the MB Quart grille which was dusted in a semi satin black for a factory look." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche911Turbo/005.jpg",
-            "thumb_url": "img/installThumbs/Porsche911Turbo/005.jpg",
-            "description": "Here you see the MB Quart cross-over in the OEM location. The inside of the pocket had to be modified slightly to accommodate the larger piece." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche911Turbo/006.jpg",
-            "thumb_url": "img/installThumbs/Porsche911Turbo/006.jpg",
-            "description": "A Genesis &quot;Profile Four&quot; amplifier was installed under the passenger seat. This amp fits perfectly, offers great sound quality, performance and reliability." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche911Turbo/007.jpg",
-            "thumb_url": "img/installThumbs/Porsche911Turbo/007.jpg",
-            "description": "A &#188;&quot; piece of ABS Plastic was routed to accommodate a set of MB Quart 4 inch components as rear fill, while still being able to snap on the original grille. The original speaker was a 4x6 inch." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche911Turbo/008.jpg",
-            "thumb_url": "img/installThumbs/Porsche911Turbo/008.jpg",
-            "description": "We choose the 4&qout; to be able to retain the factory grille for that unmolested look." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche911Turbo/009.jpg",
-            "thumb_url": "img/installThumbs/Porsche911Turbo/009.jpg",
-            "description": "Unbelievable that this almost 14 year old car only has 10500 well documented miles on it." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche911Turbo/010.jpg",
-            "thumb_url": "img/installThumbs/Porsche911Turbo/010.jpg",
-            "description": "Even the original intercooler looks brand new." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/Porsche911Turbo/001.jpg",
+      "description": "With only a little over a thousand 3.6l 964 Turbo's ever brought to the U.S., it was top priority to keep the new audio system completely stock looking."
+    },
+    {
+      "imgSrc": "/installs/Porsche911Turbo/002.jpg",
+      "description": "This very desirable air-cooled 3.6l Turbo is all original and in pristine showroom condition, with only 10K original miles."
+    },
+    {
+      "imgSrc": "/installs/Porsche911Turbo/003.jpg",
+      "description": "The original DIN opening received an Alpine CDA-9885 because of its great iPod interface and multi line display. Also the white Biolite display best matches the Porsche dash lights."
+    },
+    {
+      "imgSrc": "/installs/Porsche911Turbo/004.jpg",
+      "description": "Stock speaker locations where upgraded with 6.5\" MB Quart Premium components. The tweeter was mounted behind a modified original grille, while the oversized woofer hides behind the MB Quart grille which was dusted in a semi satin black for a factory look."
+    },
+    {
+      "imgSrc": "/installs/Porsche911Turbo/005.jpg",
+      "description": "Here you see the MB Quart cross-over in the OEM location. The inside of the pocket had to be modified slightly to accommodate the larger piece."
+    },
+    {
+      "imgSrc": "/installs/Porsche911Turbo/006.jpg",
+      "description": "A Genesis \"Profile Four\" amplifier was installed under the passenger seat. This amp fits perfectly, offers great sound quality, performance and reliability."
+    },
+    {
+      "imgSrc": "/installs/Porsche911Turbo/007.jpg",
+      "description": "A &#188;\" piece of ABS Plastic was routed to accommodate a set of MB Quart 4 inch components as rear fill, while still being able to snap on the original grille. The original speaker was a 4x6 inch."
+    },
+    {
+      "imgSrc": "/installs/Porsche911Turbo/008.jpg",
+      "description": "We choose the 4&qout; to be able to retain the factory grille for that unmolested look."
+    },
+    {
+      "imgSrc": "/installs/Porsche911Turbo/009.jpg",
+      "description": "Unbelievable that this almost 14 year old car only has 10500 well documented miles on it."
+    },
+    {
+      "imgSrc": "/installs/Porsche911Turbo/010.jpg",
+      "description": "Even the original intercooler looks brand new."
+    }
+  ]
 }

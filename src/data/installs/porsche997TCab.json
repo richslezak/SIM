@@ -1,73 +1,56 @@
 {
-    "id": "2008Porsche997TurboConvertible",
-    "install_title": "2008 Porsche 997 Turbo Convertible (Install February 2008)",
-    "icon_url": "img/installIcons/Porsche997TCab08_install.jpg",
-    "description": "This tastefully, but highly modified Twin Turbo 997 showcases one of the most efficient high performance sound systems, the way we like to do them.",
-    "photos": [
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/001.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/001.jpg",
-            "description": "This tastefully, but highly modified Twin Turbo 997 showcases one of the most efficient high performance sound systems, the way we like to do them." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/002.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/002.jpg",
-            "description": "With its aggressive looks and incredible performance, the sound system had to be as light, unobtrusive and factory looking as possible." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/003.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/003.jpg",
-            "description": "A JL Audio subwoofer now resides in the passenger footwell occupying the space of the original Bose sub, plus only a couple of extra inches of foot space. It was covered in OEM terra cotta carpet for a seamless integration." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/004.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/004.jpg",
-            "description": "The Porsche radio (PCM) was retained as the source. But a NAV-TV iPod module was interfaced to the fiber optic MOST bus system, which allows complete control of the iPod." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/005.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/005.jpg",
-            "description": "A recessed bass knob that controls the Genesis amp was tucked into the pocket in front of the shifter." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/006.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/006.jpg",
-            "description": "The Genesis Profile Four Ultra amplifier was flush mounted in the very front of the trunk. At a little over an inch thick we lost some space, but gained a lot by removing the factory CD changer and making a new floor." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/007.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/007.jpg",
-            "description": "The reason for the L-shaped box is to cover the hole left in the carpet by the Bose woofer. We re-used the original floor vent / power outlet to make it look OEM." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/008.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/008.jpg",
-            "description": "A JL Audio 8W3V2 woofer was used with the extended pole piece (magnet) sealing air-tight to the outside of the box. This allowed us to make the box as thin as possible." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/009.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/009.jpg",
-            "description": "A pair of Focal K2P Power 6.5in component speakers was installed in the factory door locations along with Dynamat sound deadening." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/010.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/010.jpg",
-            "description": "You can get pretty much any option you want when you buy a Porsche, except for a yellow chrono display (the lap-counter in the middle of the dash) to match the yellow gauges. We sourced one from TechArt in Germany and made the customer very happy." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/011.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/011.jpg",
-            "description": "Putting the little sucker in was a bit tricky." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/012.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/012.jpg",
-            "description": "A Fabspeed exhaust and intake system along with a serious ECU upgrade make this Porsche scream with close to 600HP." 
-        },
-        {
-            "photo_url": "img/installFull/Porsche997TurboCab08/013.jpg",
-            "thumb_url": "img/installThumbs/Porsche997TurboCab08/013.jpg",
-            "description": "Here you see the Dynamat sound deadening applied to the inner door skin as well as the sub box under construction." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/001.jpg",
+      "description": "This tastefully, but highly modified Twin Turbo 997 showcases one of the most efficient high performance sound systems, the way we like to do them."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/002.jpg",
+      "description": "With its aggressive looks and incredible performance, the sound system had to be as light, unobtrusive and factory looking as possible."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/003.jpg",
+      "description": "A JL Audio subwoofer now resides in the passenger footwell occupying the space of the original Bose sub, plus only a couple of extra inches of foot space. It was covered in OEM terra cotta carpet for a seamless integration."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/004.jpg",
+      "description": "The Porsche radio (PCM) was retained as the source. But a NAV-TV iPod module was interfaced to the fiber optic MOST bus system, which allows complete control of the iPod."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/005.jpg",
+      "description": "A recessed bass knob that controls the Genesis amp was tucked into the pocket in front of the shifter."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/006.jpg",
+      "description": "The Genesis Profile Four Ultra amplifier was flush mounted in the very front of the trunk. At a little over an inch thick we lost some space, but gained a lot by removing the factory CD changer and making a new floor."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/007.jpg",
+      "description": "The reason for the L-shaped box is to cover the hole left in the carpet by the Bose woofer. We re-used the original floor vent / power outlet to make it look OEM."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/008.jpg",
+      "description": "A JL Audio 8W3V2 woofer was used with the extended pole piece (magnet) sealing air-tight to the outside of the box. This allowed us to make the box as thin as possible."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/009.jpg",
+      "description": "A pair of Focal K2P Power 6.5in component speakers was installed in the factory door locations along with Dynamat sound deadening."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/010.jpg",
+      "description": "You can get pretty much any option you want when you buy a Porsche, except for a yellow chrono display (the lap-counter in the middle of the dash) to match the yellow gauges. We sourced one from TechArt in Germany and made the customer very happy."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/011.jpg",
+      "description": "Putting the little sucker in was a bit tricky."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/012.jpg",
+      "description": "A Fabspeed exhaust and intake system along with a serious ECU upgrade make this Porsche scream with close to 600HP."
+    },
+    {
+      "imgSrc": "/installs/Porsche997TurboCab08/013.jpg",
+      "description": "Here you see the Dynamat sound deadening applied to the inner door skin as well as the sub box under construction."
+    }
+  ]
 }

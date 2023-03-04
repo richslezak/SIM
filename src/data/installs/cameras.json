@@ -1,78 +1,60 @@
 {
-    "id": "BackUpCameras",
-    "install_title": "Back-Up Cameras and Sensors",
-    "icon_url": "img/installIcons/cameras_install.jpg",
-    "install_description": "Never mind parking, or backing up to your trailer. Did you know that over 50 kids get backed over every week and over 500 have died in the last ten years, from being backed over by a vehicle usually driven by a parent, grandparent or neighbor? &#40;According to USA Today&#41; Studies of rear cameras conducted by Consumer's Union, showed they were &quot;extremely effective&quot; for preventing back-overs, say senior product safety counsel Sally Greenberg.",
-    "photos": [
-        {
-            "photo_url": "img/installFull/cameras/010.jpg",
-            "thumb_url": "img/installThumbs/cameras/010.jpg",
-            "description": "<strong>2006 Toyota 4Runner</strong> - A Pioneer camera was recessed into the rear shroud for an un-obtrusive look with great performance." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/011.jpg",
-            "thumb_url": "img/installThumbs/cameras/011.jpg",
-            "description": "<strong>2005 Chevrolet Utility Van</strong> - This is a must for every contractor driving a big truck or box van." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/012.jpg",
-            "thumb_url": "img/installThumbs/cameras/012.jpg",
-            "description": "<strong>2000 Cadillac DHS</strong> - A special mounting cup was made out of ABS plastic to recess this camera into the trunk lid." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/013.jpg",
-            "thumb_url": "img/installThumbs/cameras/013.jpg",
-            "description": "<strong>2003 Mercedes G55</strong> - Another alternative is this Vizualogic camera designed to mount to the license plate." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/014.jpg",
-            "thumb_url": "img/installThumbs/cameras/014.jpg",
-            "description": "<strong>2002 Volvo S60</strong> - Squeezing the Eclipse camera next to the trunk release handle was not easy, but the end result is a great look at what&rsquo;s behind you." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/001.jpg",
-            "thumb_url": "img/installThumbs/cameras/001.jpg",
-            "description": "<strong>2005 Acura TL</strong> - This car comes with every gadget out there, even we where surprised that it didn&rsquo;t have a Back-Up Camera. We recessed an Eclipse wide-angle camera right above the license plate." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/002.jpg",
-            "thumb_url": "img/installThumbs/cameras/002.jpg",
-            "description": "<strong>2005 Acura TL </strong> - An outboard RGB converter was used to get the Image from the Back-Up Camera onto the factory navigation screen when placed in to reverse." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/004.jpg",
-            "thumb_url": "img/installThumbs/cameras/004.jpg",
-            "description": "<strong>1937 Ford Sedan Delivery</strong> - This Back-Up Camera was not a factory option in 1937. We used an Accele color bullet camera with mirror image to help navigate this Hot-Rod in reverse." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/003.jpg",
-            "thumb_url": "img/installThumbs/cameras/003.jpg",
-            "description": "<strong>1937 Ford Sedan Delivery</strong> - . The 7&rdquo; Eclipse LCD screen displays DVD movies, Navigation and a Back-Up Camera when put in reverse gear." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/005.jpg",
-            "thumb_url": "img/installThumbs/cameras/005.jpg",
-            "description": "<strong>2005 GMC Sierra Pick-Up</strong> - Here is a unique solution for pick-up trucks. Integrate the Back-Up Camera into the tailgate handle for the optimum camera angle." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/006.jpg",
-            "thumb_url": "img/installThumbs/cameras/006.jpg",
-            "description": "<strong>2005 Honda Odyssey</strong> - This Eclipse BEC-105 Back-Up Camera was inconspicuously mounted into the tailgate of this minivan. The image was displayed on an Eclipse AVN." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/007.jpg",
-            "thumb_url": "img/installThumbs/cameras/007.jpg",
-            "description": "<strong>2003 Nissan Murano</strong> - An Accele wide-angle lipstick camera was used to help back up this SUV." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/008.jpg",
-            "thumb_url": "img/installThumbs/cameras/008.jpg",
-            "description": "<strong>2003 Nissan Murano</strong> - We sourced a composite to VGA signal converter to be able to get the signal from the Back-Up Camera onto the factory navigation screen. The cones pictured are actually at the edge of the bumpers." 
-        },
-        {
-            "photo_url": "img/installFull/cameras/009.jpg",
-            "thumb_url": "img/installThumbs/cameras/009.jpg",
-            "description": "<strong>2004 Saturn Vue</strong> - If a Back-Up Camera is too much of a hassle, you can also opt for Back-Up Sensors &#40;same as a lot of factory systems&#41;. They emit a progressively louder tone as you near an object." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/cameras/010.jpg",
+      "description": "<strong>2006 Toyota 4Runner</strong> - A Pioneer camera was recessed into the rear shroud for an un-obtrusive look with great performance."
+    },
+    {
+      "imgSrc": "/installs/cameras/011.jpg",
+      "description": "<strong>2005 Chevrolet Utility Van</strong> - This is a must for every contractor driving a big truck or box van."
+    },
+    {
+      "imgSrc": "/installs/cameras/012.jpg",
+      "description": "<strong>2000 Cadillac DHS</strong> - A special mounting cup was made out of ABS plastic to recess this camera into the trunk lid."
+    },
+    {
+      "imgSrc": "/installs/cameras/013.jpg",
+      "description": "<strong>2003 Mercedes G55</strong> - Another alternative is this Vizualogic camera designed to mount to the license plate."
+    },
+    {
+      "imgSrc": "/installs/cameras/014.jpg",
+      "description": "<strong>2002 Volvo S60</strong> - Squeezing the Eclipse camera next to the trunk release handle was not easy, but the end result is a great look at what&rsquo;s behind you."
+    },
+    {
+      "imgSrc": "/installs/cameras/001.jpg",
+      "description": "<strong>2005 Acura TL</strong> - This car comes with every gadget out there, even we where surprised that it didn&rsquo;t have a Back-Up Camera. We recessed an Eclipse wide-angle camera right above the license plate."
+    },
+    {
+      "imgSrc": "/installs/cameras/002.jpg",
+      "description": "<strong>2005 Acura TL </strong> - An outboard RGB converter was used to get the Image from the Back-Up Camera onto the factory navigation screen when placed in to reverse."
+    },
+    {
+      "imgSrc": "/installs/cameras/004.jpg",
+      "description": "<strong>1937 Ford Sedan Delivery</strong> - This Back-Up Camera was not a factory option in 1937. We used an Accele color bullet camera with mirror image to help navigate this Hot-Rod in reverse."
+    },
+    {
+      "imgSrc": "/installs/cameras/003.jpg",
+      "description": "<strong>1937 Ford Sedan Delivery</strong> - . The 7&rdquo; Eclipse LCD screen displays DVD movies, Navigation and a Back-Up Camera when put in reverse gear."
+    },
+    {
+      "imgSrc": "/installs/cameras/005.jpg",
+      "description": "<strong>2005 GMC Sierra Pick-Up</strong> - Here is a unique solution for pick-up trucks. Integrate the Back-Up Camera into the tailgate handle for the optimum camera angle."
+    },
+    {
+      "imgSrc": "/installs/cameras/006.jpg",
+      "description": "<strong>2005 Honda Odyssey</strong> - This Eclipse BEC-105 Back-Up Camera was inconspicuously mounted into the tailgate of this minivan. The image was displayed on an Eclipse AVN."
+    },
+    {
+      "imgSrc": "/installs/cameras/007.jpg",
+      "description": "<strong>2003 Nissan Murano</strong> - An Accele wide-angle lipstick camera was used to help back up this SUV."
+    },
+    {
+      "imgSrc": "/installs/cameras/008.jpg",
+      "description": "<strong>2003 Nissan Murano</strong> - We sourced a composite to VGA signal converter to be able to get the signal from the Back-Up Camera onto the factory navigation screen. The cones pictured are actually at the edge of the bumpers."
+    },
+    {
+      "imgSrc": "/installs/cameras/009.jpg",
+      "description": "<strong>2004 Saturn Vue</strong> - If a Back-Up Camera is too much of a hassle, you can also opt for Back-Up Sensors (same as a lot of factory systems). They emit a progressively louder tone as you near an object."
+    }
+  ]
 }

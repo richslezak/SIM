@@ -1,98 +1,76 @@
 {
-    "id": "cadillacEscalade06",
-    "install_title": "2006 Cadillac Escalade (Install October 06)",
-    "icon_url": "img/installIcons/cadillac06_install.jpg",
-    "description": "",
-    "photos": [
-        {
-            "photo_url": "img/installFull/cadillac06/001.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/001.jpg",
-            "description": "With a completely new design Cadillac has raised the bar with the &quot;'06&quot; Escalade. Check out how we got a high performance audio, video and radar detection system integrated with minimal compromise." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/002.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/002.jpg",
-            "description": "Outside esthetics were complimented with tinted windows and 23&quot; Asanti wheels. A supercharger is next on the list." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/003.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/003.jpg",
-            "description": "The factory system allows the user to watch DVD's on the LCD screen, so no interfacing was needed here. To retrieve a usable audio signal from the factory amplifier we opted for the new Audio Control DQL-8. With its signal summing, re-equalization, AUX in and remote adjustable subwoofer out capabilities, it was the perfect solution." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/004.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/004.jpg",
-            "description": "The K-40 radar / laser detector LED's were integrated into the instrument cluster" 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/005.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/005.jpg",
-            "description": "A new panel was made to hold the K-40 control knob." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/006.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/006.jpg",
-            "description": "Two pairs of Focal K2P component speakers were installed in the factory door locations. Dynamat Extreme sound deadening was applied to all inner and outer door skins for optimum performance." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/007.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/007.jpg",
-            "description": "This was more complicated than it looks. The seat brackets hat to be cut and new reinforcements welded in so there was no structural compromise. Also the plastic covers were modified and recovered to fit snugly around the Xbox 360." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/008.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/008.jpg",
-            "description": "Literally, the centerpiece of the install is a custom console made to hold three JL Audio 10W6V2 subwoofers. Steel brackets mount it directly to the middle row seat bolts." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/009.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/009.jpg",
-            "description": "A combination of carpet and vinyl was used to cover the console for an OEM look. The Cadillac logo illuminates with a subtle blue glow. Notice the arm rest pad with a french stitch in it. No, it does not open; we needed all the air space we could get for the subwoofers." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/010.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/010.jpg",
-            "description": "Once installed between the rear seats, it looks as if it belongs. The indentations on the sides allow the armrests to clear when the seats fold forward. &#189;&quot; black Plexiglas was used to trim the coin tray and cup holder which illuminates as well." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/011.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/011.jpg",
-            "description": "This view shows how well the sub box console integrates into its new surroundings." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/012.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/012.jpg",
-            "description": "Each seat received its own Vizualogic screen and DVD player. They also have a direct input for your iPod." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/013.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/013.jpg",
-            "description": "Five screens, each with a different movie or game. Technically with the factory six-disc DVD player and the Xbox, there are 11 places to put your movies." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/014.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/014.jpg",
-            "description": "The rear now holds a low profile amp rack, home to two Zapco C2K Competition series amplifiers. The Cadillac plaque was recessed into the vinyl for that factory look." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/015.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/015.jpg",
-            "description": "Blue neon and Plexiglas give it a classy appearance while also protecting the amplifiers. A filler piece was made to join the amps so they look like one." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/016.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/016.jpg",
-            "description": "For everyday use a simple cover protects the amp rack. New release handles had to be fabricated for the third row seats." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/017.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/017.jpg",
-            "description": "The filler piece was made from painted ABS plastic, with a brushed aluminum insert to match the Zapco amps." 
-        },
-        {
-            "photo_url": "img/installFull/cadillac06/018.jpg",
-            "thumb_url": "img/installThumbs/cadillac06/018.jpg",
-            "description": "Here is the center console sub box prior to wrapping it in vinyl and carpet." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/cadillac06/001.jpg",
+      "description": "With a completely new design Cadillac has raised the bar with the \"'06\" Escalade. Check out how we got a high performance audio, video and radar detection system integrated with minimal compromise."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/002.jpg",
+      "description": "Outside esthetics were complimented with tinted windows and 23\" Asanti wheels. A supercharger is next on the list."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/003.jpg",
+      "description": "The factory system allows the user to watch DVD's on the LCD screen, so no interfacing was needed here. To retrieve a usable audio signal from the factory amplifier we opted for the new Audio Control DQL-8. With its signal summing, re-equalization, AUX in and remote adjustable subwoofer out capabilities, it was the perfect solution."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/004.jpg",
+      "description": "The K-40 radar / laser detector LED's were integrated into the instrument cluster"
+    },
+    {
+      "imgSrc": "/installs/cadillac06/005.jpg",
+      "description": "A new panel was made to hold the K-40 control knob."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/006.jpg",
+      "description": "Two pairs of Focal K2P component speakers were installed in the factory door locations. Dynamat Extreme sound deadening was applied to all inner and outer door skins for optimum performance."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/007.jpg",
+      "description": "This was more complicated than it looks. The seat brackets hat to be cut and new reinforcements welded in so there was no structural compromise. Also the plastic covers were modified and recovered to fit snugly around the Xbox 360."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/008.jpg",
+      "description": "Literally, the centerpiece of the install is a custom console made to hold three JL Audio 10W6V2 subwoofers. Steel brackets mount it directly to the middle row seat bolts."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/009.jpg",
+      "description": "A combination of carpet and vinyl was used to cover the console for an OEM look. The Cadillac logo illuminates with a subtle blue glow. Notice the arm rest pad with a french stitch in it. No, it does not open; we needed all the air space we could get for the subwoofers."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/010.jpg",
+      "description": "Once installed between the rear seats, it looks as if it belongs. The indentations on the sides allow the armrests to clear when the seats fold forward. &#189;\" black Plexiglas was used to trim the coin tray and cup holder which illuminates as well."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/011.jpg",
+      "description": "This view shows how well the sub box console integrates into its new surroundings."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/012.jpg",
+      "description": "Each seat received its own Vizualogic screen and DVD player. They also have a direct input for your iPod."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/013.jpg",
+      "description": "Five screens, each with a different movie or game. Technically with the factory six-disc DVD player and the Xbox, there are 11 places to put your movies."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/014.jpg",
+      "description": "The rear now holds a low profile amp rack, home to two Zapco C2K Competition series amplifiers. The Cadillac plaque was recessed into the vinyl for that factory look."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/015.jpg",
+      "description": "Blue neon and Plexiglas give it a classy appearance while also protecting the amplifiers. A filler piece was made to join the amps so they look like one."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/016.jpg",
+      "description": "For everyday use a simple cover protects the amp rack. New release handles had to be fabricated for the third row seats."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/017.jpg",
+      "description": "The filler piece was made from painted ABS plastic, with a brushed aluminum insert to match the Zapco amps."
+    },
+    {
+      "imgSrc": "/installs/cadillac06/018.jpg",
+      "description": "Here is the center console sub box prior to wrapping it in vinyl and carpet."
+    }
+  ]
 }

@@ -1,73 +1,56 @@
 {
-    "id": "audiA3Comp",
-    "install_title": "2006 Audi A3 (Install July 06)",
-    "icon_url": "img/installIcons/audiA3Comp_install.jpg",
-    "description": "",
-    "photos": [
-        {
-            "photo_url": "img/installFull/audiA3Comp/001.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/001.jpg",
-            "description": "So you're wondering what's next in &quot;Mobile Electronics&quot;. How about&#58; &quot;No Radio&quot;, but instead a full-fletched computer with internet access, TV, satellite radio and 100 GB of media storage." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/002.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/002.jpg",
-            "description": "With just a touch screen where the original radio used to be and some well designed software it is quite easy to navigate your way around." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/003.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/003.jpg",
-            "description": "The original Audi radio was used only as a template to fabricate the new housing for the 7&quot; touch screen. The factory Bose amplifier and speakers remained in the car." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/004.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/004.jpg",
-            "description": "Drivesoft ships the CPU complete with a proper power supply, switched USB's and any features you desire. All we added was a custom, but serviceable mounting bracket." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/005.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/005.jpg",
-            "description": "The modified CD / DVD / MP3 Drive and powered USB hub where mounted in an existing pocket in the glove box. An XM tuner was installed behind the scene as well." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/006.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/006.jpg",
-            "description": "The world is now at your fingertips, &#40;or at least the World Wide Web is&#41;. A keyboard and mouse are available for writing e-mails but are not required for everyday media or informational use." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/007.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/007.jpg",
-            "description": "We mounted the CPU under the passenger side dash. An ABS plastic cover was fabricated to snap over it, for protection." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/008.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/008.jpg",
-            "description": "Most of the important controls, such as volume, scroll, skip and enter can also be operated from an IR remote. If your car has steering wheel controls, they can be programmed as well." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/009.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/009.jpg",
-            "description": "Even though the power supply is very stable, it is highly recommended not to spike the electrical system." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/010.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/010.jpg",
-            "description": "This is the default home page for the Drivesoft software. As you can see, large icons make for a safe and easy operation of all major functions." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/011.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/011.jpg",
-            "description": "With a wireless internet card nothing is out of reach." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/012.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/012.jpg",
-            "description": "Thousands of albums, songs, movies or music videos can be accessed with the touch of a screen." 
-        },
-        {
-            "photo_url": "img/installFull/audiA3Comp/013.jpg",
-            "thumb_url": "img/installThumbs/audiA3Comp/013.jpg",
-            "description": "If e-mails are your main form of communication, then waste no more time waiting for your laptop to boot up and find a &quot;Hot Spot&quot;. Do it in you car." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/audiA3Comp/001.jpg",
+      "description": "So you're wondering what's next in \"Mobile Electronics\". How about: \"No Radio\", but instead a full-fletched computer with internet access, TV, satellite radio and 100 GB of media storage."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/002.jpg",
+      "description": "With just a touch screen where the original radio used to be and some well designed software it is quite easy to navigate your way around."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/003.jpg",
+      "description": "The original Audi radio was used only as a template to fabricate the new housing for the 7\" touch screen. The factory Bose amplifier and speakers remained in the car."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/004.jpg",
+      "description": "Drivesoft ships the CPU complete with a proper power supply, switched USB's and any features you desire. All we added was a custom, but serviceable mounting bracket."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/005.jpg",
+      "description": "The modified CD / DVD / MP3 Drive and powered USB hub where mounted in an existing pocket in the glove box. An XM tuner was installed behind the scene as well."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/006.jpg",
+      "description": "The world is now at your fingertips, (or at least the World Wide Web is). A keyboard and mouse are available for writing e-mails but are not required for everyday media or informational use."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/007.jpg",
+      "description": "We mounted the CPU under the passenger side dash. An ABS plastic cover was fabricated to snap over it, for protection."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/008.jpg",
+      "description": "Most of the important controls, such as volume, scroll, skip and enter can also be operated from an IR remote. If your car has steering wheel controls, they can be programmed as well."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/009.jpg",
+      "description": "Even though the power supply is very stable, it is highly recommended not to spike the electrical system."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/010.jpg",
+      "description": "This is the default home page for the Drivesoft software. As you can see, large icons make for a safe and easy operation of all major functions."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/011.jpg",
+      "description": "With a wireless internet card nothing is out of reach."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/012.jpg",
+      "description": "Thousands of albums, songs, movies or music videos can be accessed with the touch of a screen."
+    },
+    {
+      "imgSrc": "/installs/audiA3Comp/013.jpg",
+      "description": "If e-mails are your main form of communication, then waste no more time waiting for your laptop to boot up and find a \"Hot Spot\". Do it in you car."
+    }
+  ]
 }

@@ -1,93 +1,72 @@
 {
-    "id": "2003RangeRover",
-    "install_title": "2003 Land Rover Range Rover (Install June 06)",
-    "icon_url": "img/installIcons/rangeRover03_install.jpg",
-    "description": "",
-    "photos": [
-        {
-            "photo_url": "img/installFull/rangeRover03/001.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/001.jpg",
-            "description": "Every possible aftermarket option was added to this SUV." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/002.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/002.jpg",
-            "description": "The tight and plush interior of this luxury SUV requires some creative measures to make all the components integrate seamlessly. A NAV TV RGB converter was used to get the back-up camera on the factory screen." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/003.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/003.jpg",
-            "description": "A XM Commander was mounted in the overhead sunglass holder. A small plastic trim bezel was fabricated to hide the wire and still allow it to be folded out of sight." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/004.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/004.jpg",
-            "description": "Under the factory CD changer in the glove box we found a home for an Accele DVD player / TV Tuner. The IR Eye was mounted outside so you don't have to open the glove box to control it." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/005.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/005.jpg",
-            "description": "These two knobs in front of the shifter are the master volume / AUX input selector and a remote sub level control." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/006.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/006.jpg",
-            "description": "Two layers of Dynamat where used in all doors to further quiet the interior and improve speaker performance." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/007.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/007.jpg",
-            "description": "The original speaker locations where used for the MB Quart QSD Speakers. Custom mounting rings were fabricated out of ABS plastic." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/008.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/008.jpg",
-            "description": "Who can live without their iPod today? We utilized one of the AUX inputs to allow the audio into the system." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/009.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/009.jpg",
-            "description": "For rear seat entertainment we chose Vizualogic 7&quot; screens with built in DVD players. Now everyone can watch their own DVD. The A/V IN allows you to watch TV or another source like a video game or laptop in the back as well." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/010.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/010.jpg",
-            "description": "How to fit four JL Audio 10&quot; subwoofers and the rest of the equipment without loosing all of the valuable cargo space?" 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/011.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/011.jpg",
-            "description": "We removed the original spare tire, this freed up enough room for two Zapco reference amps, all the MB Quart crossovers, a 5 farrad Alumapro cap and all the necessary wiring." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/012.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/012.jpg",
-            "description": "The sub enclosure was arched to give it a concave look which appears a lot less obtrusive. The enclosure itself was covered in gray Ultrasuede that matches the interior panels and headliner." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/013.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/013.jpg",
-            "description": "A hole was cut into the original panel to showcase the neon lit amplifiers and crossovers. The removed carpet was used in the bottom corners of the sub box to give it a more rounded / flowing effect." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/014.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/014.jpg",
-            "description": "An etched Land Rover emblem gives the &#189;&quot; Plexiglas cover that extra cool touch." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/015.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/015.jpg",
-            "description": "For everyday use, a protective cover with a raised SiM logo and wrapped in Ultrasuede, protects the Plexiglas. The Sound in Motion plaque was recessed where the original lift handle used to be." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/016.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/016.jpg",
-            "description": "A JL Audio Cleansweep was utilized to flatten the factory equalized audio signal as well as give us an AUX IN for all the new audio sources." 
-        },
-        {
-            "photo_url": "img/installFull/rangeRover03/017.jpg",
-            "thumb_url": "img/installThumbs/rangeRover03/017.jpg",
-            "description": "Last but not least, a reverse camera was added in the tailgate for those tricky back-up maneuvers. It comes on automatically when the truck goes into reverse, or it can be turned on with the flick of a switch at any time." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/rangeRover03/001.jpg",
+      "description": "Every possible aftermarket option was added to this SUV."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/002.jpg",
+      "description": "The tight and plush interior of this luxury SUV requires some creative measures to make all the components integrate seamlessly. A NAV TV RGB converter was used to get the back-up camera on the factory screen."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/003.jpg",
+      "description": "A XM Commander was mounted in the overhead sunglass holder. A small plastic trim bezel was fabricated to hide the wire and still allow it to be folded out of sight."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/004.jpg",
+      "description": "Under the factory CD changer in the glove box we found a home for an Accele DVD player / TV Tuner. The IR Eye was mounted outside so you don't have to open the glove box to control it."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/005.jpg",
+      "description": "These two knobs in front of the shifter are the master volume / AUX input selector and a remote sub level control."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/006.jpg",
+      "description": "Two layers of Dynamat where used in all doors to further quiet the interior and improve speaker performance."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/007.jpg",
+      "description": "The original speaker locations where used for the MB Quart QSD Speakers. Custom mounting rings were fabricated out of ABS plastic."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/008.jpg",
+      "description": "Who can live without their iPod today? We utilized one of the AUX inputs to allow the audio into the system."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/009.jpg",
+      "description": "For rear seat entertainment we chose Vizualogic 7\" screens with built in DVD players. Now everyone can watch their own DVD. The A/V IN allows you to watch TV or another source like a video game or laptop in the back as well."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/010.jpg",
+      "description": "How to fit four JL Audio 10\" subwoofers and the rest of the equipment without loosing all of the valuable cargo space?"
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/011.jpg",
+      "description": "We removed the original spare tire, this freed up enough room for two Zapco reference amps, all the MB Quart crossovers, a 5 farrad Alumapro cap and all the necessary wiring."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/012.jpg",
+      "description": "The sub enclosure was arched to give it a concave look which appears a lot less obtrusive. The enclosure itself was covered in gray Ultrasuede that matches the interior panels and headliner."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/013.jpg",
+      "description": "A hole was cut into the original panel to showcase the neon lit amplifiers and crossovers. The removed carpet was used in the bottom corners of the sub box to give it a more rounded / flowing effect."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/014.jpg",
+      "description": "An etched Land Rover emblem gives the &#189;\" Plexiglas cover that extra cool touch."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/015.jpg",
+      "description": "For everyday use, a protective cover with a raised SiM logo and wrapped in Ultrasuede, protects the Plexiglas. The Sound in Motion plaque was recessed where the original lift handle used to be."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/016.jpg",
+      "description": "A JL Audio Cleansweep was utilized to flatten the factory equalized audio signal as well as give us an AUX IN for all the new audio sources."
+    },
+    {
+      "imgSrc": "/installs/rangeRover03/017.jpg",
+      "description": "Last but not least, a reverse camera was added in the tailgate for those tricky back-up maneuvers. It comes on automatically when the truck goes into reverse, or it can be turned on with the flick of a switch at any time."
+    }
+  ]
 }

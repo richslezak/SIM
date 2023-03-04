@@ -1,223 +1,176 @@
 {
-    "id": "customFab",
-    "install_title": "Custom Fabrication with Plastic, Wood, Metal etc.",
-    "icon_url": "img/installIcons/customFab_install.jpg",
-    "install_description": "Through the use of different materials and fabrication methods, we efficiently construct pretty much anything, with extreme durability while keeping the weight down. Two-part epoxies and the vast improvements of flexible paint coatings have made plastic fabrication one of our fortes. We pay careful attention to matching OEM colors, textures and shades. The car manufactures use plastic throughout the car, so why would you ever fiberglass a dashboard?",
-    "photos": [
-        {
-            "photo_url": "img/installFull/customFab/037.jpg",
-            "thumb_url": "img/installThumbs/customFab/037.jpg",
-            "description": "<strong>2000 Cadillac DHS</strong> - A custom cup for a back-up camera was made by heat-molding a raw piece of ABS plastic." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/038.jpg",
-            "thumb_url": "img/installThumbs/customFab/038.jpg",
-            "description": "<strong>2000 Cadillac DHS</strong> - Once the camera, weather seal and mounting screws were installed, it looked like a factory piece." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/039.jpg",
-            "thumb_url": "img/installThumbs/customFab/039.jpg",
-            "description": "<strong>2004 GMC Denali</strong> - The original dash bezel was extensively reworked to house this 15&quot; LCD. Thanks to the epoxies and paints available today this is even possible. Blending the metallic dash color was not easy, but the end result was perfect." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/040.jpg",
-            "thumb_url": "img/installThumbs/customFab/040.jpg",
-            "description": "<strong>2006 Audi A3</strong> - The top is the original Audi radio we removed, below it is the screen we installed. A custom bezel was fabricated for the screen to perfectly fit into the original dash location. Notice the perfect texture match." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/041.jpg",
-            "thumb_url": "img/installThumbs/customFab/041.jpg",
-            "description": "<strong>1999 Audi A4</strong> - This three dimensional piece of &#188;&quot; ABS is in its raw state, ready to get trimmed to fit all the new dash components." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/042.jpg",
-            "thumb_url": "img/installThumbs/customFab/042.jpg",
-            "description": "<strong>1999 Audi A4</strong> - No fancy CNC machines here, just some good tools, sharp bits and a little skill." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/043.jpg",
-            "thumb_url": "img/installThumbs/customFab/043.jpg",
-            "description": "<strong>1999 Audi A4</strong> - The finished dash now holds a 7&quot; Eclipse screen, Eclipse radio, a Saab cup holder and the original climate control. A perfect color and texture match was also achieved." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/001.jpg",
-            "thumb_url": "img/installThumbs/customFab/001.jpg",
-            "description": "<strong>1993 Mazda RX7</strong> - A gauge cluster molded onto the original A-pillar. Made from ABS plastic and textured for an OEM look." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/002.jpg",
-            "thumb_url": "img/installThumbs/customFab/002.jpg",
-            "description": "<strong>1993 Mazda RX7</strong> - Similar gauge cluster molded into the passenger side dash. Again, all made out of plastic. Note: this car did not have an airbag here." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/003.jpg",
-            "thumb_url": "img/installThumbs/customFab/003.jpg",
-            "description": "<strong>2002 GMC Yukon</strong> - A rack was welded out of 1/8&quot; steel with a lockable safety latch to hold an air bottle for air-suspension set up." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/004.jpg",
-            "thumb_url": "img/installThumbs/customFab/004.jpg",
-            "description": "<strong>2002 GMC Yukon</strong> - Here the rack and bottle secured in the vehicle." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/005.jpg",
-            "thumb_url": "img/installThumbs/customFab/005.jpg",
-            "description": "<strong>2002 GMC Yukon</strong> - A dual motorized TV rack was constructed out of steel using ball bearing tracks and worm drives. The covers for the monitors where made from acrylic and later finished with a black texture." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/006.jpg",
-            "thumb_url": "img/installThumbs/customFab/006.jpg",
-            "description": "<strong>2002 GMC Yukon</strong> - The motorized TV's in the up position." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/007.jpg",
-            "thumb_url": "img/installThumbs/customFab/007.jpg",
-            "description": "<strong>2002 GMC Yukon</strong> - And down. See the rest of the car in our installation by vehicle section." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/008.jpg",
-            "thumb_url": "img/installThumbs/customFab/008.jpg",
-            "description": "<strong>2003 BMW X5</strong> - Here the inside of an ashtray was rebuilt to accommodate an XM display and some switches." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/009.jpg",
-            "thumb_url": "img/installThumbs/customFab/009.jpg",
-            "description": "<strong>2000 Chevrolet Suburban</strong> - An overhead console was constructed out of 3/16&quot; ABS plastic to house two Alpine monitors, the dome light and the factory rear vent." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/010.jpg",
-            "thumb_url": "img/installThumbs/customFab/010.jpg",
-            "description": "<strong>2000 Chevrolet Suburban</strong> - This lightweight yet strong piece was then covered in padded headliner material." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/011.jpg",
-            "thumb_url": "img/installThumbs/customFab/011.jpg",
-            "description": "<strong>2000 Chevrolet Tahoe</strong> - This is cool. Two PAC steering wheel remote adapters where used to build our own remote in the back of the vehicle for tailgate party's. Soft-touch micro switches where used and overlaid with a laminate with all the button descriptions." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/012.jpg",
-            "thumb_url": "img/installThumbs/customFab/012.jpg",
-            "description": "<strong>2000 Chevrolet Tahoe</strong> - An entire center console was fabricated to hold a DVD player, two CD Changers, a VCR with TV tuner, a cell phone and three A/V selectors. And the original cup holder and storage bin remain." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/013.jpg",
-            "thumb_url": "img/installThumbs/customFab/013.jpg",
-            "description": "<strong>2000 Chevrolet Tahoe</strong> - The entire console was wrapped in OEM vinyl. See the rest of the car in our installation by vehicle section." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/014.jpg",
-            "thumb_url": "img/installThumbs/customFab/014.jpg",
-            "description": "<strong>2002 Chrysler PT Cruiser</strong> - This factory radio was dissected in order to make a cover for the aftermarket radio. All of the buttons where glued back on and the back was finished in suede for a rattle free tight fit." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/015.jpg",
-            "thumb_url": "img/installThumbs/customFab/015.jpg",
-            "description": "<strong>2002 Chrysler PT Cruiser</strong> - Fake face on." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/016.jpg",
-            "thumb_url": "img/installThumbs/customFab/016.jpg",
-            "description": "<strong>2002 Chrysler PT Cruiser</strong> - Fake face off. See the rest of the car in our installs by vehicle section." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/017.jpg",
-            "thumb_url": "img/installThumbs/customFab/017.jpg",
-            "description": "<strong>1937 Ford Sedan Delivery Wagon</strong> - These 1937 headlights where upgraded to Xenon headlights. We had to modify the steel headlamp bezels to accommodate the Xenon transformer." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/018.jpg",
-            "thumb_url": "img/installThumbs/customFab/018.jpg",
-            "description": "<strong>1937 Ford sedan Delivery Wagon</strong> - An entire center console was made from 18 gauge steel to house a screen, DVD player CD player, gauges and switches. We used steel because the dash was made from steel as well." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/019.jpg",
-            "thumb_url": "img/installThumbs/customFab/019.jpg",
-            "description": "<strong>1937 Ford Sedan Delivery Wagon</strong> - A custom switch cluster was milled out of &#188;&quot; aluminum. All the switches are recessed and the labeling is back-lit." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/020.jpg",
-            "thumb_url": "img/installThumbs/customFab/020.jpg",
-            "description": "<strong>1937 Ford Sedan Delivery Wagon</strong> - These are motorized deadbolts for suicide doors. Door lock actuators where used and micro switches installed to indicate their status. You can still operate them manually as well." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/021.jpg",
-            "thumb_url": "img/installThumbs/customFab/021.jpg",
-            "description": "<strong>1937 Ford Sedan Delivery Wagon</strong> - The rear window was stationary in this chopped Hot Rod. We sourced some tracks, a custom cut piece of tinted glass and a power window kit to make it all work. Some modification to the tailgate and third brake light had to be made as well." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/022.jpg",
-            "thumb_url": "img/installThumbs/customFab/022.jpg",
-            "description": "<strong>1937 Ford Sedan Delivery Wagon</strong> - James Bond style, these are motorized back-up lights that retract when not in use. Weatherproof linear actuators where used." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/023.jpg",
-            "thumb_url": "img/installThumbs/customFab/023.jpg",
-            "description": "<strong>2004 Ford F150</strong> - The original center console in this pick-up is so big that everything got lost. Per customer request we fabricated a hinged insert out of plastic to help organize things." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/024.jpg",
-            "thumb_url": "img/installThumbs/customFab/024.jpg",
-            "description": "<strong>2004 Ford F150</strong> - By lifting the tray access is gained to the bottom half." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/025.jpg",
-            "thumb_url": "img/installThumbs/customFab/025.jpg",
-            "description": "<strong>1929 Ford T-Bucket</strong> - This is a customized version of an under-dash-kit. It was designed to ISO mount an Alpine radio and horn button into a 1929 T-Bucket." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/026.jpg",
-            "thumb_url": "img/installThumbs/customFab/026.jpg",
-            "description": "<strong>1929 Ford T-Bucket</strong> - The recessed radio housing mimics the gauge cluster." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/027.jpg",
-            "thumb_url": "img/installThumbs/customFab/027.jpg",
-            "description": "<strong>2001 Nissan Maxima</strong> - These lightweight racks where made from &frac12;&quot; square steel tubing. They hold 45 lbs worth of amplifiers and components." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/028.jpg",
-            "thumb_url": "img/installThumbs/customFab/028.jpg",
-            "description": "<strong>2001 Nissan Maxima</strong> - Once the fiberglass covers are installed the amplifiers appear to float yet remain very serviceable. See the car in our installs by vehicle section." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/029.jpg",
-            "thumb_url": "img/installThumbs/customFab/029.jpg",
-            "description": "<strong>2002 Toyota RAV4</strong> - An old Toyota cassette player along with a cover from a Nissan pocket was used to make this removable cover." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/030.jpg",
-            "thumb_url": "img/installThumbs/customFab/030.jpg",
-            "description": "<strong>2002 Toyota RAV4</strong> - The cover acts as a decoy for the Eclipse AVN Navigation System." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/031.jpg",
-            "thumb_url": "img/installThumbs/customFab/031.jpg",
-            "description": "<strong>2004 Subaru WRX</strong> - This is the original clock bezel modified to hold two 2&quot; gauges. It also has a motorized hinged cover that conceals them when not in use." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/032.jpg",
-            "thumb_url": "img/installThumbs/customFab/032.jpg",
-            "description": "<strong>2004 Subaru WRX</strong> - Gauges open." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/033.jpg",
-            "thumb_url": "img/installThumbs/customFab/033.jpg",
-            "description": "<strong>2004 Subaru WRX</strong> - Gauges closed, now it looks like a center channel speaker." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/034.jpg",
-            "thumb_url": "img/installThumbs/customFab/034.jpg",
-            "description": "<strong>1994 Toyota Supra Twin Turbo</strong> - This is part of the most efficient and reliable motorization we have ever done. All steel construction with ball bearing tracks and limit switches. Worm drives &#40;similar to those used for power seats and old convertible tops&#41; capable of pushing 300+ lbs where used to move up and swing out an amp rack as well as signal processors in our Supra." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/035.jpg",
-            "thumb_url": "img/installThumbs/customFab/035.jpg",
-            "description": "<strong>1994 Toyota Supra Twin Turbo</strong> - Close up view of the worm gears, tracks, ball bearings and limit switches." 
-        },
-        {
-            "photo_url": "img/installFull/customFab/036.jpg",
-            "thumb_url": "img/installThumbs/customFab/036.jpg",
-            "description": "<strong>1994 Toyota Supra Twin Turbo</strong> - The finished and assembled product. Covers made of fiberglass conceal all the motorization." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/customFab/037.jpg",
+      "description": "<strong>2000 Cadillac DHS</strong> - A custom cup for a back-up camera was made by heat-molding a raw piece of ABS plastic."
+    },
+    {
+      "imgSrc": "/installs/customFab/038.jpg",
+      "description": "<strong>2000 Cadillac DHS</strong> - Once the camera, weather seal and mounting screws were installed, it looked like a factory piece."
+    },
+    {
+      "imgSrc": "/installs/customFab/039.jpg",
+      "description": "<strong>2004 GMC Denali</strong> - The original dash bezel was extensively reworked to house this 15\" LCD. Thanks to the epoxies and paints available today this is even possible. Blending the metallic dash color was not easy, but the end result was perfect."
+    },
+    {
+      "imgSrc": "/installs/customFab/040.jpg",
+      "description": "<strong>2006 Audi A3</strong> - The top is the original Audi radio we removed, below it is the screen we installed. A custom bezel was fabricated for the screen to perfectly fit into the original dash location. Notice the perfect texture match."
+    },
+    {
+      "imgSrc": "/installs/customFab/041.jpg",
+      "description": "<strong>1999 Audi A4</strong> - This three dimensional piece of &#188;\" ABS is in its raw state, ready to get trimmed to fit all the new dash components."
+    },
+    {
+      "imgSrc": "/installs/customFab/042.jpg",
+      "description": "<strong>1999 Audi A4</strong> - No fancy CNC machines here, just some good tools, sharp bits and a little skill."
+    },
+    {
+      "imgSrc": "/installs/customFab/043.jpg",
+      "description": "<strong>1999 Audi A4</strong> - The finished dash now holds a 7\" Eclipse screen, Eclipse radio, a Saab cup holder and the original climate control. A perfect color and texture match was also achieved."
+    },
+    {
+      "imgSrc": "/installs/customFab/001.jpg",
+      "description": "<strong>1993 Mazda RX7</strong> - A gauge cluster molded onto the original A-pillar. Made from ABS plastic and textured for an OEM look."
+    },
+    {
+      "imgSrc": "/installs/customFab/002.jpg",
+      "description": "<strong>1993 Mazda RX7</strong> - Similar gauge cluster molded into the passenger side dash. Again, all made out of plastic. Note: this car did not have an airbag here."
+    },
+    {
+      "imgSrc": "/installs/customFab/003.jpg",
+      "description": "<strong>2002 GMC Yukon</strong> - A rack was welded out of 1/8\" steel with a lockable safety latch to hold an air bottle for air-suspension set up."
+    },
+    {
+      "imgSrc": "/installs/customFab/004.jpg",
+      "description": "<strong>2002 GMC Yukon</strong> - Here the rack and bottle secured in the vehicle."
+    },
+    {
+      "imgSrc": "/installs/customFab/005.jpg",
+      "description": "<strong>2002 GMC Yukon</strong> - A dual motorized TV rack was constructed out of steel using ball bearing tracks and worm drives. The covers for the monitors where made from acrylic and later finished with a black texture."
+    },
+    {
+      "imgSrc": "/installs/customFab/006.jpg",
+      "description": "<strong>2002 GMC Yukon</strong> - The motorized TV's in the up position."
+    },
+    {
+      "imgSrc": "/installs/customFab/007.jpg",
+      "description": "<strong>2002 GMC Yukon</strong> - And down. See the rest of the car in our installation by vehicle section."
+    },
+    {
+      "imgSrc": "/installs/customFab/008.jpg",
+      "description": "<strong>2003 BMW X5</strong> - Here the inside of an ashtray was rebuilt to accommodate an XM display and some switches."
+    },
+    {
+      "imgSrc": "/installs/customFab/009.jpg",
+      "description": "<strong>2000 Chevrolet Suburban</strong> - An overhead console was constructed out of 3/16\" ABS plastic to house two Alpine monitors, the dome light and the factory rear vent."
+    },
+    {
+      "imgSrc": "/installs/customFab/010.jpg",
+      "description": "<strong>2000 Chevrolet Suburban</strong> - This lightweight yet strong piece was then covered in padded headliner material."
+    },
+    {
+      "imgSrc": "/installs/customFab/011.jpg",
+      "description": "<strong>2000 Chevrolet Tahoe</strong> - This is cool. Two PAC steering wheel remote adapters where used to build our own remote in the back of the vehicle for tailgate party's. Soft-touch micro switches where used and overlaid with a laminate with all the button descriptions."
+    },
+    {
+      "imgSrc": "/installs/customFab/012.jpg",
+      "description": "<strong>2000 Chevrolet Tahoe</strong> - An entire center console was fabricated to hold a DVD player, two CD Changers, a VCR with TV tuner, a cell phone and three A/V selectors. And the original cup holder and storage bin remain."
+    },
+    {
+      "imgSrc": "/installs/customFab/013.jpg",
+      "description": "<strong>2000 Chevrolet Tahoe</strong> - The entire console was wrapped in OEM vinyl. See the rest of the car in our installation by vehicle section."
+    },
+    {
+      "imgSrc": "/installs/customFab/014.jpg",
+      "description": "<strong>2002 Chrysler PT Cruiser</strong> - This factory radio was dissected in order to make a cover for the aftermarket radio. All of the buttons where glued back on and the back was finished in suede for a rattle free tight fit."
+    },
+    {
+      "imgSrc": "/installs/customFab/015.jpg",
+      "description": "<strong>2002 Chrysler PT Cruiser</strong> - Fake face on."
+    },
+    {
+      "imgSrc": "/installs/customFab/016.jpg",
+      "description": "<strong>2002 Chrysler PT Cruiser</strong> - Fake face off. See the rest of the car in our installs by vehicle section."
+    },
+    {
+      "imgSrc": "/installs/customFab/017.jpg",
+      "description": "<strong>1937 Ford Sedan Delivery Wagon</strong> - These 1937 headlights where upgraded to Xenon headlights. We had to modify the steel headlamp bezels to accommodate the Xenon transformer."
+    },
+    {
+      "imgSrc": "/installs/customFab/018.jpg",
+      "description": "<strong>1937 Ford sedan Delivery Wagon</strong> - An entire center console was made from 18 gauge steel to house a screen, DVD player CD player, gauges and switches. We used steel because the dash was made from steel as well."
+    },
+    {
+      "imgSrc": "/installs/customFab/019.jpg",
+      "description": "<strong>1937 Ford Sedan Delivery Wagon</strong> - A custom switch cluster was milled out of &#188;\" aluminum. All the switches are recessed and the labeling is back-lit."
+    },
+    {
+      "imgSrc": "/installs/customFab/020.jpg",
+      "description": "<strong>1937 Ford Sedan Delivery Wagon</strong> - These are motorized deadbolts for suicide doors. Door lock actuators where used and micro switches installed to indicate their status. You can still operate them manually as well."
+    },
+    {
+      "imgSrc": "/installs/customFab/021.jpg",
+      "description": "<strong>1937 Ford Sedan Delivery Wagon</strong> - The rear window was stationary in this chopped Hot Rod. We sourced some tracks, a custom cut piece of tinted glass and a power window kit to make it all work. Some modification to the tailgate and third brake light had to be made as well."
+    },
+    {
+      "imgSrc": "/installs/customFab/022.jpg",
+      "description": "<strong>1937 Ford Sedan Delivery Wagon</strong> - James Bond style, these are motorized back-up lights that retract when not in use. Weatherproof linear actuators where used."
+    },
+    {
+      "imgSrc": "/installs/customFab/023.jpg",
+      "description": "<strong>2004 Ford F150</strong> - The original center console in this pick-up is so big that everything got lost. Per customer request we fabricated a hinged insert out of plastic to help organize things."
+    },
+    {
+      "imgSrc": "/installs/customFab/024.jpg",
+      "description": "<strong>2004 Ford F150</strong> - By lifting the tray access is gained to the bottom half."
+    },
+    {
+      "imgSrc": "/installs/customFab/025.jpg",
+      "description": "<strong>1929 Ford T-Bucket</strong> - This is a customized version of an under-dash-kit. It was designed to ISO mount an Alpine radio and horn button into a 1929 T-Bucket."
+    },
+    {
+      "imgSrc": "/installs/customFab/026.jpg",
+      "description": "<strong>1929 Ford T-Bucket</strong> - The recessed radio housing mimics the gauge cluster."
+    },
+    {
+      "imgSrc": "/installs/customFab/027.jpg",
+      "description": "<strong>2001 Nissan Maxima</strong> - These lightweight racks where made from &frac12;\" square steel tubing. They hold 45 lbs worth of amplifiers and components."
+    },
+    {
+      "imgSrc": "/installs/customFab/028.jpg",
+      "description": "<strong>2001 Nissan Maxima</strong> - Once the fiberglass covers are installed the amplifiers appear to float yet remain very serviceable. See the car in our installs by vehicle section."
+    },
+    {
+      "imgSrc": "/installs/customFab/029.jpg",
+      "description": "<strong>2002 Toyota RAV4</strong> - An old Toyota cassette player along with a cover from a Nissan pocket was used to make this removable cover."
+    },
+    {
+      "imgSrc": "/installs/customFab/030.jpg",
+      "description": "<strong>2002 Toyota RAV4</strong> - The cover acts as a decoy for the Eclipse AVN Navigation System."
+    },
+    {
+      "imgSrc": "/installs/customFab/031.jpg",
+      "description": "<strong>2004 Subaru WRX</strong> - This is the original clock bezel modified to hold two 2\" gauges. It also has a motorized hinged cover that conceals them when not in use."
+    },
+    {
+      "imgSrc": "/installs/customFab/032.jpg",
+      "description": "<strong>2004 Subaru WRX</strong> - Gauges open."
+    },
+    {
+      "imgSrc": "/installs/customFab/033.jpg",
+      "description": "<strong>2004 Subaru WRX</strong> - Gauges closed, now it looks like a center channel speaker."
+    },
+    {
+      "imgSrc": "/installs/customFab/034.jpg",
+      "description": "<strong>1994 Toyota Supra Twin Turbo</strong> - This is part of the most efficient and reliable motorization we have ever done. All steel construction with ball bearing tracks and limit switches. Worm drives (similar to those used for power seats and old convertible tops) capable of pushing 300+ lbs where used to move up and swing out an amp rack as well as signal processors in our Supra."
+    },
+    {
+      "imgSrc": "/installs/customFab/035.jpg",
+      "description": "<strong>1994 Toyota Supra Twin Turbo</strong> - Close up view of the worm gears, tracks, ball bearings and limit switches."
+    },
+    {
+      "imgSrc": "/installs/customFab/036.jpg",
+      "description": "<strong>1994 Toyota Supra Twin Turbo</strong> - The finished and assembled product. Covers made of fiberglass conceal all the motorization."
+    }
+  ]
 }

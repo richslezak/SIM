@@ -1,38 +1,28 @@
 {
-    "id": "handsFreeKits",
-    "install_title": "Creative Hands-Free Installs",
-    "icon_url": "img/installIcons/handsFreeKits_install.jpg",
-    "install_description": "New York has already passed a law, making it illegal to talk holding a cell phone while driving. Seems like a good idea after seeing some of our drivers. Bluetooth technology allows you to keep your Bluetooth capable phone or PDA in your pocket while driving. If you wish to make or receive a call you can do so with the push of a button on the Bluetooth display. The phone or PDA links automatically whenever you start your car.",
-    "photos": [
-        {
-            "photo_url": "img/installFull/handsFreeKits/004.jpg",
-            "thumb_url": "img/installThumbs/handsFreeKits/004.jpg",
-            "description": "<strong>2003 Lexus LS430</strong> - This luxury sedan had all the gadgets except a Bluetooth hands-free set. We integrated a Parrot CK3100 without any permanent modifications." 
-        },
-        {
-            "photo_url": "img/installFull/handsFreeKits/005.jpg",
-            "thumb_url": "img/installThumbs/handsFreeKits/005.jpg",
-            "description": "<strong>2005 Mercedes E55</strong> - If you want something a little more integrated or completely hidden, we can do that too. Again, this custom ashtray mount was performed without any permanent modifications to the vehicle." 
-        },
-        {
-            "photo_url": "img/installFull/handsFreeKits/006.jpg",
-            "thumb_url": "img/installThumbs/handsFreeKits/006.jpg",
-            "description": "<strong>2005 Toyota Highlander Hybrid</strong> - A simple but effective install without any visible wires." 
-        },
-        {
-            "photo_url": "img/installFull/handsFreeKits/001.jpg",
-            "thumb_url": "img/installThumbs/handsFreeKits/001.jpg",
-            "description": "<strong>1999 Audi A4</strong> - Here we integrated a Nokia Bluetooth Phone controller into the center console. It adjusts the volume of the speaker phone as well as makes calls with voice recognition." 
-        },
-        {
-            "photo_url": "img/installFull/handsFreeKits/002.jpg",
-            "thumb_url": "img/installThumbs/handsFreeKits/002.jpg",
-            "description": "<strong>1999 Audi A4</strong> - The controller was mounted where the original 12v outlet used to be. It is backlit and can be folded away when not in use." 
-        },
-        {
-            "photo_url": "img/installFull/handsFreeKits/003.jpg",
-            "thumb_url": "img/installThumbs/handsFreeKits/003.jpg",
-            "description": "<strong> 2005 Infinity FX 45</strong> - The ashtray bezel was modified to accommodate this Motorola Bluetooth Phone controller. It was an easy to access place and can be shut when not in use." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/handsFreeKits/004.jpg",
+      "description": "<strong>2003 Lexus LS430</strong> - This luxury sedan had all the gadgets except a Bluetooth hands-free set. We integrated a Parrot CK3100 without any permanent modifications."
+    },
+    {
+      "imgSrc": "/installs/handsFreeKits/005.jpg",
+      "description": "<strong>2005 Mercedes E55</strong> - If you want something a little more integrated or completely hidden, we can do that too. Again, this custom ashtray mount was performed without any permanent modifications to the vehicle."
+    },
+    {
+      "imgSrc": "/installs/handsFreeKits/006.jpg",
+      "description": "<strong>2005 Toyota Highlander Hybrid</strong> - A simple but effective install without any visible wires."
+    },
+    {
+      "imgSrc": "/installs/handsFreeKits/001.jpg",
+      "description": "<strong>1999 Audi A4</strong> - Here we integrated a Nokia Bluetooth Phone controller into the center console. It adjusts the volume of the speaker phone as well as makes calls with voice recognition."
+    },
+    {
+      "imgSrc": "/installs/handsFreeKits/002.jpg",
+      "description": "<strong>1999 Audi A4</strong> - The controller was mounted where the original 12v outlet used to be. It is backlit and can be folded away when not in use."
+    },
+    {
+      "imgSrc": "/installs/handsFreeKits/003.jpg",
+      "description": "<strong> 2005 Infinity FX 45</strong> - The ashtray bezel was modified to accommodate this Motorola Bluetooth Phone controller. It was an easy to access place and can be shut when not in use."
+    }
+  ]
 }

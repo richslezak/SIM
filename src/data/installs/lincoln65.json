@@ -1,43 +1,32 @@
 {
-    "id": "1965Lincoln",
-    "install_title": "1965 Lincoln Continental (Install June 06) ",
-    "icon_url": "img/installIcons/lincoln65_install.jpg",
-    "description": "",
-    "photos": [
-        {
-            "photo_url": "img/installFull/lincoln65/001.jpg",
-            "thumb_url": "img/installThumbs/lincoln65/001.jpg",
-            "description": "Who says you can't have today's sound hidden in your classic car? See how we concealed a simple sound system into this 65 Lincoln Continental. " 
-        },
-        {
-            "photo_url": "img/installFull/lincoln65/002.jpg",
-            "thumb_url": "img/installThumbs/lincoln65/002.jpg",
-            "description": "This car is about as unique as they come, so our goal was to blend in a sound system of today without disrupting the styling of the past." 
-        },
-        {
-            "photo_url": "img/installFull/lincoln65/003.jpg",
-            "thumb_url": "img/installThumbs/lincoln65/003.jpg",
-            "description": "First we removed the cardboard glove box and built a new one out of &frac14;&quot; MDF. We integrated a shelf for an Alpine CDA-9857 CD receiver along with an iPod interface cable. All of the original mounting holes where used. An IR repeater was used so you can control the radio without having to open the glove box." 
-        },
-        {
-            "photo_url": "img/installFull/lincoln65/004.jpg",
-            "thumb_url": "img/installThumbs/lincoln65/004.jpg",
-            "description": "Next we removed the original carpet from the kick panels and built new pods to house a set of MB Quart Reference 6.5&quot; speakers. This makes for a nice front sound stage. The original radio and front speaker are still in the car and function." 
-        },
-        {
-            "photo_url": "img/installFull/lincoln65/005.jpg",
-            "thumb_url": "img/installThumbs/lincoln65/005.jpg",
-            "description": "In the rear we mounted a pair of MB Quart 3&frac12;&quot; speakers, primarily for rear fill. Besides it was the only way to fit two speakers without cutting any holes." 
-        },
-        {
-            "photo_url": "img/installFull/lincoln65/006.jpg",
-            "thumb_url": "img/installThumbs/lincoln65/006.jpg",
-            "description": "A 4 channel Alpine amplifier tucked under the motorized rear lid makes sure we have plenty of power for our updated sound system." 
-        },
-        {
-            "photo_url": "img/installFull/lincoln65/007.jpg",
-            "thumb_url": "img/installThumbs/lincoln65/007.jpg",
-            "description": "How is this for different? Not only a four door convertible, but suicide doors as well." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/lincoln65/001.jpg",
+      "description": "Who says you can't have today's sound hidden in your classic car? See how we concealed a simple sound system into this 65 Lincoln Continental. "
+    },
+    {
+      "imgSrc": "/installs/lincoln65/002.jpg",
+      "description": "This car is about as unique as they come, so our goal was to blend in a sound system of today without disrupting the styling of the past."
+    },
+    {
+      "imgSrc": "/installs/lincoln65/003.jpg",
+      "description": "First we removed the cardboard glove box and built a new one out of &frac14;\" MDF. We integrated a shelf for an Alpine CDA-9857 CD receiver along with an iPod interface cable. All of the original mounting holes where used. An IR repeater was used so you can control the radio without having to open the glove box."
+    },
+    {
+      "imgSrc": "/installs/lincoln65/004.jpg",
+      "description": "Next we removed the original carpet from the kick panels and built new pods to house a set of MB Quart Reference 6.5\" speakers. This makes for a nice front sound stage. The original radio and front speaker are still in the car and function."
+    },
+    {
+      "imgSrc": "/installs/lincoln65/005.jpg",
+      "description": "In the rear we mounted a pair of MB Quart 3&frac12;\" speakers, primarily for rear fill. Besides it was the only way to fit two speakers without cutting any holes."
+    },
+    {
+      "imgSrc": "/installs/lincoln65/006.jpg",
+      "description": "A 4 channel Alpine amplifier tucked under the motorized rear lid makes sure we have plenty of power for our updated sound system."
+    },
+    {
+      "imgSrc": "/installs/lincoln65/007.jpg",
+      "description": "How is this for different? Not only a four door convertible, but suicide doors as well."
+    }
+  ]
 }

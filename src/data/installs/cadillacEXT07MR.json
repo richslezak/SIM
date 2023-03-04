@@ -1,63 +1,48 @@
 {
-    "id": "2007CadillacEscaladeEXT",
-    "install_title": "2007 Cadillac Escalade EXT (Install August 2007)",
-    "icon_url": "img/installIcons/cadillacEXT07MR_install.jpg",
-    "description": "You may have seen this truck being built for Manny Ramirez &#40;Boston Red Sox&#41; on the SPEED TV show &quot;Payback&quot;. The sound system was OK, but no where near his expectations.",
-    "photos": [
-        {
-            "photo_url": "img/installFull/cadillacEXT07MR/001.jpg",
-            "thumb_url": "img/installThumbs/cadillacEXT07MR/001.jpg",
-            "description": "You may have seen this truck being built for Manny Ramirez &#40;Boston Red Sox&#41; on the SPEED TV show &quot;Payback&quot;. The sound system was OK, but no where near his expectations." 
-        },
-        {
-            "photo_url": "img/installFull/cadillacEXT07MR/002.jpg",
-            "thumb_url": "img/installThumbs/cadillacEXT07MR/002.jpg",
-            "description": "The show is based on a celebrity who &quot;Pays Back&quot; someone who helped them get there. In Manny's case it was his little league coach Carlos Ferreira. They hooked him up with wheels, paint, exhaust, interior and of course a sound system." 
-        },
-        {
-            "photo_url": "img/installFull/cadillacEXT07MR/003.jpg",
-            "thumb_url": "img/installThumbs/cadillacEXT07MR/003.jpg",
-            "description": "The original head-unit was retained and some line level converters were used to convert the audio signal for the Kicker amp and speakers installed on the show. The system actually had no sound when it arrived so we decided just to start over." 
-        },
-        {
-            "photo_url": "img/installFull/cadillacEXT07MR/004.jpg",
-            "thumb_url": "img/installThumbs/cadillacEXT07MR/004.jpg",
-            "description": "We opted for an Audio Control DQL8 to sum the signal, re-equalize it and send it to the new audio components." 
-        },
-        {
-            "photo_url": "img/installFull/cadillacEXT07MR/005.jpg",
-            "thumb_url": "img/installThumbs/cadillacEXT07MR/005.jpg",
-            "description": "A nice feature of the DQL8 is that it gives us a separate bass control knob as well as an auxiliary input for an iPod." 
-        },
-        {
-            "photo_url": "img/installFull/cadillacEXT07MR/006.jpg",
-            "thumb_url": "img/installThumbs/cadillacEXT07MR/006.jpg",
-            "description": "Both, front and rear doors received MB Quart Q-series 6 &#189;&quot; component speakers. All are mounted in the factory locations except for the rear tweeters which are mounted a little higher up in the door." 
-        },
-        {
-            "photo_url": "img/installFull/cadillacEXT07MR/007.jpg",
-            "thumb_url": "img/installThumbs/cadillacEXT07MR/007.jpg",
-            "description": "Behind the rear seats now is home to four JL Audio 10W7 subwoofers." 
-        },
-        {
-            "photo_url": "img/installFull/cadillacEXT07MR/008.jpg",
-            "thumb_url": "img/installThumbs/cadillacEXT07MR/008.jpg",
-            "description": "All of the MB Quart crossovers were displayed above the subs. Blue neon was used to highlight them as well as the subwoofers." 
-        },
-        {
-            "photo_url": "img/installFull/cadillacEXT07MR/009.jpg",
-            "thumb_url": "img/installThumbs/cadillacEXT07MR/009.jpg",
-            "description": "The custom interior was sporting a tan and white theme, so we continued that into the newly fabricated panels that complement the sound system." 
-        },
-        {
-            "photo_url": "img/installFull/cadillacEXT07MR/010.jpg",
-            "thumb_url": "img/installThumbs/cadillacEXT07MR/010.jpg",
-            "description": "An acrylic plaque crediting &quot;Sound in Motion&quot; with the install was recessed into the lower panel. It reflects the blue neon." 
-        },
-        {
-            "photo_url": "img/installFull/cadillacEXT07MR/011.jpg",
-            "thumb_url": "img/installThumbs/cadillacEXT07MR/011.jpg",
-            "description": "Inside the bed is the back of the subwoofer enclosure as well as an amp rack featuring two Zapco C2K competition series amplifiers. A weather tight cover protects the equipment from the elements." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/cadillacEXT07MR/001.jpg",
+      "description": "You may have seen this truck being built for Manny Ramirez (Boston Red Sox) on the SPEED TV show \"Payback\". The sound system was OK, but no where near his expectations."
+    },
+    {
+      "imgSrc": "/installs/cadillacEXT07MR/002.jpg",
+      "description": "The show is based on a celebrity who \"Pays Back\" someone who helped them get there. In Manny's case it was his little league coach Carlos Ferreira. They hooked him up with wheels, paint, exhaust, interior and of course a sound system."
+    },
+    {
+      "imgSrc": "/installs/cadillacEXT07MR/003.jpg",
+      "description": "The original head-unit was retained and some line level converters were used to convert the audio signal for the Kicker amp and speakers installed on the show. The system actually had no sound when it arrived so we decided just to start over."
+    },
+    {
+      "imgSrc": "/installs/cadillacEXT07MR/004.jpg",
+      "description": "We opted for an Audio Control DQL8 to sum the signal, re-equalize it and send it to the new audio components."
+    },
+    {
+      "imgSrc": "/installs/cadillacEXT07MR/005.jpg",
+      "description": "A nice feature of the DQL8 is that it gives us a separate bass control knob as well as an auxiliary input for an iPod."
+    },
+    {
+      "imgSrc": "/installs/cadillacEXT07MR/006.jpg",
+      "description": "Both, front and rear doors received MB Quart Q-series 6 &#189;\" component speakers. All are mounted in the factory locations except for the rear tweeters which are mounted a little higher up in the door."
+    },
+    {
+      "imgSrc": "/installs/cadillacEXT07MR/007.jpg",
+      "description": "Behind the rear seats now is home to four JL Audio 10W7 subwoofers."
+    },
+    {
+      "imgSrc": "/installs/cadillacEXT07MR/008.jpg",
+      "description": "All of the MB Quart crossovers were displayed above the subs. Blue neon was used to highlight them as well as the subwoofers."
+    },
+    {
+      "imgSrc": "/installs/cadillacEXT07MR/009.jpg",
+      "description": "The custom interior was sporting a tan and white theme, so we continued that into the newly fabricated panels that complement the sound system."
+    },
+    {
+      "imgSrc": "/installs/cadillacEXT07MR/010.jpg",
+      "description": "An acrylic plaque crediting \"Sound in Motion\" with the install was recessed into the lower panel. It reflects the blue neon."
+    },
+    {
+      "imgSrc": "/installs/cadillacEXT07MR/011.jpg",
+      "description": "Inside the bed is the back of the subwoofer enclosure as well as an amp rack featuring two Zapco C2K competition series amplifiers. A weather tight cover protects the equipment from the elements."
+    }
+  ]
 }

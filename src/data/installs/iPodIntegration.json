@@ -1,128 +1,100 @@
 {
-    "id": "iPodIntegration",
-    "install_title": "Creative iPod Installs",
-    "icon_url": "img/installIcons/ipod_install.jpg",
-    "install_description": "This little box is revolutionary. With its compact size, great software and surprisingly good sound quality, the iPod has found its way into many cars. Our choice is to hook up the audio without the horrible FM transmitter. Many factory radios now have the capability to control and charge the iPod as well, with the use of a third party adapter. If possible, using an aftermarket iPod ready radio still gives the best results.",
-    "photos": [
-        {
-            "photo_url": "img/installFull/ipod/017.jpg",
-            "thumb_url": "img/installThumbs/ipod/017.jpg",
-            "description": "<strong>2006 Audi A8</strong> - With the help of a mObridge &#40;that's how they spell it&#41;  fiber optic iPod interface we were able to integrate seamlessly into the factory Audi MMI system." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/018.jpg",
-            "thumb_url": "img/installThumbs/ipod/018.jpg",
-            "description": "<strong>2006 Audi S4</strong> - Here is a cool idea&#59; we took the little drawer and converted it to an iPhone cradle. It holds and charges the iPhone in an easy to use location. Audio is run through the factory radio via an interface allowing control even from the steering wheel." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/018b.jpg",
-            "thumb_url": "img/installThumbs/ipod/018b.jpg",
-            "description": "<strong>2006 Audi S4 / Behind the Scenes</strong> - Push it in when not in use." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/019.jpg",
-            "thumb_url": "img/installThumbs/ipod/019.jpg",
-            "description": "<strong>2008 Ford F-350</strong> - We modified the factory flip-down cupholder to hold an iPod and a cell phone. The iPod plug is mounted right into the snug fitting holder. It can still be flipped up and out of the way. The tray is covered in suede." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/019b.jpg",
-            "thumb_url": "img/installThumbs/ipod/019b.jpg",
-            "description": "<strong>2008 Ford F-350 / Behind the Scenes</strong> - ABS plastic was used to fabricate off of the original cupholder." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/020.jpg",
-            "thumb_url": "img/installThumbs/ipod/020.jpg",
-            "description": "<strong>2005 Acura MDX</strong> - A NavTV interface allows full iPod function &#40;including video&#41; on the factory Nav screen." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/021.jpg",
-            "thumb_url": "img/installThumbs/ipod/021.jpg",
-            "description": "<strong>2008 GMC Denali</strong> - Scosche has an interface for the current GM Nav screens that runs your iPod or iPhone through the factory XM while retaining it." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/022.jpg",
-            "thumb_url": "img/installThumbs/ipod/022.jpg",
-            "description": "<strong>2008 Land Rover Range Rover</strong> - This NavTV iPod interface is run through the A/V input and controlled with a remote." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/011.jpg",
-            "thumb_url": "img/installThumbs/ipod/011.jpg",
-            "description": "<strong>2007 Porsche 997</strong> - NAV-TV has hit a home run with its fiber optic iPod interface. It allows you to take complete control of your iPod from the PCM &#40;Porsche Radio&#41; without making any permanent modifications to the vehicle. Also check out their Tooki Bluetooth interface." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/012.jpg",
-            "thumb_url": "img/installThumbs/ipod/012.jpg",
-            "description": "<strong>2006 Volkswagen Phaeton</strong> - This customer claimed, according to his internet research that no iPod or direct audio-in could be added to this car. He was wrong. All we did was cut the analog audio signal coming from the factory CD Changer and with the help with some low current DPDT relays we spliced in audio for his iPod and XM radio." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/013.jpg",
-            "thumb_url": "img/installThumbs/ipod/013.jpg",
-            "description": "<strong>2004 Mercedes S55</strong> - Again with a NAV-TV iPod interface to the rescue we now can control the iPod from the factory Mercedes radio. It even displays all of the text information." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/014.jpg",
-            "thumb_url": "img/installThumbs/ipod/014.jpg",
-            "description": "<strong>2002 Porsche Boxster</strong> - Alpine has now introduced an iPod only DIN headunit. It has AM/FM but no CD drive. The big knob allows you to search your playlists etc. and it even displays the album art." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/015.jpg",
-            "thumb_url": "img/installThumbs/ipod/015.jpg",
-            "description": "<strong>2004 BMW M5</strong> - With a little plastic surgery, we made the original factory tray in the armrest a home for the iPod. It is easily removed by inserting your finger on the top of the iPod and lifting it out." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/016.jpg",
-            "thumb_url": "img/installThumbs/ipod/016.jpg",
-            "description": "<strong>2005 Chevrolet Tahoe</strong> - The double DIN Pioneer AVIC Z1 with its HD navigation also offers great control of the iPod." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/006.jpg",
-            "thumb_url": "img/installThumbs/ipod/006.jpg",
-            "description": "<strong>2006 Honda Civic</strong> - This is one of the best iPod set-ups we have seen. With the help of a Japanese double din dash piece we installed the Alpine W200. It gives you fast and full control of your iPod. A PAC interface makes sure the steering wheel controls remain working." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/007.jpg",
-            "thumb_url": "img/installThumbs/ipod/007.jpg",
-            "description": "<strong>2006 Lexus RX350</strong> - With the help of a VIAS interface we were able to integrate an iPod and XM into the factory Radio without any sacrifice. You can even control it with the steering wheel controls." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/008.jpg",
-            "thumb_url": "img/installThumbs/ipod/008.jpg",
-            "description": "<strong>1965 Lincoln Continental</strong> - This just shows that you are able to enjoy your iPod in any car old or new." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/009.jpg",
-            "thumb_url": "img/installThumbs/ipod/009.jpg",
-            "description": "<strong>2003 Range Rover</strong> - Here we used a NAV TV audio interface to get the iPod audio into the factory radio. Any controls have to be done with the iPod itself." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/010.jpg",
-            "thumb_url": "img/installThumbs/ipod/010.jpg",
-            "description": "<strong>2004 Porsche 996</strong> - Turbo Any radio that has an AUX IN can accept the iPod. Here we used the A/V IN on the Eclipse AVN. With a Video iPod you can even watch it." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/004.jpg",
-            "thumb_url": "img/installThumbs/ipod/004.jpg",
-            "description": "<strong>2003 BMW X5</strong> - So you want total control of your iPod in your steering wheel? Here we took an &quot;Air Click&quot; RF iPod remote control and integrated it into the third spoke of this BMW X5 along with the factory steering wheel controls." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/005.jpg",
-            "thumb_url": "img/installThumbs/ipod/005.jpg",
-            "description": "<strong>2002 Cadillac Escalade</strong> - With Alpine's Vehicle Hub you can display all your iPod information on any screen with composite video input, while controlling all the functions with a remote control." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/001.jpg",
-            "thumb_url": "img/installThumbs/ipod/001.jpg",
-            "description": "<strong>2004 BMW 330i</strong> - Here the cup-holder was replaced with a &quot;Euro-tray&quot; that has a retractable cover. A custom felt insert was made to hold the iPod. It will charge it as well as play through the BMW's factory auxiliary input." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/002.jpg",
-            "thumb_url": "img/installThumbs/ipod/002.jpg",
-            "description": "<strong>2004 BMW X5</strong> - This was a cool set-up. The iPod and holder was attached to a custom hinged bracket that allows everything to fold down into the cup-holder when not in use. You can still slide the original cover over it to keep the iPod out of sight." 
-        },
-        {
-            "photo_url": "img/installFull/ipod/003.jpg",
-            "thumb_url": "img/installThumbs/ipod/003.jpg",
-            "description": "<strong>2004 GMC Yukon Denali</strong> - Here is a real straight-forward iPod mount that we made to allow easy access and use." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/ipod/017.jpg",
+      "description": "<strong>2006 Audi A8</strong> - With the help of a mObridge (that's how they spell it)  fiber optic iPod interface we were able to integrate seamlessly into the factory Audi MMI system."
+    },
+    {
+      "imgSrc": "/installs/ipod/018.jpg",
+      "description": "<strong>2006 Audi S4</strong> - Here is a cool idea&#59; we took the little drawer and converted it to an iPhone cradle. It holds and charges the iPhone in an easy to use location. Audio is run through the factory radio via an interface allowing control even from the steering wheel."
+    },
+    {
+      "imgSrc": "/installs/ipod/018b.jpg",
+      "description": "<strong>2006 Audi S4 / Behind the Scenes</strong> - Push it in when not in use."
+    },
+    {
+      "imgSrc": "/installs/ipod/019.jpg",
+      "description": "<strong>2008 Ford F-350</strong> - We modified the factory flip-down cupholder to hold an iPod and a cell phone. The iPod plug is mounted right into the snug fitting holder. It can still be flipped up and out of the way. The tray is covered in suede."
+    },
+    {
+      "imgSrc": "/installs/ipod/019b.jpg",
+      "description": "<strong>2008 Ford F-350 / Behind the Scenes</strong> - ABS plastic was used to fabricate off of the original cupholder."
+    },
+    {
+      "imgSrc": "/installs/ipod/020.jpg",
+      "description": "<strong>2005 Acura MDX</strong> - A NavTV interface allows full iPod function (including video) on the factory Nav screen."
+    },
+    {
+      "imgSrc": "/installs/ipod/021.jpg",
+      "description": "<strong>2008 GMC Denali</strong> - Scosche has an interface for the current GM Nav screens that runs your iPod or iPhone through the factory XM while retaining it."
+    },
+    {
+      "imgSrc": "/installs/ipod/022.jpg",
+      "description": "<strong>2008 Land Rover Range Rover</strong> - This NavTV iPod interface is run through the A/V input and controlled with a remote."
+    },
+    {
+      "imgSrc": "/installs/ipod/011.jpg",
+      "description": "<strong>2007 Porsche 997</strong> - NAV-TV has hit a home run with its fiber optic iPod interface. It allows you to take complete control of your iPod from the PCM (Porsche Radio) without making any permanent modifications to the vehicle. Also check out their Tooki Bluetooth interface."
+    },
+    {
+      "imgSrc": "/installs/ipod/012.jpg",
+      "description": "<strong>2006 Volkswagen Phaeton</strong> - This customer claimed, according to his internet research that no iPod or direct audio-in could be added to this car. He was wrong. All we did was cut the analog audio signal coming from the factory CD Changer and with the help with some low current DPDT relays we spliced in audio for his iPod and XM radio."
+    },
+    {
+      "imgSrc": "/installs/ipod/013.jpg",
+      "description": "<strong>2004 Mercedes S55</strong> - Again with a NAV-TV iPod interface to the rescue we now can control the iPod from the factory Mercedes radio. It even displays all of the text information."
+    },
+    {
+      "imgSrc": "/installs/ipod/014.jpg",
+      "description": "<strong>2002 Porsche Boxster</strong> - Alpine has now introduced an iPod only DIN headunit. It has AM/FM but no CD drive. The big knob allows you to search your playlists etc. and it even displays the album art."
+    },
+    {
+      "imgSrc": "/installs/ipod/015.jpg",
+      "description": "<strong>2004 BMW M5</strong> - With a little plastic surgery, we made the original factory tray in the armrest a home for the iPod. It is easily removed by inserting your finger on the top of the iPod and lifting it out."
+    },
+    {
+      "imgSrc": "/installs/ipod/016.jpg",
+      "description": "<strong>2005 Chevrolet Tahoe</strong> - The double DIN Pioneer AVIC Z1 with its HD navigation also offers great control of the iPod."
+    },
+    {
+      "imgSrc": "/installs/ipod/006.jpg",
+      "description": "<strong>2006 Honda Civic</strong> - This is one of the best iPod set-ups we have seen. With the help of a Japanese double din dash piece we installed the Alpine W200. It gives you fast and full control of your iPod. A PAC interface makes sure the steering wheel controls remain working."
+    },
+    {
+      "imgSrc": "/installs/ipod/007.jpg",
+      "description": "<strong>2006 Lexus RX350</strong> - With the help of a VIAS interface we were able to integrate an iPod and XM into the factory Radio without any sacrifice. You can even control it with the steering wheel controls."
+    },
+    {
+      "imgSrc": "/installs/ipod/008.jpg",
+      "description": "<strong>1965 Lincoln Continental</strong> - This just shows that you are able to enjoy your iPod in any car old or new."
+    },
+    {
+      "imgSrc": "/installs/ipod/009.jpg",
+      "description": "<strong>2003 Range Rover</strong> - Here we used a NAV TV audio interface to get the iPod audio into the factory radio. Any controls have to be done with the iPod itself."
+    },
+    {
+      "imgSrc": "/installs/ipod/010.jpg",
+      "description": "<strong>2004 Porsche 996</strong> - Turbo Any radio that has an AUX IN can accept the iPod. Here we used the A/V IN on the Eclipse AVN. With a Video iPod you can even watch it."
+    },
+    {
+      "imgSrc": "/installs/ipod/004.jpg",
+      "description": "<strong>2003 BMW X5</strong> - So you want total control of your iPod in your steering wheel? Here we took an \"Air Click\" RF iPod remote control and integrated it into the third spoke of this BMW X5 along with the factory steering wheel controls."
+    },
+    {
+      "imgSrc": "/installs/ipod/005.jpg",
+      "description": "<strong>2002 Cadillac Escalade</strong> - With Alpine's Vehicle Hub you can display all your iPod information on any screen with composite video input, while controlling all the functions with a remote control."
+    },
+    {
+      "imgSrc": "/installs/ipod/001.jpg",
+      "description": "<strong>2004 BMW 330i</strong> - Here the cup-holder was replaced with a \"Euro-tray\" that has a retractable cover. A custom felt insert was made to hold the iPod. It will charge it as well as play through the BMW's factory auxiliary input."
+    },
+    {
+      "imgSrc": "/installs/ipod/002.jpg",
+      "description": "<strong>2004 BMW X5</strong> - This was a cool set-up. The iPod and holder was attached to a custom hinged bracket that allows everything to fold down into the cup-holder when not in use. You can still slide the original cover over it to keep the iPod out of sight."
+    },
+    {
+      "imgSrc": "/installs/ipod/003.jpg",
+      "description": "<strong>2004 GMC Yukon Denali</strong> - Here is a real straight-forward iPod mount that we made to allow easy access and use."
+    }
+  ]
 }

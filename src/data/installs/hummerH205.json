@@ -1,93 +1,72 @@
 {
-    "id": "2005hummerH2",
-    "install_title": "2005 Hummer H2 SUV (Install December 05)",
-    "icon_url": "img/installIcons/hummerH205_install.jpg",
-    "description": "",
-    "photos": [
-        {
-            "photo_url": "img/installFull/hummerH205/001.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/001.jpg",
-            "description": "The factory navigation was replaced in favor of the Eclipse AVN with a 30 Gig Hard drive. Not only is it an HDD Nav. But it will store up to 3000 songs as well. Plus play CD's, DVD's and a Memory Stick." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/002.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/002.jpg",
-            "description": "A Valentine One remote radar detector display was integrated between the vents above the radio." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/003.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/003.jpg",
-            "description": "To lessen road noise, the entire truck was treated with Dynamat Extreeme sound deadening. Dynamat Hoodliner was used to quiet the engine compartment." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/004.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/004.jpg",
-            "description": "All four doors received Dynamat treatment as well, on the inner and outer skin. Focal 6 &frac12;&quot; K2P Separates where installed in the factory location of each door. The front tweeters found their home in the original A-pillar location while the backs are high in the rear door." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/005.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/005.jpg",
-            "description": "A custom mount was fabricated to seal the driver against the original grille." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/006.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/006.jpg",
-            "description": "Here comes the first challenge: Fit two 8&quot; subwoofers in the center console where Hummer put one 5&frac12;&quot; sub without changing looks or functionality." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/007.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/007.jpg",
-            "description": "Two very odd shaped sealed enclosures, several custom brackets and some creative surgery made it happen. The only sacrifice was some depth lost from the original storage compartment." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/008.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/008.jpg",
-            "description": "The original console. Oh, and the modified one." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/009.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/009.jpg",
-            "description": "Each rear seat passenger is now entertained with their own 7&quot; Vizualogic screen and DVD player. Yes, this car now has three DVD players, and all can be viewed on any screen." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/010.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/010.jpg",
-            "description": "Here was the big challenge: Hide a 2&#39; and a 1&#39; amplifier in a truck with no room. Short of mounting them in the headliner, the inside of the back seat was the only place to fit them." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/011.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/011.jpg",
-            "description": "Seems easy, but extensive fabrication was required to make this happen. See pictures below." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/012.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/012.jpg",
-            "description": "The underside of the seat as well as the covers for the amps was covered in suede with a raised &quot;HUMMER H2&quot; logo." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/013.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/013.jpg",
-            "description": "An Eclipse Back-Up camera was installed next to the original license plate light, to help navigate into tight spots." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/014.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/014.jpg",
-            "description": "Most of the lower seat frames had to be redesigned to fit each amp. Extensive welding and reinforcement was required." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/015.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/015.jpg",
-            "description": "We where down to 1/16&quot; clearance to fit the big amp." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/016.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/016.jpg",
-            "description": "The &frac12;&quot; MDF cover with the raised logo." 
-        },
-        {
-            "photo_url": "img/installFull/hummerH205/017.jpg",
-            "thumb_url": "img/installThumbs/hummerH205/017.jpg",
-            "description": "A revised braked was made from ABS to hold the Back-Up camera and the license plate light." 
-        }
-    ] 
+  "install": [
+    {
+      "imgSrc": "/installs/hummerH205/001.jpg",
+      "description": "The factory navigation was replaced in favor of the Eclipse AVN with a 30 Gig Hard drive. Not only is it an HDD Nav. But it will store up to 3000 songs as well. Plus play CD's, DVD's and a Memory Stick."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/002.jpg",
+      "description": "A Valentine One remote radar detector display was integrated between the vents above the radio."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/003.jpg",
+      "description": "To lessen road noise, the entire truck was treated with Dynamat Extreeme sound deadening. Dynamat Hoodliner was used to quiet the engine compartment."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/004.jpg",
+      "description": "All four doors received Dynamat treatment as well, on the inner and outer skin. Focal 6 &frac12;\" K2P Separates where installed in the factory location of each door. The front tweeters found their home in the original A-pillar location while the backs are high in the rear door."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/005.jpg",
+      "description": "A custom mount was fabricated to seal the driver against the original grille."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/006.jpg",
+      "description": "Here comes the first challenge: Fit two 8\" subwoofers in the center console where Hummer put one 5&frac12;\" sub without changing looks or functionality."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/007.jpg",
+      "description": "Two very odd shaped sealed enclosures, several custom brackets and some creative surgery made it happen. The only sacrifice was some depth lost from the original storage compartment."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/008.jpg",
+      "description": "The original console. Oh, and the modified one."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/009.jpg",
+      "description": "Each rear seat passenger is now entertained with their own 7\" Vizualogic screen and DVD player. Yes, this car now has three DVD players, and all can be viewed on any screen."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/010.jpg",
+      "description": "Here was the big challenge: Hide a 2&#39; and a 1&#39; amplifier in a truck with no room. Short of mounting them in the headliner, the inside of the back seat was the only place to fit them."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/011.jpg",
+      "description": "Seems easy, but extensive fabrication was required to make this happen. See pictures below."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/012.jpg",
+      "description": "The underside of the seat as well as the covers for the amps was covered in suede with a raised \"HUMMER H2\" logo."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/013.jpg",
+      "description": "An Eclipse Back-Up camera was installed next to the original license plate light, to help navigate into tight spots."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/014.jpg",
+      "description": "Most of the lower seat frames had to be redesigned to fit each amp. Extensive welding and reinforcement was required."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/015.jpg",
+      "description": "We where down to 1/16\" clearance to fit the big amp."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/016.jpg",
+      "description": "The &frac12;\" MDF cover with the raised logo."
+    },
+    {
+      "imgSrc": "/installs/hummerH205/017.jpg",
+      "description": "A revised braked was made from ABS to hold the Back-Up camera and the license plate light."
+    }
+  ]
 }
