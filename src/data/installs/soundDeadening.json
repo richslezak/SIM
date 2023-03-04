@@ -1,0 +1,48 @@
+{
+    "id": "soundDeadening",
+    "install_title": "Sound Deadening",
+    "icon_url": "img/installIcons/soundDead_install.jpg",
+    "install_description": "This simple  feature is so often overlooked. While car manufacturers are always trying to  make cars cheaper and lighter, sound deadening is the first to go. We use  &quot;Dynamat Extreme&quot; extensively to keep out unwanted road noise, while  tremendously improving the sound of your system inside. Doors are a must, floor  and rear deck / firewalls are recommended and the roof is for the elite. Notice  that we don't just stick it over the wires but rather under them, for better  performance or in case servicing is required.",
+    "photos": [
+        {
+            "photo_url": "img/installFull/soundDead/001.jpg",
+            "thumb_url": "img/installThumbs/soundDead/001.jpg",
+            "description": "<strong>2005 Hummer H2</strong> - We were told to get the truck as quiet as possible. Dynamat Extreme was used on the entire floor and all four inner and outer door skins. Dynamat Hood liner was installed in the engine bay as well to keep motor noise down to a minimum." 
+        },
+        {
+            "photo_url": "img/installFull/soundDead/002.jpg",
+            "thumb_url": "img/installThumbs/soundDead/002.jpg",
+            "description": "<strong>2006 Toyota Camry</strong> - Toyota may be one of the biggest car manufacturers in the world, but they make some of the noisiest cars. We can help your music sound better, or just plain keep your sanity on long trips." 
+        },
+        {
+            "photo_url": "img/installFull/soundDead/003.jpg",
+            "thumb_url": "img/installThumbs/soundDead/003.jpg",
+            "description": "<p><strong>1985 Porsche 911</strong> - Targa These are probably the most solid doors on any production car. And treating them with sound deadening makes them one of the best sounding speaker enclosures out there &#40;with hinges anyway&#41;." 
+        },
+        {
+            "photo_url": "img/installFull/soundDead/004.jpg",
+            "thumb_url": "img/installThumbs/soundDead/004.jpg",
+            "description": "<strong>2006 Lexus RX 350</strong> - When spending good money on a sound system, we recommend sound deadening, even in a luxury SUV. It&rsquo;s the only way to get your moneys worth." 
+        },
+        {
+            "photo_url": "img/installFull/soundDead/005.jpg",
+            "thumb_url": "img/installThumbs/soundDead/005.jpg",
+            "description": "<strong>2002 GMC Yukon</strong> - Though treating the roof is not our first recommendation, but if the budget allows, it will definitely help keep wind noise out and sound in." 
+        },
+        {
+            "photo_url": "img/installFull/soundDead/006.jpg",
+            "thumb_url": "img/installThumbs/soundDead/006.jpg",
+            "description": "<strong>2007 Toyota RAV4</strong> - This job came in for complete sound deadening only, but ended up with a stereo upgrade as well. The best of both worlds." 
+        },
+        {
+            "photo_url": "img/installFull/soundDead/007.jpg",
+            "thumb_url": "img/installThumbs/soundDead/007.jpg",
+            "description": "<strong>2003 Land Rover Range Rover</strong> - Here is a good picture showing treatment of the outer door skin and what is available for an inner door skin. The vapor barrier was replaced as well." 
+        },
+        {
+            "photo_url": "img/installFull/soundDead/008.jpg",
+            "thumb_url": "img/installThumbs/soundDead/008.jpg",
+            "description": "<strong>1992 Dodge Viper</strong> - There really isn&rsquo;t much you can do to keep this car quiet, but once the engine is off the stereo will sound a lot better." 
+        }
+    ] 
+}

@@ -1,0 +1,43 @@
+{
+    "id": "2002TahoePats",
+    "install_title": "2002 Chevrolet Tahoe (Install Dec 05)",
+    "icon_url": "img/installIcons/tahoePats_install.jpg",
+    "description": "",
+    "photos": [
+        {
+            "photo_url": "img/installFull/tahoePats/001.jpg",
+            "thumb_url": "img/installThumbs/tahoePats/001.jpg",
+            "description": "A Kenwood double DIN CD/DVD receiver was molded into the factory GM dash with the help of some plastic surgery." 
+        },
+        {
+            "photo_url": "img/installFull/tahoePats/002.jpg",
+            "thumb_url": "img/installThumbs/tahoePats/002.jpg",
+            "description": "Folding down the rear seats shows of the JL Audio amps. A 500/4 powers the MB Quart Premium speakers in the doors while the 1000/1 powers the subs." 
+        },
+        {
+            "photo_url": "img/installFull/tahoePats/003.jpg",
+            "thumb_url": "img/installThumbs/tahoePats/003.jpg",
+            "description": "A lot of black suede accents where integrated into the interior so we decided to continue the theme into the cargo area. The Sub box sports three JL Audio 10W6V2 subwoofers." 
+        },
+        {
+            "photo_url": "img/installFull/tahoePats/004.jpg",
+            "thumb_url": "img/installThumbs/tahoePats/004.jpg",
+            "description": "A clear #35 was made out of &frac12;&quot; Plexiglas and acts as protection for the subs. The edges where frosted to absorb the neon light for a cool effect." 
+        },
+        {
+            "photo_url": "img/installFull/tahoePats/005.jpg",
+            "thumb_url": "img/installThumbs/tahoePats/005.jpg",
+            "description": "In the middle of the carpeted floor an acrylic Patriots logo was inserted." 
+        },
+        {
+            "photo_url": "img/installFull/tahoePats/006.jpg",
+            "thumb_url": "img/installThumbs/tahoePats/006.jpg",
+            "description": "A matching Sound in Motion logo was inserted as well." 
+        },
+        {
+            "photo_url": "img/installFull/tahoePats/007.jpg",
+            "thumb_url": "img/installThumbs/tahoePats/007.jpg",
+            "description": "Some custom electric blue Neon makes for a cool visual impact." 
+        }
+    ] 
+}

@@ -1,0 +1,23 @@
+{
+    "id": "porscheCup",
+    "install_title": "A Cup Holder for Your Early Porsche Boxster or 996",
+    "icon_url": "img/installIcons/porscheCup_install.jpg",
+    "install_description": "I know, I know we shouldn't be distracted by our beverage while driving. But sometimes on that long cruise or distant trek to the track, don't you wish you had a place to put your drink? This was inspired by our customers request for the early models that didn't offer a factory cup holder. We made a few and the response was phenomenal. Constructed out of 6mm &#40;&#189;&quot;&#41; ABS plastic and contoured to the perfect angle with a 73mm &#40;2 &#x215E;&quot;&#41; opening, it slides in securely between the lower and upper console.",
+    "photos": [
+        {
+            "photo_url": "img/installFull/porscheCup/001.jpg",
+            "thumb_url": "img/installThumbs/porscheCup/001.jpg",
+            "description": "Before" 
+        },
+        {
+            "photo_url": "img/installFull/porscheCup/002.jpg",
+            "thumb_url": "img/installThumbs/porscheCup/002.jpg",
+            "description": "Just slide it in, or out if you don't want it." 
+        },
+        {
+            "photo_url": "img/installFull/porscheCup/003.jpg",
+            "thumb_url": "img/installThumbs/porscheCup/003.jpg",
+            "description": "Done! It even fills in the unpleasant gap between the two consoles." 
+        }
+    ] 
+}

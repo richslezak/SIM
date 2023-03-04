@@ -1,0 +1,33 @@
+{
+    "id": "windowTinting",
+    "install_title": "Window Tinting",
+    "icon_url": "img/installIcons/tinting_install.jpg",
+    "install_description": "What easier  way to give your car that awesome look than tinting the windows. Once you had  your windows tinted, you'll feel naked without. Besides a bit of privacy,  window tint helps preserve the interior by filtering out those harmful UV rays  and keeping temperatures down on those hot summer days. And for the family car,  keep the sun out of your kid&rsquo;s eyes in the back without the hassle and  embarrassing look of stick-on shades. We offer factory color match to the  existing OEM tint found on the back windows of many SUVs.",
+    "photos": [
+        {
+            "photo_url": "img/installFull/tinting/001.jpg",
+            "thumb_url": "img/installThumbs/tinting/001.jpg",
+            "description": "<strong>2002 Cadillac Escalade EXT</strong> - This vehicle is from the sunshine state of Florida. It has 5% tint, which means only 5% light comes in the car, giving the windows an almost black appearance. Though it offers a great deal of privacy it is not legal if your car is registered in Massachusetts." 
+        },
+        {
+            "photo_url": "img/installFull/tinting/002.jpg",
+            "thumb_url": "img/installThumbs/tinting/002.jpg",
+            "description": "<strong>1999 Audi A4</strong> - Here you see 35% smoke tint. This is the darkest allowed in Massachusetts. With the black interior and dark background, it makes these windows look black." 
+        },
+        {
+            "photo_url": "img/installFull/tinting/003.jpg",
+            "thumb_url": "img/installThumbs/tinting/003.jpg",
+            "description": "<strong>2005 Porsche Boxster </strong> - This 35% tint with ambient rear lighting gives the windows a much lighter appearance." 
+        },
+        {
+            "photo_url": "img/installFull/tinting/004.jpg",
+            "thumb_url": "img/installThumbs/tinting/004.jpg",
+            "description": "<strong>2006 Volkswagen Touareg</strong> - The factory rear windows of this SUV have a 35% bluish tint, so if you want to tint the front windows we have the exact match." 
+        },
+        {
+            "photo_url": "img/installFull/tinting/005.jpg",
+            "thumb_url": "img/installThumbs/tinting/005.jpg",
+            "description": "<p><strong>2006 Mercedes CLS</strong> - This sleek four door coupe &#40;as Mercedes calls it&#41; received 35% smoke tint all the way around." 
+        }
+    ] 
+}

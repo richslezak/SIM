@@ -1,0 +1,33 @@
+{
+    "id": "1923FordTbucket",
+    "install_title": "1923 Ford T-Bucket (Install February 06)",
+    "icon_url": "img/installIcons/fordTbucket_install.jpg",
+    "description": "",
+    "photos": [
+        {
+            "photo_url": "img/installFull/fordTbucket/001.jpg",
+            "thumb_url": "img/installThumbs/fordTbucket/001.jpg",
+            "description": "How do you over-power a 1000 plus HP engine with dual 4&quot; open exhaust right next to your ear in an open cockpit?" 
+        },
+        {
+            "photo_url": "img/installFull/fordTbucket/002.jpg",
+            "thumb_url": "img/installThumbs/fordTbucket/002.jpg",
+            "description": "You don't! We opted for just adding a little music while cruising or hanging out. An Alpine 9857 AM/FM CD player with an iPod interface was used as a source, while a pair of JL Audio 6&quot; Speakers where mounted in the kick panels." 
+        },
+        {
+            "photo_url": "img/installFull/fordTbucket/003.jpg",
+            "thumb_url": "img/installThumbs/fordTbucket/003.jpg",
+            "description": "An under-dash radio mount was fabricated out of ABS plastic so only the face of the Alpine radio is visible without a trim ring. It also made a new home for the horn button that was tucked under the dash." 
+        },
+        {
+            "photo_url": "img/installFull/fordTbucket/004.jpg",
+            "thumb_url": "img/installThumbs/fordTbucket/004.jpg",
+            "description": "Here you see the Merlin engine capable of producing over 1000 HP BEFORE you hit the Nitrous. This is one hairy ride" 
+        },
+        {
+            "photo_url": "img/installFull/fordTbucket/005.jpg",
+            "thumb_url": "img/installThumbs/fordTbucket/005.jpg",
+            "description": "A look under the drive-train reveals all the attention that went into building this monster T-bucket. Disc brakes, coil-over suspension and lots of chrome." 
+        }
+    ] 
+}

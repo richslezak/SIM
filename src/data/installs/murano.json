@@ -1,0 +1,63 @@
+{
+    "id": "2003murano",
+    "install_title": "2003 Nissan Murano (Install May 05)",
+    "icon_url": "img/installIcons/murano_install.jpg",
+    "install_description": "",
+    "photos": [
+        {
+            "photo_url": "img/installFull/murano/001.jpg",
+            "thumb_url": "img/installThumbs/murano/001.jpg",
+            "description": "With the help of a NavTV RGB converter we were able to integrate a video signal from a DVD Player and back-up camera into the factory navigation screen." 
+        },
+        {
+            "photo_url": "img/installFull/murano/002.jpg",
+            "thumb_url": "img/installThumbs/murano/002.jpg",
+            "description": "For easy access we mounted the Accele DVD player / TV tuner under the glove box. An 110V outlet as well as AUX A/V inputs was added as well." 
+        },
+        {
+            "photo_url": "img/installFull/murano/003.jpg",
+            "thumb_url": "img/installThumbs/murano/003.jpg",
+            "description": "A K-40 2000 front and rear radar detector with a LD 5500 laser diffuser was installed as well, with the warning LED's integrated into the instrument cluster." 
+        },
+        {
+            "photo_url": "img/installFull/murano/004.jpg",
+            "thumb_url": "img/installThumbs/murano/004.jpg",
+            "description": "Vizualogic 7&quot; headrest monitors were installed for rear seat entertainment." 
+        },
+        {
+            "photo_url": "img/installFull/murano/005.jpg",
+            "thumb_url": "img/installThumbs/murano/005.jpg",
+            "description": "The best part is, absolutely no room was sacrificed in the cargo area to accommodate this incredible stereo system." 
+        },
+        {
+            "photo_url": "img/installFull/murano/006.jpg",
+            "thumb_url": "img/installThumbs/murano/006.jpg",
+            "description": "With the cover removed you can see the grilles for the two JL Audio 10W6V2 10&quot; subwoofers firing up." 
+        },
+        {
+            "photo_url": "img/installFull/murano/007.jpg",
+            "thumb_url": "img/installThumbs/murano/007.jpg",
+            "description": "If you flip the front part of the cover back you can see the two Phoenix Gold ti series amplifiers. The left side contains two one-farad capacitors and an exhaust fan while the right side contains all the MB Quart passive cross-overs and an in-blowing fan for proper cooling." 
+        },
+        {
+            "photo_url": "img/installFull/murano/008.jpg",
+            "thumb_url": "img/installThumbs/murano/008.jpg",
+            "description": "Flip up the back part of the new cover and you gain access to a handy storage compartment over the spare tire. You can also see the custom sub enclosures hugging the spare tire." 
+        },
+        {
+            "photo_url": "img/installFull/murano/009.jpg",
+            "thumb_url": "img/installThumbs/murano/009.jpg",
+            "description": "Lift out the storage bin and you have access to the spare and all the required tools." 
+        },
+        {
+            "photo_url": "img/installFull/murano/010.jpg",
+            "thumb_url": "img/installThumbs/murano/010.jpg",
+            "description": "A wide-angle back-up camera was added to help navigate with the limited view out of the back of this truck." 
+        },
+        {
+            "photo_url": "img/installFull/murano/011.jpg",
+            "thumb_url": "img/installThumbs/murano/011.jpg",
+            "description": "Many unique shapes where utilized in these boxes to gain enough airspace for the two 10&quot; woofers, while retaining the spare tire." 
+        }
+    ] 
+}

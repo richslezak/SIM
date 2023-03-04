@@ -1,0 +1,63 @@
+{
+    "id": "navigationInstalls",
+    "install_title": "Creative Navigation System Installs",
+    "icon_url": "img/installIcons/navigation_install.jpg",
+    "install_description": "Not just a gadget anymore! Like cell-phones 15 years ago, these luxury items have become a necessity in today's world. Our specialty is a factory look, so we tend to integrate &quot;non-portable&quot; touch-screens into the dash. Not only do they perform far superior, they are safer to use, look better and probably won't get stolen.",
+    "photos": [
+         {
+            "photo_url": "img/installFull/navigation/001.jpg",
+            "thumb_url": "img/installThumbs/navigation/001.jpg",
+            "description": "<strong>1999 Audi A4</strong> - An Eclipse 7&quot; LCD was integrated into the dash to display the Alpine NVE-852 Navigation System. It is operated via remote control and covers the entire continental US with 2 DVD's." 
+        },
+        {
+            "photo_url": "img/installFull/navigation/002.jpg",
+            "thumb_url": "img/installThumbs/navigation/002.jpg",
+            "description": "<strong>2002 Cadillac Escalade EXT</strong> - We installed an Eclipse AVN &#40;Audio/Video/Navigation&#41; system. The dash had to be slightly modified to accommodate this double DIN unit. This DVD based unit is DVD based and operated via touch-screen." 
+        },
+        {
+            "photo_url": "img/installFull/navigation/003.jpg",
+            "thumb_url": "img/installThumbs/navigation/003.jpg",
+            "description": "<strong>2005 Chevrolet 3500 Van</strong> - An Alpine IVA-D300 flip-out monitor / receiver was installed to display the Alpine NVE-852 Navigation processor. Even though the monitor is touch-screen, it does not control the Navigation. A remote is still necessary." 
+        },
+        {
+            "photo_url": "img/installFull/navigation/004.jpg",
+            "thumb_url": "img/installThumbs/navigation/004.jpg",
+            "description": "<strong>2003 Dodge Viper</strong> - This single DIN dash opening was the perfect home for Alpines top-of-the-line IVA-D901 flip-out screen. It is linked to an Alpine NVE-852 DVD Navigation system." 
+        },
+        {
+            "photo_url": "img/installFull/navigation/005.jpg",
+            "thumb_url": "img/installThumbs/navigation/005.jpg",
+            "description": "<strong>2003 Dodge Viper</strong> - The Alpine NVE-852 Navigation processor along with a CD Changer was installed in the left side of the trunk in a custom rack." 
+        },
+        {
+            "photo_url": "img/installFull/navigation/006.jpg",
+            "thumb_url": "img/installThumbs/navigation/006.jpg",
+            "description": "<strong>2004 GMC Pick-Up</strong> - Even work trucks need to know where they are going. This simple install consists of an Alpine NVE-851 Navigation unit displayed on an Alpine 5.8&rdquo; LCD mounted with a custom bracket." 
+        },
+        {
+            "photo_url": "img/installFull/navigation/007.jpg",
+            "thumb_url": "img/installThumbs/navigation/007.jpg",
+            "description": "<strong>2005 Honda Odyssey</strong> - This family&rsquo;s minivan was in for a real treat, along with a full rear-seat entertainment system, back-up camera and satellite radio it also has an Eclipse AVN touch-screen Navigation unit that will play DVD movies as well." 
+        },
+        {
+            "photo_url": "img/installFull/navigation/008.jpg",
+            "thumb_url": "img/installThumbs/navigation/008.jpg",
+            "description": "<strong>2004 Infinity FX45 </strong> - No alterations to the dash, was this customers request. So we opted to put the Alpine 5.8&rdquo; Navigation screen in the overhead console where the sunglass holder was. It operates by remote control and is in perfect line of sight." 
+        },
+        {
+            "photo_url": "img/installFull/navigation/009.jpg",
+            "thumb_url": "img/installThumbs/navigation/009.jpg",
+            "description": "<strong>2004 Lincoln Navigator</strong> - This Eclipse AVN DVD Navigation head-unit was right at home in the factory location. The best part is the door still covers it and conceals it." 
+        },
+        {
+            "photo_url": "img/installFull/navigation/010.jpg",
+            "thumb_url": "img/installThumbs/navigation/010.jpg",
+            "description": "<strong>2003 Nissan 350Z</strong> - If purchased with factory navigation system it is located behind this retractable door. We opted to put our Alpine 6.5&rdquo; Navigation monitor in the same spot. It looked great, the door still covered it and it outperformed the factory Nissan Navigation." 
+        },
+        {
+            "photo_url": "img/installFull/navigation/011.jpg",
+            "thumb_url": "img/installThumbs/navigation/011.jpg",
+            "description": "<strong>2004 Toyota Solara</strong> - The Eclipse AVN Navigation system is very similar to the Toyota or Lexus one. Except this one will play DVD movies. Esthetically it looks just like the factory unit." 
+        }
+    ] 
+}
