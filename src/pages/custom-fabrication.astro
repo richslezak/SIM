@@ -1,19 +1,34 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import installData from '../data/installs/custom-fabrication.json';
+import ImgCard from '../components/ImgCard.astro';
+const { install } = installData;
 const title = 'Custom Fabrication with Plastic, Wood, Metal etc.';
 ---
 
 <Layout title={title}>
   <main>
     <div class="container fade-in">
-      <h1 class="display-6">{title}</h1>
-      <p class="lead">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptates fuga
-        molestiae illo expedita facere recusandae nostrum, rem saepe in ad. Sint deserunt, sed et
-        possimus odit qui, iste commodi quam beatae vero quis fugit. At expedita aut inventore quas
-        soluta error cum, velit ipsum consectetur doloribus, voluptatum perferendis eaque.
-      </p>
+      <section>
+        <h1 class="display-6 mb-5">{title}</h1>
+        <p class="lead mb-5">
+          Through the use of different materials and fabrication methods, we efficiently construct
+          pretty much anything, with extreme durability while keeping the weight down. Two-part
+          epoxies and the vast improvements of flexible paint coatings have made plastic fabrication
+          one of our fortes. We pay careful attention to matching OEM colors, textures and shades.
+          The car manufactures use plastic throughout the car, so why would you ever fiberglass a
+          dashboard?
+        </p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          {
+            install.map((item) => (
+              <div class="col d-flex align-items-stretch">
+                <ImgCard imgsrc={item.imgSrc} description={item.description} />
+              </div>
+            ))
+          }
+        </div>
+      </section>
     </div>
   </main>
-  <style lang="scss"></style>
 </Layout>

@@ -1,0 +1,26 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import installData from '../../data/installs/1994-toyota-supra-turbo.json';
+import ImgCard from '../../components/ImgCard.astro';
+const { install } = installData;
+const title = '1994 Toyota Supra Turbo';
+---
+
+<Layout title={title}>
+  <main>
+    <div class="container fade-in">
+      <section>
+        <h1 class="display-6 mb-5">{title}</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          {
+            install.map((item) => (
+              <div class="col d-flex align-items-stretch">
+                <ImgCard imgsrc={item.imgSrc} description={item.description} />
+              </div>
+            ))
+          }
+        </div>
+      </section>
+    </div>
+  </main>
+</Layout>

@@ -1,19 +1,40 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import installData from '../data/installs/radio-integrations.json';
+import ImgCard from '../components/ImgCard.astro';
+const { install } = installData;
 const title = 'Satellite & HD Radio Integration';
 ---
 
 <Layout title={title}>
   <main>
     <div class="container fade-in">
-      <h1 class="display-6">{title}</h1>
-      <p class="lead">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptates fuga
-        molestiae illo expedita facere recusandae nostrum, rem saepe in ad. Sint deserunt, sed et
-        possimus odit qui, iste commodi quam beatae vero quis fugit. At expedita aut inventore quas
-        soluta error cum, velit ipsum consectetur doloribus, voluptatum perferendis eaque.
-      </p>
+      <section>
+        <h1 class="display-6 mb-5">{title}</h1>
+        <p class="lead">
+          This being one of the hottest new ways of receiving media, satellite radio has made a huge
+          impact. Hundreds of stations are available with real-time sports scores, stocks, weather,
+          traffic, artist and song information. Most popular are add-on units for people that do not
+          wish to change the radio. We pay particular attention to make the unit disappear in the
+          car while being easy to use. Another important aspect is the installation and location of
+          the antenna. We take extra time with this to ensure long trouble free performance and a
+          non-obtrusive look.
+        </p>
+        <p class="lead mb-5">
+          High Definition radio has received a great deal of publicity and the concept seems great,
+          AM sounds like FM, FM sounds like CD, all of the song / artist information is there and
+          there are extra stations that you can only receive with a HD tuner.
+        </p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          {
+            install.map((item) => (
+              <div class="col d-flex align-items-stretch">
+                <ImgCard imgsrc={item.imgSrc} description={item.description} />
+              </div>
+            ))
+          }
+        </div>
+      </section>
     </div>
   </main>
-  <style lang="scss"></style>
 </Layout>
