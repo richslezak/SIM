@@ -231,95 +231,96 @@ const title = 'Media';
       </section>
     </div>
   </main>
-  <style lang="scss">
-    main {
-      padding-top: 0;
-    }
+</Layout>
 
-    section {
-      padding-top: 10rem;
-    }
+<style lang="scss">
+  main {
+    padding-top: 0;
+  }
 
-    #sub-nav {
-      position: fixed;
-      top: 3.5rem;
-      right: 0;
-      left: 0;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-      background-color: var(--sim-white-secondary);
-      box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
-      z-index: 5;
-      .nav-link {
-        font-weight: 600;
-        color: var(--sim-gray);
-        border-bottom: 0.3rem solid transparent;
-        padding: 0.25rem;
-        &.active {
-          background-color: transparent;
-          border-radius: 0;
-          border-bottom: 0.3rem solid var(--sim-red);
-          color: var(--sim-red);
-        }
-      }
-      .nav-link:focus,
-      .nav-link:hover {
+  section {
+    padding-top: 10rem;
+  }
+
+  #sub-nav {
+    position: fixed;
+    top: 3.5rem;
+    right: 0;
+    left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--sim-white-secondary);
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    z-index: 5;
+    .nav-link {
+      font-weight: 600;
+      color: var(--sim-gray);
+      border-bottom: 0.3rem solid transparent;
+      padding: 0.25rem;
+      &.active {
+        background-color: transparent;
+        border-radius: 0;
+        border-bottom: 0.3rem solid var(--sim-red);
         color: var(--sim-red);
       }
     }
+    .nav-link:focus,
+    .nav-link:hover {
+      color: var(--sim-red);
+    }
+  }
 
-    #social {
-      a {
-        font-weight: 600;
+  #social {
+    a {
+      font-weight: 600;
+    }
+  }
+
+  #publications-list {
+    display: flex;
+    flex-wrap: wrap;
+    div {
+      padding-bottom: 4rem;
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 420px) {
+    #sub-nav {
+      .nav-link {
+        padding: 0.5rem;
       }
     }
+  }
 
-    #publications-list {
-      display: flex;
-      flex-wrap: wrap;
-      div {
-        padding-bottom: 4rem;
-        flex: 0 0 auto;
-        width: 100%;
+  @media (min-width: 500px) {
+    #sub-nav {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      .nav-link {
+        padding: 0.5rem 1rem;
       }
     }
+  }
 
-    @media (min-width: 420px) {
-      #sub-nav {
-        .nav-link {
-          padding: 0.5rem;
-        }
-      }
+  @media (min-width: 768px) {
+    #publications-list div {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    #sub-nav {
+      top: 3.9rem;
     }
 
-    @media (min-width: 500px) {
-      #sub-nav {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        .nav-link {
-          padding: 0.5rem 1rem;
-        }
-      }
+    section {
+      padding-top: 12rem;
     }
 
-    @media (min-width: 768px) {
-      #publications-list div {
-        width: 50%;
-      }
+    #publications-list div {
+      padding-bottom: 7rem;
     }
-
-    @media (min-width: 992px) {
-      #sub-nav {
-        top: 3.9rem;
-      }
-
-      section {
-        padding-top: 12rem;
-      }
-
-      #publications-list div {
-        padding-bottom: 7rem;
-      }
-    }
-  </style>
-</Layout>
+  }
+</style>
