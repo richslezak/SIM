@@ -56,16 +56,19 @@ const title = 'Porsche Specific Upgrades & Fixes';
   </div>
   <main>
     <div class="container fade-in" data-bs-spy="scroll" data-bs-target="#porsche-nav">
-      <h1 class="display-6">{title}</h1>
-      <p class="lead mb-5">
-        We offer several unique Porsche Specific Upgrades & Fixes and are always coming up with
-        innovative solutions. On the classic air-cooled Porsches, we find the pockets often break
-        and original speakers are dry rotted. We have a solution for both. For the early
-        water-cooled ones, we make a cool slide in cupholder, or re-fabricate the “batwing” panel in
-        front of the shifter to house the USB/ AUX in for the Porsche Classic radio. We also offer
-        high performance custom designed subwoofer enclosures for all generations of 991's,
-        Boxster's and Cayman's.
-      </p>
+      <section>
+        <h1 class="display-6">{title}</h1>
+        <p class="lead mb-5">
+          We offer several unique Porsche Specific Upgrades & Fixes and are always coming up with
+          innovative solutions. On the classic air-cooled Porsches, we find the pockets often break
+          and original speakers are dry rotted. We have a solution for both. For the early
+          water-cooled ones, we make a cool slide in cupholder, or re-fabricate the “batwing” panel
+          in front of the shifter to house the USB/ AUX in for the Porsche Classic radio. We also
+          offer high performance custom designed subwoofer enclosures for all generations of 991's,
+          Boxster's and Cayman's.
+        </p>
+      </section>
+      <hr class="featurette-divider" />
       <section id="cup-holder">
         <h1 class="display-6">A Cup Holder for Your Early Porsche Boxster or 996</h1>
         <p class="lead mb-5">
@@ -256,7 +259,11 @@ const title = 'Porsche Specific Upgrades & Fixes';
 
 <style lang="scss">
   main {
-    padding-top: 6rem;
+    padding-top: 8rem;
+  }
+
+  section:first-child {
+    padding-top: 0;
   }
 
   section {
