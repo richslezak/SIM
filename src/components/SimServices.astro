@@ -1,70 +1,57 @@
----
-import IconCaret from '../components/IconCaret.astro';
----
-
-<ul class="list-unstyled">
+<ul>
   <li>
-    <IconCaret class="caret" />
     <a href="/audio-systems">Upgraded and High Performance Car Audio Systems</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
     <a href="/audio-integrations">Apple CarPlay & Android Auto Integration</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
     <a href="/defense-systems">Radar & Laser Detection and Defense Systems</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
     <a href="/porsche#cup-holder">Porsche Specific Upgrades & Fixes</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
     <a href="/car-cameras">Reverse, Front & 360 Birdseye View Cameras</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
+    <a href="/dash-cameras">Dash Cameras</a>
+  </li>
+
+  <li>
     <a href="/dsp-tuning">Advanced DSP Tuning</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
     <a href="/sound-deadening">Sound Deadening</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
     <a href="/advanced-driver-assistance-systems">ADAS (Advanced Driver Assistance Systems)</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
     <a href="/remote-security">Remote Car Starters & Security Systems</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
     <a href="/radio-integrations">Satellite & HD Radio Integration</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
     <a href="/lighting-upgrades">LED Lighting Upgrades</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
     <a href="/tracking-systems">GPS Tracking and Fleet Management Systems</a>
   </li>
 
   <li>
-    <IconCaret class="caret" />
     <a href="/custom-fabrication">Custom Fabrication with Plastic, Wood, Metal etc.</a>
   </li>
 </ul>
@@ -76,19 +63,24 @@ import IconCaret from '../components/IconCaret.astro';
 
   li {
     margin-bottom: 1rem;
-    .caret {
-      color: var(--sim-red);
-      vertical-align: baseline;
-      display: none;
+    padding-left: 1rem;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      left: -0.2rem;
+      top: 0.4rem;
+      width: 1rem;
+      height: 1rem;
+      background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23bd0000' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z' clip-rule='evenodd'/></svg>");
+      background-repeat: no-repeat;
+      background-size: 1rem 1rem;
     }
   }
 
   @media (min-width: 375px) {
     li {
       font-size: 1.2rem;
-      .caret {
-        display: inline;
-      }
     }
   }
 

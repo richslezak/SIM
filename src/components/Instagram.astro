@@ -1,0 +1,45 @@
+<div class="ig-container">
+  <iframe
+    class="instagram-media astro-GFS3HBTJ instagram-media-rendered"
+    id="instagram-embed-0"
+    src="https://www.instagram.com/soundinmotionboston/embed/?cr=1&v=14&wp=1080&rd=http%3A%2F%2F127.0.0.1%3A3000&rp=%2F#%7B%22ci%22%3A0%2C%22os%22%3A551.7999999970198%2C%22ls%22%3A32.70000000298023%2C%22le%22%3A414.20000000298023%7D"
+    allowtransparency="true"
+    allowfullscreen="true"
+    frameborder="0"
+    height="559"
+    data-instgrm-payload-id="instagram-media-payload-0"
+    scrolling="no"
+    loading="lazy"></iframe>
+  <div class="blocker"></div>
+</div>
+<script async src="//www.instagram.com/embed.js"></script>
+<style lang="scss">
+  #instagram-embed-0 {
+    display: block;
+    background: var(--sim-white);
+    border-radius: 0.375rem;
+    border: 1px solid var(--sim-gray-xlt);
+    min-width: 280px;
+    width: calc(100% - 2px);
+  }
+  .ig-container {
+    position: relative;
+    .blocker {
+      background-color: var(--sim-white-secondary);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 4;
+      width: calc(100% - 2px);
+      height: 46.5px;
+      margin-top: -46.5px;
+    }
+  }
+  @media (min-width: 509px) {
+    .ig-container .blocker {
+      height: 62.5px;
+      margin-top: 62.5px;
+    }
+  }
+</style>
