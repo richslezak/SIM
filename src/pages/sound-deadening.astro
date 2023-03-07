@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import SectionHeading from '../components/SectionHeading.astro';
 import installData from '../data/installs/sound-deadening.json';
 import ImgCard from '../components/ImgCard.astro';
 const { install } = installData;
@@ -10,15 +11,75 @@ const title = 'Sound Deadening';
   <main>
     <div class="container fade-in">
       <section>
-        <h1 class="display-6 mb-5">{title}</h1>
+        <h1 class="display-6">{title}</h1>
         <p class="lead mb-5">
-          This simple feature is so often overlooked. While car manufacturers are always trying to
-          make cars cheaper and lighter, sound deadening is the first to go. We use "Dynamat
-          Extreme" extensively to keep out unwanted road noise, while tremendously improving the
-          sound of your system inside. Doors are a must, floor and rear deck / firewalls are
-          recommended and the roof is for the elite. Notice that we don't just stick it over the
-          wires but rather under them, for better performance or in case servicing is required.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptates fuga
+          molestiae illo expedita facere recusandae nostrum, rem saepe in ad. Sint deserunt, sed et
+          possimus odit qui, iste commodi quam beatae vero quis fugit. At expedita aut inventore
+          quas soluta error cum, velit ipsum consectetur doloribus, voluptatum perferendis eaque.
         </p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+          <div class="col">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+          <div class="col">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section>
+        <SectionHeading
+          heading="Previous Projects"
+          description="Since we've been doing this work for a while, here are a few examples of the projects we've completed in the past."
+        />
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           {
             install.map((item) => (

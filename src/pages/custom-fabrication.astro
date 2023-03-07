@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import SectionHeading from '../components/SectionHeading.astro';
 import installData from '../data/installs/custom-fabrication.json';
 import ImgCard from '../components/ImgCard.astro';
 const { install } = installData;
@@ -10,15 +11,75 @@ const title = 'Custom Fabrication with Plastic, Wood, Metal etc.';
   <main>
     <div class="container fade-in">
       <section>
-        <h1 class="display-6 mb-5">{title}</h1>
+        <h1 class="display-6">{title}</h1>
         <p class="lead mb-5">
-          Through the use of different materials and fabrication methods, we efficiently construct
-          pretty much anything, with extreme durability while keeping the weight down. Two-part
-          epoxies and the vast improvements of flexible paint coatings have made plastic fabrication
-          one of our fortes. We pay careful attention to matching OEM colors, textures and shades.
-          The car manufactures use plastic throughout the car, so why would you ever fiberglass a
-          dashboard?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptates fuga
+          molestiae illo expedita facere recusandae nostrum, rem saepe in ad. Sint deserunt, sed et
+          possimus odit qui, iste commodi quam beatae vero quis fugit. At expedita aut inventore
+          quas soluta error cum, velit ipsum consectetur doloribus, voluptatum perferendis eaque.
         </p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+          <div class="col">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+          <div class="col">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section>
+        <SectionHeading
+          heading="Previous Projects"
+          description="Since we've been doing this work for a while, here are a few examples of the projects we've completed in the past."
+        />
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           {
             install.map((item) => (

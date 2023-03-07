@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import SectionHeading from '../components/SectionHeading.astro';
 import installData from '../data/installs/radio-integrations.json';
 import ImgCard from '../components/ImgCard.astro';
 const { install } = installData;
@@ -10,21 +11,75 @@ const title = 'Satellite & HD Radio Integration';
   <main>
     <div class="container fade-in">
       <section>
-        <h1 class="display-6 mb-5">{title}</h1>
-        <p class="lead">
-          This being one of the hottest new ways of receiving media, satellite radio has made a huge
-          impact. Hundreds of stations are available with real-time sports scores, stocks, weather,
-          traffic, artist and song information. Most popular are add-on units for people that do not
-          wish to change the radio. We pay particular attention to make the unit disappear in the
-          car while being easy to use. Another important aspect is the installation and location of
-          the antenna. We take extra time with this to ensure long trouble free performance and a
-          non-obtrusive look.
-        </p>
+        <h1 class="display-6">{title}</h1>
         <p class="lead mb-5">
-          High Definition radio has received a great deal of publicity and the concept seems great,
-          AM sounds like FM, FM sounds like CD, all of the song / artist information is there and
-          there are extra stations that you can only receive with a HD tuner.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptates fuga
+          molestiae illo expedita facere recusandae nostrum, rem saepe in ad. Sint deserunt, sed et
+          possimus odit qui, iste commodi quam beatae vero quis fugit. At expedita aut inventore
+          quas soluta error cum, velit ipsum consectetur doloribus, voluptatum perferendis eaque.
         </p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+          <div class="col">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+          <div class="col">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em">500x500</text
+              >
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section>
+        <SectionHeading
+          heading="Previous Projects"
+          description="Since we've been doing this work for a while, here are a few examples of the projects we've completed in the past."
+        />
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           {
             install.map((item) => (
