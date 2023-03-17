@@ -1,6 +1,12 @@
 {
   "publications": [
     {
+      "imgSrc": "/publications/car-audio-dummies.jpg",
+      "name": "Car Audio for Dummies",
+      "description": "Derek Kenney contributing as technical editor",
+      "date": "Feb 2008"
+    },
+    {
       "imgSrc": "/publications/A-List.gif",
       "name": "WBZ",
       "description": "Boston's Best Car Stereo Installation Shop",
