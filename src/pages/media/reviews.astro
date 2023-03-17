@@ -1,9 +1,9 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import NavMedia from '../../components/NavMedia.astro';
-import Testimonial from '../../components/Testimonial.astro';
+import Review from '../../components/Review.astro';
 import data from '../../data/testimonals.json';
-const title = 'Testimonials';
+const title = 'Reviews';
 const { testimonials } = data;
 ---
 
@@ -18,7 +18,7 @@ const { testimonials } = data;
         Porsche / BMW / Toyota, Novint Technologies, Mercedes of Westwood, Chambers Motorcars,
         Rockingham Scion and many more. See what they have to say about us.
       </p>
-      {testimonials.map((item) => <Testimonial item={item} />)}
+      {testimonials.map((item) => <Review item={item} />)}
     </div>
   </main>
 </Layout>

@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import PublicationCover from '../components/PublicationCover.astro';
 import publicationData from '../data/publications.json';
 const { publications } = publicationData;
-import Testimonial from '../components/Testimonial.astro';
+import Review from '../components/Review.astro';
 import testimonialData from '../data/testimonals.json';
 const { testimonials } = testimonialData;
 const title = 'Media';
@@ -43,7 +43,7 @@ const title = 'Media';
           {
             testimonials.map((item) => (
               <li class="mt-5">
-                <Testimonial item={item} />
+                <Review item={item} />
               </li>
             ))
           }
