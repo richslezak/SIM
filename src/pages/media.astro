@@ -14,9 +14,9 @@ const title = 'Media';
     <div class="container">
       <nav id="media-nav">
         <ul class="nav">
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <a href="#social" class="nav-link">Social</a>
-          </li> -->
+          </li>
           <li class="nav-item">
             <a href="#reviews" class="nav-link">Reviews</a>
           </li>
@@ -29,6 +29,59 @@ const title = 'Media';
   </div>
   <main>
     <div class="container fade-in" data-bs-spy="scroll" data-bs-target="#media-nav">
+      <section id="social">
+        <h1 class="display-6">Social</h1>
+        <p class="lead mb-5">
+          To see what is currently going on at the shop, or read what people are saying about us,
+          please follow us on Social Media, or check out our online reviews and testimonials. You
+          can also see our work extensively featured in various <a
+            href="#publications"
+            class="link-effect">magazines</a
+          >. And if you really want to go way back, check out our original <a
+            href="https://www.soundinmotionboston.com/"
+            target="_blank"
+            class="link-effect">website</a
+          > which was created around 1999.
+        </p>
+        <div class="row row-cols-5 logos">
+          <a
+            href="https://www.instagram.com/soundinmotionboston/"
+            target="blank"
+            class="col d-flex align-items-center justify-content-center"
+          >
+            <img src="/logos/instagram.png" alt="" />
+          </a>
+          <a
+            href="https://www.facebook.com/Sound-in-Motion-88032636715"
+            target="blank"
+            class="col d-flex align-items-center justify-content-center"
+          >
+            <img src="/logos/facebook.png" alt="" />
+          </a>
+          <a
+            href="https://www.youtube.com/user/soundinmotionboston"
+            target="blank"
+            class="col d-flex align-items-center justify-content-center"
+          >
+            <img src="/logos/youtube.png" alt="" />
+          </a>
+          <a
+            href="https://www.google.com/search?q=sound+in+motion+boston+reviews#lrd=0x89e379c37505e611:0xd959acbf0d2f51bd,1,,,,"
+            target="_blank"
+            class="col d-flex align-items-center justify-content-center"
+          >
+            <img src="/logos/google.png" alt="" />
+          </a>
+          <a
+            href="https://www.yelp.com/biz/sound-in-motion-watertown#reviews"
+            target="_blank"
+            class="col d-flex align-items-center justify-content-center"
+          >
+            <img src="/logos/yelp.png" alt="" />
+          </a>
+        </div>
+      </section>
+
       <section id="reviews">
         <h1 class="display-6">Reviews</h1>
         <p class="lead">
@@ -101,6 +154,11 @@ const title = 'Media';
     font-weight: 600;
   }
 
+  .logos img {
+    width: 2rem;
+    height: auto;
+  }
+
   #sub-nav {
     position: fixed;
     top: 3.5rem;
@@ -155,11 +213,19 @@ const title = 'Media';
         padding: 0.5rem 1rem;
       }
     }
+
+    .logos img {
+      width: 3rem;
+    }
   }
 
   @media (min-width: 768px) {
     #publications-list div {
       width: 50%;
+    }
+
+    .logos img {
+      width: 3rem;
     }
   }
 
