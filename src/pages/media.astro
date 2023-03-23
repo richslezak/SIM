@@ -4,8 +4,8 @@ import PublicationCover from '../components/PublicationCover.astro';
 import publicationData from '../data/publications.json';
 const { publications } = publicationData;
 import Review from '../components/Review.astro';
-import testimonialData from '../data/testimonals.json';
-const { testimonials } = testimonialData;
+import reviewsData from '../data/reviews.json';
+const { reviews } = reviewsData;
 const title = 'Media';
 ---
 
@@ -41,47 +41,39 @@ const title = 'Media';
             href="https://www.soundinmotionboston.com/"
             target="_blank"
             class="link-effect">website</a
-          > which was created around 1999.
+          > built around 1999.
         </p>
-        <div class="row row-cols-5 logos">
-          <a
-            href="https://www.instagram.com/soundinmotionboston/"
-            target="blank"
-            class="col d-flex align-items-center justify-content-center"
-          >
-            <img src="/logos/instagram.png" alt="" />
-          </a>
-          <a
-            href="https://www.facebook.com/Sound-in-Motion-88032636715"
-            target="blank"
-            class="col d-flex align-items-center justify-content-center"
-          >
-            <img src="/logos/facebook.png" alt="" />
-          </a>
-          <a
-            href="https://www.youtube.com/user/soundinmotionboston"
-            target="blank"
-            class="col d-flex align-items-center justify-content-center"
-          >
-            <img src="/logos/youtube.png" alt="" />
-          </a>
-          <a
-            href="https://www.google.com/search?q=sound+in+motion+boston+reviews#lrd=0x89e379c37505e611:0xd959acbf0d2f51bd,1,,,,"
-            target="_blank"
-            class="col d-flex align-items-center justify-content-center"
-          >
-            <img src="/logos/google.png" alt="" />
-          </a>
-          <a
-            href="https://www.yelp.com/biz/sound-in-motion-watertown#reviews"
-            target="_blank"
-            class="col d-flex align-items-center justify-content-center"
-          >
-            <img src="/logos/yelp.png" alt="" />
-          </a>
+        <div class="row logos">
+          <div>
+            <a href="https://www.instagram.com/soundinmotionboston/" target="blank">
+              <img src="/logos/instagram.png" alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/Sound-in-Motion-88032636715" target="blank">
+              <img src="/logos/facebook.png" alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.youtube.com/user/soundinmotionboston" target="blank">
+              <img src="/logos/youtube.png" alt="" />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.google.com/search?q=sound+in+motion+boston+reviews#lrd=0x89e379c37505e611:0xd959acbf0d2f51bd,1,,,,"
+              target="_blank"
+            >
+              <img src="/logos/google.png" alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.yelp.com/biz/sound-in-motion-watertown#reviews" target="_blank">
+              <img src="/logos/yelp.png" alt="" />
+            </a>
+          </div>
         </div>
       </section>
-
       <section id="reviews">
         <h1 class="display-6">Reviews</h1>
         <p class="lead">
@@ -94,7 +86,7 @@ const title = 'Media';
         </p>
         <ul class="list-unstyled">
           {
-            testimonials.map((item) => (
+            reviews.map((item) => (
               <li class="mt-5">
                 <Review item={item} />
               </li>
@@ -102,7 +94,7 @@ const title = 'Media';
           }
         </ul>
         <p class="lead mt-5">
-          Read more reviews left for us on <a
+          Read more reviews on <a
             href="https://www.google.com/search?q=sound+in+motion+boston+reviews#lrd=0x89e379c37505e611:0xd959acbf0d2f51bd,1,,,,"
             target="_blank"
             class="link-effect">Google</a
@@ -113,7 +105,6 @@ const title = 'Media';
           >.
         </p>
       </section>
-      <hr class="featurette-divider" />
       <section id="publications">
         <h1 class="display-6">Publications</h1>
         <p class="lead mb-5">
@@ -154,9 +145,24 @@ const title = 'Media';
     font-weight: 600;
   }
 
-  .logos img {
-    width: 2rem;
-    height: auto;
+  .logos {
+    display: flex;
+    div {
+      display: flex;
+      width: 20%;
+      align-items: center;
+      justify-content: center;
+    }
+    a {
+      transition: all 0.25s ease-in-out;
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+    img {
+      width: 2rem;
+      height: auto;
+    }
   }
 
   #sub-nav {
@@ -222,10 +228,6 @@ const title = 'Media';
   @media (min-width: 768px) {
     #publications-list div {
       width: 50%;
-    }
-
-    .logos img {
-      width: 3rem;
     }
   }
 
