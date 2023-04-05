@@ -1,86 +1,114 @@
+---
+import ServiceItem from './ServiceItem.astro';
+---
+
 <ul>
   <li>
-    <a href="/audio-systems">Upgraded and High Performance Car Audio Systems</a>
+    <ServiceItem
+      url="/audio-systems"
+      src="/homepage/06.jpg"
+      title="Upgraded and High Performance Car Audio Systems"
+    />
   </li>
 
   <li>
-    <a href="/audio-integrations">Apple CarPlay & Android Auto Integration</a>
+    <ServiceItem
+      url="/audio-integrations"
+      src="/homepage/014.jpg"
+      title="Apple CarPlay & Android Auto Integration"
+    />
   </li>
 
   <li>
-    <a href="/defense-systems">Radar & Laser Detection and Defense Systems</a>
+    <ServiceItem
+      url="/defense-systems"
+      src="/homepage/018.jpg"
+      title="Radar & Laser Detection and Defense Systems"
+    />
   </li>
 
   <li>
-    <a href="/porsche">Porsche Specific Upgrades & Fixes</a>
+    <ServiceItem url="/porsche" src="/homepage/08.jpg" title="Porsche Specific Upgrades & Fixes" />
   </li>
 
   <li>
-    <a href="/car-cameras">Reverse, Front & 360 Birdseye View Cameras</a>
+    <ServiceItem
+      url="/car-cameras"
+      src="/homepage/024.jpg"
+      title="Reverse, Front & 360 Birdseye View Cameras"
+    />
   </li>
 
   <li>
-    <a href="/dash-cameras">Dash Cameras</a>
+    <ServiceItem url="/dash-cameras" src="/homepage/03.jpg" title="Dash Cameras" />
   </li>
 
   <li>
-    <a href="/dsp-tuning">Advanced DSP Tuning</a>
+    <ServiceItem url="/dsp-tuning" src="/homepage/014.jpg" title="Advanced DSP Tuning" />
   </li>
 
   <li>
-    <a href="/sound-deadening">Sound Deadening</a>
+    <ServiceItem url="/sound-deadening" src="/homepage/02.jpg" title="Sound Deadening" />
   </li>
 
   <li>
-    <a href="/advanced-driver-assistance-systems">ADAS (Advanced Driver Assistance Systems)</a>
+    <ServiceItem
+      url="/advanced-driver-assistance-systems"
+      src="/homepage/021.jpg"
+      title="ADAS (Advanced Driver Assistance Systems)"
+    />
   </li>
 
   <li>
-    <a href="/remote-security">Remote Car Starters & Security Systems</a>
+    <ServiceItem
+      url="/remote-security"
+      src="/homepage/018.jpg"
+      title="Remote Car Starters & Security Systems"
+    />
   </li>
 
   <li>
-    <a href="/radio-integrations">Satellite & HD Radio Integration</a>
+    <ServiceItem
+      url="/radio-integrations"
+      src="/homepage/016.jpg"
+      title="Satellite & HD Radio Integration"
+    />
   </li>
 
   <li>
-    <a href="/lighting-upgrades">LED Lighting Upgrades</a>
+    <ServiceItem url="/lighting-upgrades" src="/homepage/024.jpg" title="LED Lighting Upgrades" />
   </li>
 
   <li>
-    <a href="/tracking-systems">GPS Tracking and Fleet Management Systems</a>
+    <ServiceItem
+      url="/tracking-systems"
+      src="/homepage/023.jpg"
+      title="GPS Tracking and Fleet Management Systems"
+    />
   </li>
 
   <li>
-    <a href="/custom-fabrication">Custom Fabrication with Plastic, Wood, Metal etc.</a>
+    <ServiceItem
+      url="/custom-fabrication"
+      src="/homepage/013.jpg"
+      title="Custom Fabrication with Plastic, Wood, Metal etc."
+    />
   </li>
 </ul>
 <style lang="scss">
   ul {
     padding-left: 0;
     list-style: none;
-  }
-
-  li {
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    position: relative;
-    &::before {
-      content: '';
-      position: absolute;
-      left: -0.2rem;
-      top: 0.4rem;
-      width: 1rem;
-      height: 1rem;
-      background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23bd0000' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z' clip-rule='evenodd'/></svg>");
-      background-repeat: no-repeat;
-      background-size: 1rem 1rem;
+    li {
+      margin-bottom: 1rem;
     }
   }
 
   @media (min-width: 375px) {
-    li {
-      font-size: 1.2rem;
+    ul {
+      li {
+        font-size: 1.2rem;
+      }
     }
   }
 
@@ -88,11 +116,16 @@
     ul {
       display: flex;
       flex-wrap: wrap;
-      padding-left: 0;
-    }
-    li {
-      margin-bottom: 1rem;
-      flex-basis: 50%;
+      li {
+        margin-bottom: 1rem;
+        flex-basis: 50%;
+        &:nth-child(even) {
+          padding-left: 1rem;
+        }
+        &:nth-child(odd) {
+          padding-right: 1rem;
+        }
+      }
     }
   }
 </style>
