@@ -97,7 +97,7 @@ force = true
 
 
 [[redirects]]
-from = "/installsDetail.html:id=17"
+from = "/installsDetail.html?id=17"
 to = "/porsche/#subwoofer"
 status = 301
 force = true
@@ -108,7 +108,7 @@ from = "/"
 to = "/porsche/#speaker-fix"
 status = 301
 force = true
-query = {url = "sound-in-motion.com/installDetail.html", id = "43"}
+query = {url = "sound-in-motion.com/installsDetail.html", id = "43"}
 
 
 [[redirects]]
