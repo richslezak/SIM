@@ -20,7 +20,7 @@ force = true
 
 
 [[redirects]]
-from = "/installsDetail.html?"
+from = "/installsDetail.html"
 to = "/"
 status = 301
 force = true
