@@ -129,6 +129,6 @@ force = true
 [[redirects]]
 force = true
 from = "/installsDetail.html"
-query = {id = ":id"}
+query = {id = ":id=16"}
 status = 301
 to = "/installs/#cup-holder"
