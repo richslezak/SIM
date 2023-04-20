@@ -99,6 +99,7 @@ force = true
 [[redirects]]
 from = "/installsDetail.html?id=16"
 to = "/porsche/#cup-holder?id=16"
+query = {id = ":id"}
 status = 301
 force = true
 
