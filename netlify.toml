@@ -107,7 +107,6 @@ force = true
 from = "/"
 to = "/porsche/#speaker-fix"
 status = 301
-force = true
 query = {url = "sound-in-motion.com/installsDetail.html", id = "43"}
 
 
