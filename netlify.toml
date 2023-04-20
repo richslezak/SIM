@@ -97,7 +97,7 @@ force = true
 
 
 [[redirects]]
-from = "/installsDetail.html :id=17"
+from = ":id=17"
 to = "/porsche/#subwoofer"
 status = 301
 force = true
