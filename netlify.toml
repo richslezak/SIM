@@ -124,3 +124,18 @@ to = "/porsche/#speaker-fix"
 query = {id = ":id=43"}
 status = 301
 force = true
+
+
+[[redirects]]
+from = "/installsDetail.html"
+to = "/porsche/"
+query = {id = ":id"}
+status = 301
+force = true
+
+
+[[redirects]]
+from = "/installsDetail.html?id=16"
+to = "/porsche/"
+status = 301
+force = true
