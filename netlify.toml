@@ -121,6 +121,6 @@ force = true
 [[redirects]]
 from = "/installsDetail.html"
 to = "/porsche/#speaker-fix"
-query = {id=43 = ":id=43"}
+query = {{id=43} = ":id=43"}
 status = 301
 force = true
