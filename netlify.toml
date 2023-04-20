@@ -92,11 +92,7 @@ status = 301
 force = true
 
 
-[[redirects]]
-from = "/installsDetail.html?id=16"
-to = "/porsche/#cup-holder"
-status = 301
-force = true
+
 
 
 [[redirects]]
@@ -119,6 +115,12 @@ to = "/porsche/#speaker-fix"
 status = 301
 force = true
 
+
+[[redirects]]
+from = "/installsDetail.html?id=16"
+to = "/porsche/#cup-holder"
+status = 301
+force = true
 
 
 [[redirects]]
