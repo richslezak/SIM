@@ -97,21 +97,23 @@ force = true
 
 
 [[redirects]]
-from = "/installsDetail.html id=17"
+from = "/installsDetail.html?id=17"
 to = "/porsche/#subwoofer"
 status = 301
 force = true
 
 
 [[redirects]]
-from = "/installsDetail.html id=:id=43"
+from = "/installsDetail.html"
 to = "/porsche/#speaker-fix"
 status = 301
 force = true
+query = {id = '43'}
 
 
 [[redirects]]
-from = "/installsDetail.html id=42"
+from = "/installsDetail.html"
 to = "/porsche/#door-pocket-fix"
 status = 301
 force = true
+query = {id = “42”}
