@@ -92,20 +92,40 @@ status = 301
 force = true
 
 
-
-
-
+[[redirects]]
+from = "/installsDetail.html?id=16"
+to = "/porsche/#cup-holder"
+status = 301
+force = true
 
 
 [[redirects]]
-from = "/installsDetail.html"
-to = "/porsche/#door-pocket-fix"
+from = "/installsDetail.html?id=17"
+to = "/porsche/#subwoofer"
 query = {id = ":id"}
 status = 301
 force = true
 
 
+[[redirects]]
+from = "/installsDetail.html"
+to = "/porsche/#door-pocket-fix"
+query = {id = ":id=42"}
+status = 301
+force = true
+
+
+[[redirects]]
+from = "/installsDetail.html"
+to = "/porsche/#speaker-fix"
+query = {id = ":id=43"}
+status = 301
+force = true
 
 
 
-
+[[redirects]]
+from = "/installsDetail.html"
+to = "/"
+status = 301
+force = true
