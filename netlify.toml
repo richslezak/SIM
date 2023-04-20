@@ -26,11 +26,7 @@ status = 301
 force = true
 
 
-[[redirects]]
-from = "/installsDetail.html"
-to = "/"
-status = 301
-force = true
+
 
 
 [[redirects]]
@@ -96,20 +92,9 @@ status = 301
 force = true
 
 
-[[redirects]]
-from = "/installsDetail.html?id=16"
-to = "/porsche/#cup-holder"
-query = {id = ":id"}
-status = 301
-force = true
 
 
-[[redirects]]
-from = "/installsDetail.html:id=17"
-to = "/porsche/#subwoofer"
-query = {id = ":id"}
-status = 301
-force = true
+
 
 
 [[redirects]]
@@ -126,3 +111,6 @@ to = "/porsche/#speaker-fix"
 query = {id = ":id=43"}
 status = 301
 force = true
+
+
+
