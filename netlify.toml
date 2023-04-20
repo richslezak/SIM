@@ -90,13 +90,13 @@ force = true
 
 
 [[redirects]]
-from = "/installsDetail.html:id=id"
+from = "/installsDetail.html :id=id"
 to = "/porsche/#cup-holder"
 status = 301
 
 
 [[redirects]]
-from = "/installsDetail.html:id=id"
+from = "/installsDetail.html:id=17"
 to = "/porsche/#subwoofer"
 status = 301
 force = true
