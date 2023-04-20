@@ -124,3 +124,11 @@ to = "/porsche/#speaker-fix"
 query = {id = ":43"}
 status = 301
 force = true
+
+
+[[redirects]]
+force = true
+from = "/installsDetail.html"
+query = {id = ":id"}
+status = 301
+to = "/installs/#cup-holder"
