@@ -106,7 +106,7 @@ force = true
 [[redirects]]
 from = "/"
 to = "/porsche/#speaker-fix"
-status = 301
+status = 200
 query = {url = "sound-in-motion.com/installsDetail.html", id = "43"}
 
 
