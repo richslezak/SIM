@@ -111,14 +111,16 @@ force = true
 
 
 [[redirects]]
-from = "/installsDetail.html:id=43"
-to = "/porsche/#speaker-fix"
+from = "/installsDetail.html"
+to = "/porsche/#door-pocket-fix"
+query = {id = ":id"}
 status = 301
 force = true
 
 
 [[redirects]]
-from = "/installsDetail.html?id=42"
-to = "/porsche/#door-pocket-fix"
+from = "/installsDetail.html"
+to = "/porsche/#speaker-fix"
+query = {id = ":id=43"}
 status = 301
 force = true
