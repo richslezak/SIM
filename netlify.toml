@@ -93,28 +93,28 @@ force = true
 
 
 
-
-
 [[redirects]]
 from = "/installsDetail.html"
-to = "/porsche/#subwoofer"
-query = {id = ":id=17"}
-status = 301
-force = true
-
-
-[[redirects]]
-from = "/installsDetail.html"
-to = "/porsche/#door-pocket-fix"
 query = {id = ":id=42"}
+to = "/porsche/#door-pocket-fix"
 status = 301
 force = true
 
 
 [[redirects]]
 from = "/installsDetail.html"
-to = "/porsche/#speaker-fix"
+query = {id = ":id=17"}
+to = "/porsche/#subwoofer"
+status = 301
+force = true
+
+
+
+
+[[redirects]]
+from = "/installsDetail.html"
 query = {id = ":id=43"}
+to = "/porsche/#speaker-fix"
 status = 301
 force = true
 
@@ -129,7 +129,7 @@ force = true
 
 [[redirects]]
 from = "/installsDetail.html"
-to = "/porsche/#cup-holder"
 query = {id = ":id=16"}
+to = "/porsche/#cup-holder"
 status = 301
 force = true
