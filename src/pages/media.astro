@@ -12,7 +12,7 @@ const title = 'Media';
 <Layout title={title}>
   <div id="sub-nav">
     <div class="container">
-      <nav id="media-nav">
+      <nav>
         <ul class="nav">
           <li class="nav-item">
             <a href="#social" class="nav-link">Social</a>
@@ -28,7 +28,7 @@ const title = 'Media';
     </div>
   </div>
   <main>
-    <div class="container fade-in" data-bs-spy="scroll" data-bs-target="#media-nav">
+    <div class="container fade-in">
       <section id="social">
         <h1 class="display-6">Social</h1>
         <p class="lead mb-5">
@@ -130,6 +130,10 @@ const title = 'Media';
     </div>
   </main>
 </Layout>
+
+<script>
+  import '../scripts/scroll-spy.ts';
+</script>
 
 <style lang="scss">
   main {

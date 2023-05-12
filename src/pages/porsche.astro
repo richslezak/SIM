@@ -28,7 +28,7 @@ const title = 'Porsche Specific Upgrades & Fixes';
 <Layout title={title}>
   <div id="sub-nav">
     <div class="container">
-      <nav id="porsche-nav">
+      <nav>
         <ul class="nav">
           <li class="nav-item">
             <a href="#cup-holder" class="nav-link"
@@ -55,7 +55,7 @@ const title = 'Porsche Specific Upgrades & Fixes';
     </div>
   </div>
   <main>
-    <div class="container fade-in" data-bs-spy="scroll" data-bs-target="#porsche-nav">
+    <div class="container fade-in">
       <section>
         <h1 class="display-6">{title}</h1>
         <p class="lead mb-5">
@@ -284,6 +284,10 @@ const title = 'Porsche Specific Upgrades & Fixes';
     </div>
   </main>
 </Layout>
+
+<script>
+  import '../scripts/scroll-spy.ts';
+</script>
 
 <style lang="scss">
   main {
