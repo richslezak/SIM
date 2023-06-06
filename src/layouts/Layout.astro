@@ -101,15 +101,30 @@ const { title } = Astro.props;
     }
 
     .link-effect {
-      box-shadow: inset 0 0 0 0 var(--sim-red);
+      position: relative;
+      display: inline-block;
       color: var(--sim-gray);
       margin: 0 -0.225rem;
       padding: 0 0.225rem;
-      border-radius: 0.25rem;
-      transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      transition: color 0.3s ease-in-out;
+      z-index: 1;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        border-radius: 0.25rem;
+        background-color: var(--sim-red);
+        transition: width 0.2s ease-in-out;
+        z-index: -1;
+      }
       &:hover {
-        box-shadow: inset 12rem 0 0 0 var(--sim-red);
         color: white;
+        &::before {
+          width: 100%;
+        }
       }
     }
   }
