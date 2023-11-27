@@ -68,19 +68,13 @@ import logo from '../images/logos/sim-logo-white.svg';
     background-size: 140%;
   }
 
-  .nav-link {
-    font-size: 1.3em;
-  }
-
   .navbar-nav {
     height: 100vh;
     .nav-link {
+      position: relative;
       color: var(--sim-white);
-      padding: 0.7rem 2rem 1rem;
-      border-top: 0.3rem solid transparent;
-      &:hover {
-        background-color: var(--sim-red-secondary);
-      }
+      padding: 1rem 2rem;
+      font-size: 1.3em;
     }
   }
 
@@ -94,6 +88,23 @@ import logo from '../images/logos/sim-logo-white.svg';
   @media (min-width: 992px) {
     .navbar-nav {
       height: auto;
+      .nav-link {
+        transition: background-color 0.25s ease-in-out;
+        &::before {
+          content: '';
+          position: absolute;
+          inset: 0;
+          border-top: 0.3rem solid var(--sim-white);
+          transform: scaleX(0);
+          transition: transform 0.25s ease-in-out;
+        }
+        &:hover {
+          background-color: var(--sim-red-secondary);
+          &::before {
+            transform: scaleX(1);
+          }
+        }
+      }
     }
 
     .navbar-brand img {
@@ -102,9 +113,14 @@ import logo from '../images/logos/sim-logo-white.svg';
 
     .navbar-nav .nav-link.active,
     .navbar-nav .show > .nav-link {
-      border-top: 0.3rem solid var(--sim-white);
       background-color: transparent;
       border-radius: 0;
+    }
+
+    .navbar-nav .nav-link.active::before,
+    .navbar-nav .show > .nav-link::before {
+      border-top: 0.3rem solid var(--sim-white);
+      transform: scaleX(1);
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
